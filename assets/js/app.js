@@ -206,20 +206,26 @@ function renderToolCardHTML(tool) {
   const features = (tool.key_features || []).slice(0, 3).map(f => `<li>${f}</li>`).join('');
   const roles = (tool.who_uses_it || []).slice(0, 3).map(r => `<span class="role-pill">${r}</span>`).join('');
 
+  // Compute relative link prefix depending on current page depth
+  const isSubdir = window.location.pathname.includes('/categories/') ||
+                   window.location.pathname.includes('/tools/') ||
+                   window.location.pathname.includes('/roles/');
+  const relPrefix = isSubdir ? '../' : '';
+
   return `
     <article class="tool-card">
       <div class="tool-card-header">
         <div class="tool-identity">
           <div class="tool-icon-fallback">${initial}</div>
           <div class="tool-title-group">
-            <h3><a href="/tools/${tool.id}.html">${tool.name}</a></h3>
+            <h3><a href="${relPrefix}tools/${tool.id}.html">${tool.name}</a></h3>
             <span class="tool-maker">by ${tool.maker}</span>
           </div>
         </div>
         <span class="pricing-badge ${pricingClass}">${pricingModel}</span>
       </div>
 
-      <a href="/categories/${tool.category}.html" class="category-tag">
+      <a href="${relPrefix}categories/${tool.category}.html" class="category-tag">
         <span>${categoryIcon}</span> ${categoryName}
       </a>
 
