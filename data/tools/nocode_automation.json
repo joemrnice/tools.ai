@@ -1,0 +1,501 @@
+[
+  {
+    "id": "bubble_ai",
+    "name": "Bubble AI",
+    "maker": "Bubble Group, Inc.",
+    "tagline": "No-code web application platform with AI page generation and database schema drafting.",
+    "category": "nocode_automation",
+    "subcategory": "no-code-app-builder",
+    "definition": "Bubble AI is the generative feature engine embedded inside Bubble, the market-leading no-code web application builder. It translates text prompts into functional database schemas, responsive page layouts, and workflow logic inside the Bubble editor.",
+    "why_it_matters": "Bubble allows non-technical creators to build scalable, full-stack web applications with complex databases and user authentication. Adding AI generation accelerates the initial prototyping phase from days to minutes.",
+    "workplace_use_cases": [
+      "Generating complete database schemas and privacy rules for web applications",
+      "Prototyping responsive web portal layouts from natural language descriptions",
+      "Building internal operational tools and SaaS marketplaces without writing code",
+      "Automating backend logic workflows and external API integrations visually"
+    ],
+    "who_uses_it": [
+      "Founders",
+      "Product Managers",
+      "No-Code Developers",
+      "Operations Leads"
+    ],
+    "how_to_use": "Create an account at bubble.io, click 'Create with AI', enter a description of your application concept, and refine the generated page elements inside the visual Bubble editor.",
+    "key_features": [
+      "Generates visual page layouts, responsive containers, and database tables",
+      "Full backend workflow builder with database security rules",
+      "Native API Connector for integrating LLM endpoints (OpenAI, Anthropic)",
+      "Scalable hosting infrastructure supporting millions of end users"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes core editor features, development database, and bubble.io domain.",
+      "paid_plans": [
+        {
+          "name": "Starter",
+          "price": "$32/month ($29/mo annually)",
+          "notes": "Custom domain, live app hosting, basic workload unit capacity."
+        },
+        {
+          "name": "Growth",
+          "price": "$134/month ($119/mo annually)",
+          "notes": "Higher workload capacity, 2 editor seats, 10-day data backup."
+        },
+        {
+          "name": "Team",
+          "price": "$399/month ($349/mo annually)",
+          "notes": "5 editor seats, sub-apps, 180-day data retention."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://bubble.io",
+    "logo_source_note": "Official Bubble logo asset",
+    "related_tools": [
+      "glide_ai",
+      "flutterflow_ai"
+    ],
+    "launched": "2012",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "glide_ai",
+    "name": "Glide AI",
+    "maker": "Glide",
+    "tagline": "No-code business software builder turning spreadsheets and databases into mobile and web apps.",
+    "category": "nocode_automation",
+    "subcategory": "no-code-app-builder",
+    "definition": "Glide AI is an AI-powered no-code app builder that converts Google Sheets, Airtable, Excel, or SQL databases into custom mobile and web applications. It includes native AI column actions for text generation, image scanning, and document parsing.",
+    "why_it_matters": "Glide enables business operations teams to build enterprise internal tools (inventory trackers, field portals, inspection apps) in under an hour without waiting for software engineering resources.",
+    "workplace_use_cases": [
+      "Building mobile field inspection apps with automated photo AI parsing",
+      "Creating internal employee portals synced to company Google Sheets or Airtable",
+      "Automating inventory management and equipment tracking web apps",
+      "Parsing paper receipts and invoices using Glide AI camera scanning columns"
+    ],
+    "who_uses_it": [
+      "Operations Managers",
+      "Field Services Leads",
+      "HR Directors",
+      "IT Admins"
+    ],
+    "how_to_use": "Sign up at glideapps.com, connect your data source (Google Sheets, Airtable, PostgreSQL), select an AI layout template, and publish the app to mobile or desktop.",
+    "key_features": [
+      "Turns spreadsheets (Google Sheets, Excel) into responsive web/mobile apps",
+      "Glide AI Column Actions (Audio-to-text, Image-to-text, Document extraction)",
+      "Role-based user permissions and Single Sign-On (SSO)",
+      "Native desktop and mobile Progressive Web App (PWA) layout support"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes 1 app with up to 10 personal users.",
+      "paid_plans": [
+        {
+          "name": "Maker",
+          "price": "$60/month ($49/mo annually)",
+          "notes": "Unlimited public apps, custom domain, up to 5,000 updates/month."
+        },
+        {
+          "name": "Team",
+          "price": "$125/month ($99/mo annually)",
+          "notes": "Private internal apps, 20 internal users included, advanced Glide AI credits."
+        },
+        {
+          "name": "Business",
+          "price": "$310/month ($249/mo annually)",
+          "notes": "SQL database connectors, SSO, 40 internal users included."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.glideapps.com",
+    "logo_source_note": "Official Glide asset",
+    "related_tools": [
+      "bubble_ai",
+      "flutterflow_ai"
+    ],
+    "launched": "2019",
+    "platform": [
+      "Web",
+      "Mobile PWA"
+    ]
+  },
+  {
+    "id": "flutterflow_ai",
+    "name": "FlutterFlow AI Gen",
+    "maker": "FlutterFlow",
+    "tagline": "Low-code visual builder for crafting native iOS, Android, and web apps with AI generation.",
+    "category": "nocode_automation",
+    "subcategory": "low-code-mobile",
+    "definition": "FlutterFlow AI Gen is the generative feature suite built into FlutterFlow, allowing developers to generate Flutter UI screens, database schemas, and custom Dart code from text prompts.",
+    "why_it_matters": "FlutterFlow provides developers with production-grade Flutter code export alongside visual low-code app building.",
+    "workplace_use_cases": [
+      "Generating native mobile app UI screens for iOS and Android",
+      "Writing custom Dart code logic functions with AI assistance",
+      "Building full-stack mobile applications connected to Firebase and Supabase"
+    ],
+    "who_uses_it": [
+      "Mobile Developers",
+      "Founders",
+      "Product Managers",
+      "Agencies"
+    ],
+    "how_to_use": "Open flutterflow.io, click 'AI Gen', prompt your screen design, and export clean Flutter code.",
+    "key_features": [
+      "Generates native Flutter UI code and database connections",
+      "One-click export of clean, maintainable Flutter source code",
+      "Direct App Store and Google Play deployment pipelines"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes full visual editor and web testing.",
+      "paid_plans": [
+        {
+          "name": "Standard",
+          "price": "$30/month",
+          "notes": "Source code download, APK builds."
+        },
+        {
+          "name": "Pro",
+          "price": "$70/month",
+          "notes": "One-click App Store deployment, GitHub integration, AI Gen."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://flutterflow.io",
+    "logo_source_note": "Official FlutterFlow asset",
+    "related_tools": [
+      "bubble_ai",
+      "glide_ai"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web",
+      "macOS",
+      "Windows"
+    ]
+  },
+  {
+    "id": "softr_ai",
+    "name": "Softr AI",
+    "maker": "Softr",
+    "tagline": "No-code web app builder that generates client portals and internal tools from Airtable/Google Sheets.",
+    "category": "nocode_automation",
+    "subcategory": "no-code-portals",
+    "definition": "Softr AI is a no-code web app builder that converts Airtable bases, Google Sheets, or HubSpot data into custom client portals, internal dashboards, and membership sites.",
+    "why_it_matters": "Softr enables non-technical teams to build secure, password-protected client portals in under an hour.",
+    "workplace_use_cases": [
+      "Building client portal web apps connected to company Airtable data",
+      "Creating internal employee directories and resource hubs",
+      "Generating membership web apps with user login access"
+    ],
+    "who_uses_it": [
+      "Operations Managers",
+      "Agencies",
+      "SMB Owners",
+      "Community Managers"
+    ],
+    "how_to_use": "Sign up at softr.io, connect your Airtable or Google Sheets data, select AI app generation, and publish.",
+    "key_features": [
+      "Generates responsive web apps from Airtable and Google Sheets data",
+      "Granular user permission and membership access controls",
+      "Native Stripe checkout and domain publishing"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes 1 custom domain and 5 workspace collaborators.",
+      "paid_plans": [
+        {
+          "name": "Basic",
+          "price": "$59/month ($49/mo annually)",
+          "notes": "100 internal users, custom domain, 1,000 domain visitors."
+        },
+        {
+          "name": "Professional",
+          "price": "$167/month ($139/mo annually)",
+          "notes": "500 internal users, charts, custom code."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.softr.io",
+    "logo_source_note": "Official Softr asset",
+    "related_tools": [
+      "glide_ai",
+      "bubble_ai"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "framer_nocode",
+    "name": "Framer",
+    "maker": "Framer",
+    "tagline": "Interactive web design and publishing platform with AI design generation and CMS.",
+    "category": "nocode_automation",
+    "subcategory": "web-builder",
+    "definition": "Framer is a visual website design and publishing platform that uses AI to generate responsive marketing websites, offering advanced web animations and built-in CMS.",
+    "why_it_matters": "Framer bridged the gap between visual design tools and production web hosting with high animation fidelity.",
+    "workplace_use_cases": [
+      "Publishing responsive SaaS marketing landing pages",
+      "Designing custom interactive web portfolios with scroll animations",
+      "Managing blog content via Framer CMS"
+    ],
+    "who_uses_it": [
+      "Web Designers",
+      "Growth Marketers",
+      "Founders"
+    ],
+    "how_to_use": "Go to framer.com, click 'Start with AI', type your site prompt, and publish.",
+    "key_features": [
+      "Text-to-website design generator",
+      "Built-in CMS and custom domain publishing",
+      "Advanced scroll and hover web animations"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes framer.website domain.",
+      "paid_plans": [
+        {
+          "name": "Mini",
+          "price": "$10/month ($5/mo annually)",
+          "notes": "Custom domain, 1,000 visitors/month."
+        },
+        {
+          "name": "Basic",
+          "price": "$20/month ($15/mo annually)",
+          "notes": "10,000 visitors/month, password protection."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.framer.com",
+    "logo_source_note": "Official Framer asset",
+    "related_tools": [
+      "framer_ai",
+      "webflow"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "Desktop"
+    ]
+  },
+  {
+    "id": "appsheet_ai",
+    "name": "AppSheet AI",
+    "maker": "Google / AppSheet",
+    "tagline": "Google's no-code enterprise app development platform using natural language to build apps from Workspace data.",
+    "category": "nocode_automation",
+    "subcategory": "enterprise-no-code",
+    "definition": "AppSheet AI is Google Cloud's no-code enterprise application builder that converts Google Sheets, Drive, and BigQuery data into custom mobile and web business apps.",
+    "why_it_matters": "AppSheet enables corporate operations leads to build enterprise mobile apps with strict Google Cloud security compliance.",
+    "workplace_use_cases": [
+      "Building mobile field inspection apps for corporate teams",
+      "Automating inventory tracking and asset barcode scanning",
+      "Creating internal approval workflow apps"
+    ],
+    "who_uses_it": [
+      "Enterprise Operations Leads",
+      "IT Managers",
+      "Field Engineers"
+    ],
+    "how_to_use": "Access appsheet.com, select a Google Sheet, and let AppSheet generate an application.",
+    "key_features": [
+      "Direct integration with Google Workspace, Drive, and BigQuery",
+      "Mobile camera barcode scanning and offline data sync",
+      "Google Cloud enterprise security compliance"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free prototyping mode for up to 10 test users.",
+      "paid_plans": [
+        {
+          "name": "Starter",
+          "price": "$5/user/month",
+          "notes": "Basic data connectors, forms, and mobile app deployment."
+        },
+        {
+          "name": "Core",
+          "price": "$10/user/month",
+          "notes": "Advanced security, barcode scanning, email notifications."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://about.appsheet.com",
+    "logo_source_note": "Official Google AppSheet asset",
+    "related_tools": [
+      "glide_ai",
+      "softr_ai"
+    ],
+    "launched": "2014",
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": "dify_ai",
+    "name": "Dify.AI",
+    "maker": "Dify",
+    "tagline": "Open-source LLM application development platform for building AI workflows and RAG agents.",
+    "category": "nocode_automation",
+    "subcategory": "llm-app-builder",
+    "definition": "Dify.AI is an open-source LLM application development workspace that combines AI workflow orchestration, RAG engine management, and prompt engineering in a visual interface.",
+    "why_it_matters": "Dify gives developers and businesses an open-source alternative to proprietary AI app builders, supporting self-hosted enterprise deployment.",
+    "workplace_use_cases": [
+      "Building visual RAG AI agents connected to corporate knowledge bases",
+      "Orchestrating multi-model AI workflows with API webhooks",
+      "Deploying custom internal AI chat widgets for employees"
+    ],
+    "who_uses_it": [
+      "AI Engineers",
+      "Software Engineers",
+      "Product Managers",
+      "DevOps"
+    ],
+    "how_to_use": "Run Dify locally via Docker (`docker-compose up`) or sign up on Dify Cloud, and build visual LLM workflows.",
+    "key_features": [
+      "Visual AI workflow builder and RAG pipeline engine",
+      "Supports OpenAI, Anthropic, Llama, and self-hosted models",
+      "Open-source core engine with self-hosting support"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free open-source self-hosted version + free Cloud Sandbox.",
+      "paid_plans": [
+        {
+          "name": "Professional Cloud",
+          "price": "$59/month",
+          "notes": "5,000 vector executions/month, team seats."
+        },
+        {
+          "name": "Team Cloud",
+          "price": "$159/month",
+          "notes": "20,000 vector executions/month, custom domain."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://dify.ai",
+    "logo_source_note": "Official Dify asset",
+    "related_tools": [
+      "relevance_ai",
+      "langsmith"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "Docker",
+      "Self-Hosted"
+    ]
+  },
+  {
+    "id": "flowise_ai",
+    "name": "Flowise AI",
+    "maker": "Flowise",
+    "tagline": "Open-source drag-and-drop UI node tool for building customized LangChain AI workflows.",
+    "category": "nocode_automation",
+    "subcategory": "visual-ai-nodes",
+    "definition": "Flowise AI is an open-source visual node builder that enables users to create customized LangChain AI applications, vector DB connections, and agents using a drag-and-drop canvas.",
+    "why_it_matters": "Flowise democratized LangChain development by turning complex Python code chains into visual, connectable nodes.",
+    "workplace_use_cases": [
+      "Building visual RAG agents connected to Pinecone or Weaviate vector databases",
+      "Prototyping multi-step LLM chains without writing Python code",
+      "Deploying REST API endpoints for custom AI agents"
+    ],
+    "who_uses_it": [
+      "AI Developers",
+      "No-Code Builders",
+      "Software Engineers"
+    ],
+    "how_to_use": "Run `npx flowise start` locally or deploy via Docker, drag and drop nodes, and test your AI flow.",
+    "key_features": [
+      "Open-source drag-and-drop visual node builder (LangChain & LlamaIndex)",
+      "One-click REST API endpoint deployment for generated flows",
+      "Supports local models via Ollama and commercial APIs"
+    ],
+    "pricing": {
+      "model": "free",
+      "has_free_tier": true,
+      "free_tier_details": "100% open-source tool (MIT License). Free to run locally or self-host.",
+      "paid_plans": [],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://flowiseai.com",
+    "logo_source_note": "Official Flowise asset",
+    "related_tools": [
+      "dify_ai",
+      "n8n"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Self-Hosted",
+      "Docker",
+      "Web"
+    ]
+  },
+  {
+    "id": "make_nocode",
+    "name": "Make",
+    "maker": "Celonis / Make",
+    "tagline": "Visual no-code automation platform for connecting APIs and AI modules visually.",
+    "category": "nocode_automation",
+    "subcategory": "visual-automation",
+    "definition": "Make (formerly Integromat) is a visual no-code automation workspace where users build complex data scenarios connecting web apps, databases, and AI models.",
+    "why_it_matters": "Make offers unmatched visual control over multi-step conditional branching and data iteration.",
+    "workplace_use_cases": [
+      "Automating lead routing from web forms into CRMs and Slack",
+      "Building complex multi-app data sync pipelines",
+      "Processing incoming documents with OpenAI modules"
+    ],
+    "who_uses_it": [
+      "Operations Managers",
+      "Automation Engineers",
+      "No-Code Developers"
+    ],
+    "how_to_use": "Drag and drop app modules on the Make canvas, connect APIs, and turn on the scenario.",
+    "key_features": [
+      "Visual drag-and-drop scenario builder with infinite branching",
+      "1,500+ pre-built app connectors",
+      "Native OpenAI and Claude processing modules"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "1,000 free operations/month.",
+      "paid_plans": [
+        {
+          "name": "Core",
+          "price": "$10.59/month ($9/mo annually)",
+          "notes": "10,000 operations/month, unlimited active scenarios."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.make.com",
+    "logo_source_note": "Official Make asset",
+    "related_tools": [
+      "zapier_central",
+      "n8n"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web"
+    ]
+  }
+]

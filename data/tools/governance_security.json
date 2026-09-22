@@ -1,0 +1,467 @@
+[
+  {
+    "id": "robust_intelligence",
+    "name": "Robust Intelligence",
+    "maker": "Cisco / Robust Intelligence",
+    "tagline": "Enterprise AI risk management platform for continuous LLM security, threat protection, and red teaming.",
+    "category": "governance_security",
+    "subcategory": "ai-security",
+    "definition": "Robust Intelligence (acquired by Cisco) is an enterprise AI risk management and firewall platform. It automatically red-teams AI models, detects prompt injection attacks, prevents data leakage (DLP), and validates model safety before and during production deployment.",
+    "why_it_matters": "As enterprise LLM deployments expanded, security threats like prompt injection, jailbreaking, and sensitive data leakage became major risks. Robust Intelligence provides continuous automated security firewall protection across models.",
+    "workplace_use_cases": [
+      "Blocking real-time prompt injection and jailbreak attacks on customer-facing chatbots",
+      "Preventing sensitive PII or corporate secrets from leaking in LLM responses (DLP)",
+      "Automating red-teaming vulnerability scans across internal LLMs prior to release",
+      "Generating compliance auditing reports for enterprise AI governance boards"
+    ],
+    "who_uses_it": [
+      "Chief Information Security Officers (CISOs)",
+      "AI Governance Officers",
+      "Security Engineers"
+    ],
+    "how_to_use": "Deploy Robust Intelligence AI Firewall proxies between client applications and model APIs, configure security rules, and view real-time threat detection dashboards.",
+    "key_features": [
+      "AI Firewall for real-time prompt injection and toxic output blocking",
+      "Automated Algorithmic Red Teaming for identifying model vulnerabilities",
+      "Data Loss Prevention (DLP) filters for credit card numbers, PII, and API keys",
+      "Compliance reporting for NIST AI Risk Management Framework and EU AI Act"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Enterprise security consultation and demos available.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Security Contract",
+          "price": "Custom annual subscription",
+          "notes": "Custom pricing calculated per deployed model endpoints and API request volume."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.robustintelligence.com",
+    "logo_source_note": "Official Robust Intelligence asset",
+    "related_tools": [
+      "lakera_guard"
+    ],
+    "launched": "2019",
+    "platform": [
+      "Cloud Proxy",
+      "Kubernetes",
+      "On-Premises"
+    ]
+  },
+  {
+    "id": "lakera_guard",
+    "name": "Lakera Guard",
+    "maker": "Lakera AI",
+    "tagline": "Real-time AI security API defending enterprise LLM applications against prompt injections.",
+    "category": "governance_security",
+    "subcategory": "ai-security",
+    "definition": "Lakera Guard is a real-time AI security engine that protects LLM applications from prompt injection, data exfiltration, toxicity, and system prompt leakage. It acts as an inline security API gateway with sub-50ms latency.",
+    "why_it_matters": "Lakera built Gandalf (the viral prompt injection security game), harvesting millions of real-world attack vectors to build the industry's most robust real-time threat intelligence database for LLM safety.",
+    "workplace_use_cases": [
+      "Sanitizing user inputs to prevent indirect prompt injection attacks in enterprise chatbots",
+      "Securing RAG applications from malicious document injection vulnerabilities",
+      "Monitoring enterprise LLM usage for regulatory compliance and safety violations",
+      "Blocking system prompt disclosure attempts by malicious external users"
+    ],
+    "who_uses_it": [
+      "AppSec Engineers",
+      "CISOs",
+      "AI Application Developers",
+      "Security Leads"
+    ],
+    "how_to_use": "Integrate Lakera Guard API into your application code (`lakera.guard(prompt)`), pass user prompts through Lakera before sending to your LLM, and block flagged requests.",
+    "key_features": [
+      "Sub-50ms ultra-low latency real-time prompt injection detection API",
+      "Trained on real-world threat dataset from millions of Gandalf game attack prompts",
+      "Data Loss Prevention (PII, secret keys, confidential text)",
+      "Zero data retention mode for strict enterprise compliance"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free Developer plan includes up to 10,000 security scans per month.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$250/month",
+          "notes": "Includes 100,000 security scans/month, custom threat category rules."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "Volume discounts, VPC/on-prem deployment, custom SLAs, dedicated support."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.lakera.ai",
+    "logo_source_note": "Official Lakera logo asset",
+    "related_tools": [
+      "robust_intelligence"
+    ],
+    "launched": "2022",
+    "platform": [
+      "API Gateway",
+      "SDK",
+      "Web"
+    ]
+  },
+  {
+    "id": "credal_ai",
+    "name": "Credal.ai",
+    "maker": "Credal",
+    "tagline": "Enterprise AI security proxy enforcing data access controls and preventing PII leaks across LLMs.",
+    "category": "governance_security",
+    "subcategory": "ai-security-proxy",
+    "definition": "Credal.ai is an enterprise AI security gateway that allows companies to safely deploy LLMs (ChatGPT, Claude) while enforcing internal Slack/SharePoint permissions and preventing PII leakage.",
+    "why_it_matters": "Credal enables enterprise IT teams to connect corporate data sources to LLMs without risking permission boundary breaches.",
+    "workplace_use_cases": [
+      "Enforcing user-level document security permissions when querying internal AI knowledge bases",
+      "Redacting PII and sensitive source code before sending prompts to third-party LLMs",
+      "Monitoring company-wide LLM usage for SOC 2 compliance auditing"
+    ],
+    "who_uses_it": [
+      "CISOs",
+      "IT Security Directors",
+      "Enterprise Software Architects"
+    ],
+    "how_to_use": "Deploy Credal gateway proxies between enterprise applications and LLM providers.",
+    "key_features": [
+      "Real-time PII and secret key redaction",
+      "Document permission sync with Slack, Google Drive, and SharePoint",
+      "SOC 2 Type II audit logging dashboard"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Custom enterprise quotes based on organization user count.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Security Gateway",
+          "price": "Custom annual contract",
+          "notes": "Calculated per active enterprise seat and LLM gateway traffic."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.credal.ai",
+    "logo_source_note": "Official Credal asset",
+    "related_tools": [
+      "robust_intelligence",
+      "lakera_guard"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Cloud Proxy",
+      "API",
+      "Web"
+    ]
+  },
+  {
+    "id": "prompt_security",
+    "name": "Prompt Security",
+    "maker": "Prompt Security",
+    "tagline": "Enterprise platform protecting organizations from shadow AI usage, data leaks, and prompt attacks.",
+    "category": "governance_security",
+    "subcategory": "shadow-ai-protection",
+    "definition": "Prompt Security is an enterprise AI security platform that inspects, audits, and secures all AI usage across employees, applications, and model APIs.",
+    "why_it_matters": "Prompt Security offers full coverage against Shadow AI by discovering unapproved browser AI tools used by corporate employees.",
+    "workplace_use_cases": [
+      "Discovering shadow AI browser extensions used across corporate laptops",
+      "Inspecting employee prompts for confidential company code or financial data",
+      "Protecting customer-facing AI applications from prompt injection"
+    ],
+    "who_uses_it": [
+      "Chief Information Security Officers",
+      "AppSec Teams",
+      "IT Administrators"
+    ],
+    "how_to_use": "Deploy the Prompt Security browser extension or API gateway to monitor employee AI traffic.",
+    "key_features": [
+      "Shadow AI discovery engine for corporate IT visibility",
+      "Real-time prompt inspection and data loss prevention (DLP)",
+      "Protection against indirect prompt injection attacks"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Custom enterprise annual quotes.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Security Suite",
+          "price": "Custom annual contract",
+          "notes": "Priced per employee seat and application endpoint protected."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.prompt.security",
+    "logo_source_note": "Official Prompt Security asset",
+    "related_tools": [
+      "robust_intelligence",
+      "lakera_guard"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Browser Extension",
+      "API Gateway",
+      "Web"
+    ]
+  },
+  {
+    "id": "calypsoai",
+    "name": "CalypsoAI",
+    "maker": "CalypsoAI",
+    "tagline": "Enterprise LLM security and AI governance platform providing real-time prompt scanning and threat prevention.",
+    "category": "governance_security",
+    "subcategory": "ai-firewall",
+    "definition": "CalypsoAI is an enterprise AI security platform offering real-time AI firewalls, threat monitoring, and policy enforcement across generative AI applications.",
+    "why_it_matters": "CalypsoAI is trusted by government agencies and financial institutions for strict AI safety auditing.",
+    "workplace_use_cases": [
+      "Enforcing corporate AI acceptable-use policies in real time",
+      "Scanning internal LLM prompts for malware, toxic content, and data leaks",
+      "Providing security audit trails for government AI compliance"
+    ],
+    "who_uses_it": [
+      "CISOs",
+      "Government Security Officers",
+      "IT Directors"
+    ],
+    "how_to_use": "Deploy CalypsoAI firewall proxies across corporate networks and model endpoints.",
+    "key_features": [
+      "Real-time LLM prompt scanning and data loss prevention",
+      "Customizable corporate policy enforcement rules",
+      "Comprehensive AI threat analytics dashboard"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Custom enterprise quotes.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Governance Suite",
+          "price": "Custom annual contract",
+          "notes": "Calculated based on enterprise user seats and security endpoints."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://calypsoai.com",
+    "logo_source_note": "Official CalypsoAI asset",
+    "related_tools": [
+      "robust_intelligence",
+      "credal_ai"
+    ],
+    "launched": "2018",
+    "platform": [
+      "Cloud Proxy",
+      "On-Premises"
+    ]
+  },
+  {
+    "id": "hidden_layer",
+    "name": "HiddenLayer",
+    "maker": "HiddenLayer, Inc.",
+    "tagline": "MDR (Managed Detection & Response) security platform safeguarding enterprise AI models from adversarial attacks.",
+    "category": "governance_security",
+    "subcategory": "model-security",
+    "definition": "HiddenLayer is an AI application security platform that protects enterprise machine learning models from adversarial attacks, model poisoning, and intellectual property theft.",
+    "why_it_matters": "HiddenLayer provides non-invasive threat detection for ML models without requiring code changes or access to raw training data.",
+    "workplace_use_cases": [
+      "Detecting adversarial attack attempts aimed at stealing proprietary ML model weights",
+      "Preventing data poisoning attacks on enterprise training datasets",
+      "Monitoring ML model inputs and outputs for security anomalies"
+    ],
+    "who_uses_it": [
+      "Security Engineers",
+      "MLOps Teams",
+      "CISOs"
+    ],
+    "how_to_use": "Integrate HiddenLayer MLDR sensor software alongside enterprise model inference endpoints.",
+    "key_features": [
+      "MLDR (Machine Learning Detection & Response) non-invasive sensor",
+      "Adversarial attack and model extraction defense",
+      "No raw model training data access required"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Custom enterprise quotes.",
+      "paid_plans": [
+        {
+          "name": "Enterprise MLDR Contract",
+          "price": "Custom annual contract",
+          "notes": "Priced per enterprise model endpoint protected."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://hiddenlayer.com",
+    "logo_source_note": "Official HiddenLayer asset",
+    "related_tools": [
+      "robust_intelligence",
+      "lakera_guard"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Cloud",
+      "On-Premises",
+      "API"
+    ]
+  },
+  {
+    "id": "protect_ai",
+    "name": "Protect AI",
+    "maker": "Protect AI",
+    "tagline": "End-to-end AI application security platform securing ML pipelines, notebooks, and models.",
+    "category": "governance_security",
+    "subcategory": "ml-secops",
+    "definition": "Protect AI is a developer-focused AI security platform offering tools (Guardian, NBDefense) to scan Jupyter notebooks, ML pipelines, and model artifacts for security vulnerabilities.",
+    "why_it_matters": "Protect AI focuses on ML SecOps, securing the entire machine learning supply chain from notebook code to model deployment.",
+    "workplace_use_cases": [
+      "Scanning Jupyter notebooks for hardcoded API keys and security flaws",
+      "Auditing open-source Hugging Face model files for embedded malware",
+      "Securing MLOps build pipelines in CI/CD"
+    ],
+    "who_uses_it": [
+      "AppSec Engineers",
+      "ML Engineers",
+      "DevOps Specialists"
+    ],
+    "how_to_use": "Install NBDefense or Protect AI Guardian scanner in your ML CI/CD build pipeline.",
+    "key_features": [
+      "NBDefense for scanning Jupyter notebooks and Python scripts",
+      "Model artifact security scanner for detecting malicious model files",
+      "ML Supply Chain Security vulnerability management"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free open-source scanners available for individual developers.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Platform",
+          "price": "Custom annual contract",
+          "notes": "Full ML SecOps pipeline security, administrative dashboard."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://protectai.com",
+    "logo_source_note": "Official Protect AI asset",
+    "related_tools": [
+      "hidden_layer",
+      "robust_intelligence"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Python Library",
+      "CLI",
+      "Web"
+    ]
+  },
+  {
+    "id": "arize_phoenix",
+    "name": "Arize Phoenix",
+    "maker": "Arize AI",
+    "tagline": "Open-source AI observability and evaluation platform for tracing and auditing LLM applications.",
+    "category": "governance_security",
+    "subcategory": "llm-observability",
+    "definition": "Arize Phoenix is an open-source AI observability platform that provides tracing, evaluation, and hallucination auditing for RAG applications and LLM pipelines.",
+    "why_it_matters": "Phoenix provides developers with an open-source evaluation framework for tracing LLM execution steps locally.",
+    "workplace_use_cases": [
+      "Tracing RAG application retrieval steps to audit context recall errors",
+      "Evaluating LLM response hallucination scores using benchmark metrics",
+      "Exporting execution trace logs for enterprise compliance"
+    ],
+    "who_uses_it": [
+      "AI Engineers",
+      "Software Engineers",
+      "Security Auditors"
+    ],
+    "how_to_use": "Install via `pip install arize-phoenix` and launch local tracing in your Python LLM application.",
+    "key_features": [
+      "Open-source tracing and evaluation engine (Evals)",
+      "Visual execution trace graphs for RAG applications",
+      "Seamless integration with LlamaIndex and LangChain"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Open-source version is free to run locally. Paid hosted version available on Arize Cloud.",
+      "paid_plans": [
+        {
+          "name": "Arize Enterprise Cloud",
+          "price": "Custom annual contract",
+          "notes": "Hosted enterprise observability platform, custom SLAs."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://phoenix.arize.com",
+    "logo_source_note": "Official Arize AI asset",
+    "related_tools": [
+      "langsmith",
+      "credal_ai"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Python Library",
+      "Web",
+      "Docker"
+    ]
+  },
+  {
+    "id": "whylogs",
+    "name": "WhyLabs",
+    "maker": "WhyLabs",
+    "tagline": "AI observability and data health platform monitoring model drift and data quality in production.",
+    "category": "governance_security",
+    "subcategory": "ai-observability",
+    "definition": "WhyLabs is an AI observability platform that monitors machine learning models and data pipelines for data drift, performance degradation, and data quality issues.",
+    "why_it_matters": "WhyLabs enables enterprise MLOps teams to catch model performance degradation before it impacts business operations.",
+    "workplace_use_cases": [
+      "Monitoring production ML model feature drift over time",
+      "Detecting schema changes and missing values in automated data pipelines",
+      "Auditing LLM prompt toxicity and sentiment trends"
+    ],
+    "who_uses_it": [
+      "MLOps Engineers",
+      "Data Engineers",
+      "AI Governance Leads"
+    ],
+    "how_to_use": "Install `whylogs` in Python, generate data profiles, and send to WhyLabs dashboard.",
+    "key_features": [
+      "Open-source `whylogs` profiling library with lightweight data privacy",
+      "Automated model drift and data quality alerts",
+      "Supports tabular, image, and text LLM data"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free Developer tier for up to 2 model monitor projects.",
+      "paid_plans": [
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "Unlimited model monitoring, SOC 2 compliance, dedicated support."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://whylabs.ai",
+    "logo_source_note": "Official WhyLabs asset",
+    "related_tools": [
+      "robust_intelligence",
+      "arize_phoenix"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Python Library",
+      "Web"
+    ]
+  }
+]

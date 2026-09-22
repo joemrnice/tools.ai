@@ -1,0 +1,487 @@
+[
+  {
+    "id": "langsmith",
+    "name": "LangSmith",
+    "maker": "LangChain",
+    "tagline": "LLM application observability, tracing, evaluation, and prompt engineering platform.",
+    "category": "developer_mlops",
+    "subcategory": "llm-observability",
+    "definition": "LangSmith is a developer platform for building, testing, debugging, and monitoring LLM applications. It provides full execution chain tracing, prompt evaluation frameworks, latent error analysis, and dataset testing for complex agentic workflows.",
+    "why_it_matters": "Debugging non-deterministic LLM chains and autonomous agents without tracing is notoriously difficult. LangSmith provides visibility into every prompt execution, token cost, latency bottleneck, and agent step across production AI applications.",
+    "workplace_use_cases": [
+      "Tracing multi-step LLM agent executions to pinpoint exact tool call failures",
+      "Evaluating prompt engineering iterations against curated golden benchmark datasets",
+      "Monitoring token consumption costs and API latency metrics across production deployments",
+      "Debugging retrieval augmented generation (RAG) context recall failures"
+    ],
+    "who_uses_it": [
+      "AI Engineers",
+      "Software Engineers",
+      "MLOps Engineers",
+      "Technical Architects"
+    ],
+    "how_to_use": "Set environment variables (`LANGCHAIN_TRACING_V2=true` and `LANGCHAIN_API_KEY`), run your LLM code in Python/TypeScript, and view complete trace graphs on smith.langchain.com.",
+    "key_features": [
+      "Full execution chain visual trace logging (spans, inputs, outputs, token costs)",
+      "Automated evaluation suites and LLM-as-a-judge scoring frameworks",
+      "Prompt Playground for testing prompt variations against production traces",
+      "Dataset curation tools for creating regression test suites"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free Developer plan includes 5,000 trace spans per month for 1 user seat.",
+      "paid_plans": [
+        {
+          "name": "Plus",
+          "price": "$39/user/month",
+          "notes": "Includes 50,000 trace spans/month, team collaboration, dataset sharing."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "VPC or self-hosted deployment, unlimited trace retention, SOC2 compliance."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://smith.langchain.com",
+    "logo_source_note": "Official LangChain asset",
+    "related_tools": [
+      "pinecone",
+      "weaviate"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "Python SDK",
+      "TypeScript SDK"
+    ]
+  },
+  {
+    "id": "pinecone",
+    "name": "Pinecone",
+    "maker": "Pinecone Systems",
+    "tagline": "Fully-managed serverless vector database engineered for ultra-low latency RAG search.",
+    "category": "developer_mlops",
+    "subcategory": "vector-database",
+    "definition": "Pinecone is a cloud-native vector database optimized for storing, indexing, and querying high-dimensional vector embeddings. It powers Retrieval-Augmented Generation (RAG), semantic search, recommendation systems, and long-term memory for AI agents.",
+    "why_it_matters": "Pinecone popularized fully managed serverless vector search, allowing AI developers to query billions of vector embeddings with millisecond latency without managing index scaling or infrastructure shards.",
+    "workplace_use_cases": [
+      "Storing document vector embeddings for enterprise RAG knowledge base search",
+      "Powering long-term memory retrieval for conversational AI agents",
+      "Building real-time e-commerce product recommendation engines",
+      "Executing hybrid keyword and semantic vector queries with metadata filtering"
+    ],
+    "who_uses_it": [
+      "AI Engineers",
+      "Data Engineers",
+      "Backend Developers",
+      "ML Engineers"
+    ],
+    "how_to_use": "Create an index at pinecone.io, initialize the Pinecone SDK in Python/Node.js, upsert vector embeddings with metadata, and execute similarity queries using `index.query()`.",
+    "key_features": [
+      "Serverless vector architecture with pay-per-query consumption pricing",
+      "Sub-100 millisecond vector search latency at scale",
+      "Metadata filtering for combining structured database attributes with semantic vectors",
+      "Integrations with LangChain, LlamaIndex, OpenAI, and AWS"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free starter index with 2GB storage (~100k 1536-dim vectors).",
+      "paid_plans": [
+        {
+          "name": "Serverless Pay-As-You-Go",
+          "price": "$0.33 / 1M read units + $0.0045/GB-hr storage",
+          "notes": "Scales automatically to zero when idle with zero fixed monthly server fees."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "Dedicated compute clusters, SOC2 Type II, HIPAA compliance, SAML SSO."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.pinecone.io",
+    "logo_source_note": "Official Pinecone logo asset",
+    "related_tools": [
+      "weaviate",
+      "langsmith"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Cloud Managed",
+      "Python SDK",
+      "Node.js SDK",
+      "REST API"
+    ]
+  },
+  {
+    "id": "weaviate",
+    "name": "Weaviate",
+    "maker": "Weaviate B.V.",
+    "tagline": "Open-source multi-modal vector database featuring native vectorization and hybrid search.",
+    "category": "developer_mlops",
+    "subcategory": "vector-database",
+    "definition": "Weaviate is an open-source vector database capable of storing both objects and vector embeddings. It supports hybrid search (combining sparse keyword search with dense vector similarity), native model vectorization, and multi-modal media indexing.",
+    "why_it_matters": "Weaviate provides developers with the flexibility of self-hosting an enterprise-grade vector database or utilizing cloud hosting, making it a cornerstone for privacy-sensitive RAG architectures.",
+    "workplace_use_cases": [
+      "Self-hosting vector storage for private enterprise medical and financial RAG apps",
+      "Combining BM25 keyword search with dense vector embeddings for hybrid retrieval",
+      "Indexing multi-modal data (images, text, audio) within a unified database schema",
+      "Running local vector search pipelines using Docker containers"
+    ],
+    "who_uses_it": [
+      "Data Engineers",
+      "AI Engineers",
+      "DevOps Engineers",
+      "Software Architects"
+    ],
+    "how_to_use": "Run Weaviate via Docker (`docker run -p 8080:8080 semitechnologies/weaviate`) or create a cluster on Weaviate Cloud Services (WCS), then connect via Python/Go/JS client libraries.",
+    "key_features": [
+      "Open-source core engine with local Docker/Kubernetes deployment capability",
+      "Hybrid Search engine combining BM25 keyword matching and dense vector search",
+      "Native module integration for automated vectorization (OpenAI, HuggingFace, Cohere)",
+      "Multi-modal embedding support (text, image, audio)"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Open-source engine is free forever to self-host. Free 14-day cloud trial.",
+      "paid_plans": [
+        {
+          "name": "Weaviate Cloud (Serverless)",
+          "price": "Starting at $0.085 per 1M vector dimensions / month",
+          "notes": "Pay-per-use managed cloud hosting with zero infrastructure management."
+        },
+        {
+          "name": "Enterprise Dedicated",
+          "price": "Custom pricing",
+          "notes": "Dedicated cloud clusters or self-hosted enterprise support SLA."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://weaviate.io",
+    "logo_source_note": "Official Weaviate asset",
+    "related_tools": [
+      "pinecone",
+      "langsmith"
+    ],
+    "launched": "2019",
+    "platform": [
+      "Self-Hosted",
+      "Docker",
+      "Cloud Web",
+      "Python SDK",
+      "Go SDK"
+    ]
+  },
+  {
+    "id": "weights_and_biases",
+    "name": "Weights & Biases",
+    "maker": "Weights & Biases, Inc.",
+    "tagline": "Developer platform for MLOps, model training tracking, dataset versioning, and LLM evaluation.",
+    "category": "developer_mlops",
+    "subcategory": "mlops-platform",
+    "definition": "Weights & Biases (W&B) is an MLOps platform that provides experiment tracking, dataset versioning, model evaluation, and LLM fine-tuning monitoring for AI developers.",
+    "why_it_matters": "W&B is the industry-standard experiment tracking framework relied upon by top AI labs (OpenAI, Meta) during foundation model training.",
+    "workplace_use_cases": [
+      "Tracking loss curves, GPU memory usage, and hyperparameters during LLM fine-tuning",
+      "Versioning training datasets and model weights across team runs",
+      "Evaluating LLM prompt responses against golden benchmark datasets"
+    ],
+    "who_uses_it": [
+      "ML Engineers",
+      "AI Researchers",
+      "Data Scientists"
+    ],
+    "how_to_use": "Install `wandb` via pip, add `wandb.init()` to your Python training script, and view live training loss metrics on your dashboard.",
+    "key_features": [
+      "Experiment tracking for PyTorch, TensorFlow, and Hugging Face",
+      "Dataset and model artifact version control",
+      "W&B Prompts for LLM trace evaluation"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan for individuals with 100GB artifact storage.",
+      "paid_plans": [
+        {
+          "name": "Team",
+          "price": "$50/user/month",
+          "notes": "Shared project dashboards, team access controls."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "Dedicated VPC/on-prem deployment, custom SLAs, SOC2 compliance."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://wandb.ai",
+    "logo_source_note": "Official Weights & Biases asset",
+    "related_tools": [
+      "langsmith",
+      "huggingface"
+    ],
+    "launched": "2017",
+    "platform": [
+      "Python Library",
+      "Web"
+    ]
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "maker": "Hugging Face, Inc.",
+    "tagline": "The central open-source community platform for hosting machine learning models, datasets, and AI apps.",
+    "category": "developer_mlops",
+    "subcategory": "model-hub",
+    "definition": "Hugging Face is the leading open-source machine learning platform and model repository, hosting over 500,000 open-weights AI models, datasets, and interactive Spaces (Gradio apps).",
+    "why_it_matters": "Hugging Face is the 'GitHub of AI', serving as the indispensable global repository for downloading open-source model weights (Llama, DeepSeek, Whisper).",
+    "workplace_use_cases": [
+      "Downloading open-weights AI models for local deployment or fine-tuning",
+      "Hosting interactive Gradio/Streamlit AI app demos via Hugging Face Spaces",
+      "Accessing open-source research datasets"
+    ],
+    "who_uses_it": [
+      "AI Researchers",
+      "ML Engineers",
+      "Software Engineers",
+      "Data Scientists"
+    ],
+    "how_to_use": "Browse huggingface.co, install the `transformers` Python library, and load models with `from_pretrained()`.",
+    "key_features": [
+      "500,000+ open-source ML models and datasets",
+      "Hugging Face Spaces for hosting interactive web demos",
+      "Inference Endpoints for managed cloud model deployment"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free access to model hub, open datasets, and basic Spaces.",
+      "paid_plans": [
+        {
+          "name": "Pro Account",
+          "price": "$9/month",
+          "notes": "Higher compute hardware for Spaces, priority support."
+        },
+        {
+          "name": "Enterprise Hub",
+          "price": "$20/user/month",
+          "notes": "Organization-wide private model repositories and SSO."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://huggingface.co",
+    "logo_source_note": "Official Hugging Face asset",
+    "related_tools": [
+      "weights_and_biases",
+      "ollama"
+    ],
+    "launched": "2016",
+    "platform": [
+      "Web",
+      "Python Library",
+      "CLI"
+    ]
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "maker": "Ollama",
+    "tagline": "Open-source tool for running large language models locally on macOS, Linux, and Windows.",
+    "category": "developer_mlops",
+    "subcategory": "local-llm-runtime",
+    "definition": "Ollama is an open-source application that allows developers to run, manage, and query large language models (Llama 3, DeepSeek, Mistral) locally on their computers.",
+    "why_it_matters": "Ollama made running local open-weights LLMs effortless, providing a simple Docker-like CLI command (`ollama run llama3`).",
+    "workplace_use_cases": [
+      "Running 100% private, offline LLM inference on local Mac/PC hardware",
+      "Connecting local LLMs to VS Code extensions (Continue, Cursor) for air-gapped coding",
+      "Testing open-source model weights locally before cloud deployment"
+    ],
+    "who_uses_it": [
+      "Software Engineers",
+      "AI Developers",
+      "Privacy Specialists"
+    ],
+    "how_to_use": "Download Ollama, open your terminal, run `ollama run llama3`, and chat locally.",
+    "key_features": [
+      "Simple terminal CLI for model downloading and execution",
+      "Built-in local REST API compatible with OpenAI endpoint format",
+      "Supports Llama 3, DeepSeek-R1, Mistral, Gemma, and Phi"
+    ],
+    "pricing": {
+      "model": "free",
+      "has_free_tier": true,
+      "free_tier_details": "100% free and open-source tool (MIT License).",
+      "paid_plans": [],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://ollama.com",
+    "logo_source_note": "Official Ollama asset",
+    "related_tools": [
+      "huggingface",
+      "continue_dev"
+    ],
+    "launched": "2023",
+    "platform": [
+      "macOS",
+      "Linux",
+      "Windows",
+      "CLI"
+    ]
+  },
+  {
+    "id": "groq",
+    "name": "Groq LPU",
+    "maker": "Groq, Inc.",
+    "tagline": "Ultra-high-speed AI inference engine powered by custom LPU (Language Processing Unit) hardware.",
+    "category": "developer_mlops",
+    "subcategory": "ai-hardware-inference",
+    "definition": "Groq is an AI hardware and cloud inference company that utilizes custom Language Processing Unit (LPU) chips to run open LLMs (Llama 3, DeepSeek) at blazing speeds (500+ tokens/second).",
+    "why_it_matters": "Groq shattered AI inference latency records, enabling real-time voice and conversational search applications.",
+    "workplace_use_cases": [
+      "Deploying real-time voice and chat applications requiring near-instant response latency",
+      "Running high-throughput API inference for open-source models at low cost",
+      "Powering real-time streaming LLM applications"
+    ],
+    "who_uses_it": [
+      "AI Engineers",
+      "Software Developers",
+      "Enterprise Architects"
+    ],
+    "how_to_use": "Get an API key at groq.com, replace your OpenAI base URL with Groq's endpoint in your code, and run instant inference.",
+    "key_features": [
+      "Ultra-fast 500+ tokens/second LLM generation speed",
+      "Custom LPU (Language Processing Unit) chip architecture",
+      "OpenAI-compatible REST API for easy drop-in replacement"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free Developer tier with generous rate limits for testing.",
+      "paid_plans": [
+        {
+          "name": "Pay-As-You-Go API",
+          "price": "~$0.05-$0.59 / 1M tokens",
+          "notes": "Charged per million tokens depending on model size."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://groq.com",
+    "logo_source_note": "Official Groq asset",
+    "related_tools": [
+      "huggingface",
+      "ollama"
+    ],
+    "launched": "2016",
+    "platform": [
+      "API",
+      "Web"
+    ]
+  },
+  {
+    "id": "cohere_platform",
+    "name": "Cohere",
+    "maker": "Cohere",
+    "tagline": "Enterprise AI platform specializing in multilingual embeddings, reranking, and enterprise search.",
+    "category": "developer_mlops",
+    "subcategory": "enterprise-llm",
+    "definition": "Cohere is an enterprise AI platform providing high-performance models for multilingual vector embeddings, RAG search reranking (Rerank 3), and domain-specific text generation.",
+    "why_it_matters": "Cohere stands out in enterprise search by offering the industry's leading Rerank model, vastly improving RAG retrieval accuracy.",
+    "workplace_use_cases": [
+      "Reranking vector search results in enterprise RAG applications to improve relevance",
+      "Generating multilingual vector embeddings across 100+ languages",
+      "Deploying enterprise-grade LLMs on private cloud infrastructure (AWS, Azure)"
+    ],
+    "who_uses_it": [
+      "Enterprise AI Engineers",
+      "Search Engineers",
+      "CTOs"
+    ],
+    "how_to_use": "Get an API key at cohere.com, install `cohere` Python package, and query Cohere models.",
+    "key_features": [
+      "Cohere Rerank 3 model for boosting RAG search accuracy",
+      "Embed v3 multilingual vector embedding models",
+      "Deployable on AWS SageMaker, Azure, and private VPCs"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free Developer plan for non-production testing.",
+      "paid_plans": [
+        {
+          "name": "Production API",
+          "price": "Pay-as-you-go token pricing",
+          "notes": "Usage-based pricing for Command, Embed, and Rerank models."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://cohere.com",
+    "logo_source_note": "Official Cohere asset",
+    "related_tools": [
+      "pinecone",
+      "weaviate"
+    ],
+    "launched": "2019",
+    "platform": [
+      "API",
+      "AWS",
+      "Azure",
+      "Python SDK"
+    ]
+  },
+  {
+    "id": "vllm",
+    "name": "vLLM",
+    "maker": "vLLM Project",
+    "tagline": "High-throughput and memory-efficient open-source LLM serving engine powered by PagedAttention.",
+    "category": "developer_mlops",
+    "subcategory": "llm-serving",
+    "definition": "vLLM is an open-source, high-throughput LLM serving engine developed at UC Berkeley. It utilizes PagedAttention memory management to serve open models at maximum throughput.",
+    "why_it_matters": "vLLM became the standard self-hosted inference engine for serving open-weights LLMs in production environments.",
+    "workplace_use_cases": [
+      "Self-hosting production LLM API infrastructure with high concurrency",
+      "Serving open-source models (DeepSeek, Llama 3) on private GPU clusters",
+      "Maximizing GPU memory utilization during batch inference"
+    ],
+    "who_uses_it": [
+      "MLOps Engineers",
+      "Infrastructure Engineers",
+      "AI Developers"
+    ],
+    "how_to_use": "Install via `pip install vllm` and launch the OpenAI-compatible server using `python -m vllm.entrypoints.openai.api_server`.",
+    "key_features": [
+      "PagedAttention algorithm for optimized KV cache memory management",
+      "OpenAI-compatible API server endpoint",
+      "Supports continuous batching and multi-GPU tensor parallelism"
+    ],
+    "pricing": {
+      "model": "free",
+      "has_free_tier": true,
+      "free_tier_details": "100% open-source software (Apache 2.0 License).",
+      "paid_plans": [],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://vllm.ai",
+    "logo_source_note": "Official vLLM project asset",
+    "related_tools": [
+      "ollama",
+      "huggingface"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Python Library",
+      "Docker",
+      "CLI"
+    ]
+  }
+]

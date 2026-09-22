@@ -1,0 +1,492 @@
+[
+  {
+    "id": "zapier_central",
+    "name": "Zapier Central",
+    "maker": "Zapier",
+    "tagline": "AI agent workspace connecting natural language prompts to 7,000+ app integrations.",
+    "category": "productivity_automation",
+    "subcategory": "agentic-automation",
+    "definition": "Zapier Central is an AI agent builder and execution environment created by Zapier. It allows users to build, train, and deploy natural language AI bots that monitor data changes, reason across tools, and trigger actions across 7,000+ web applications.",
+    "why_it_matters": "Zapier Central bridges conversational LLMs directly into Zapier's vast API integration ecosystem. It transforms static automation Zaps into dynamic AI agents capable of reasoning through edge cases before executing actions.",
+    "workplace_use_cases": [
+      "Building an autonomous lead qualification agent that researches prospects and updates CRM records",
+      "Creating an automated email triaging bot that drafts replies based on internal documentation",
+      "Monitoring spreadsheet updates and automatically sending customized Slack notifications",
+      "Orchestrating multi-app data syncing pipelines using simple conversational instructions"
+    ],
+    "who_uses_it": [
+      "Operations Leads",
+      "Productivity Consultants",
+      "Sales Reps",
+      "Marketing Managers"
+    ],
+    "how_to_use": "Visit central.zapier.com, create a new AI Bot, assign integrated app behaviors (e.g., Gmail, Slack, HubSpot), set trigger conditions, and test execution.",
+    "key_features": [
+      "Direct integration with Zapier's 7,000+ app connector library",
+      "Live data monitoring and event-driven agent execution triggers",
+      "Natural language bot instruction and behavior setup",
+      "Live action approval controls to prevent unwanted API actions"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes 2 active bots and 400 action runs per month.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$20/month",
+          "notes": "1,500 action runs/month, unlimited active bots, priority execution."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://zapier.com/central",
+    "logo_source_note": "Official Zapier asset",
+    "related_tools": [
+      "make",
+      "n8n",
+      "relevance_ai"
+    ],
+    "launched": "2024",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "make",
+    "name": "Make",
+    "maker": "Celonis / Make",
+    "tagline": "Visual automation platform with native AI modules for building complex workflows.",
+    "category": "productivity_automation",
+    "subcategory": "visual-automation",
+    "definition": "Make (formerly Integromat) is a visual automation platform that enables users to build, test, and run multi-step workflows. It includes native AI modules (OpenAI, Anthropic) allowing users to inject natural language processing, data transformation, and image generation into automated pipelines.",
+    "why_it_matters": "Make offers unparalleled visual granular control over complex JSON data transformations and conditional branching, making it the preferred visual automation platform for developers and digital operations architects.",
+    "workplace_use_cases": [
+      "Parsing incoming customer support emails with LLM sentiment analysis and routing tickets",
+      "Automating social media image generation and caption copywriting across channels",
+      "Building automated invoice data extraction and accounting software syncing pipelines",
+      "Enriching incoming sales leads with external web scraping data before sending to CRMs"
+    ],
+    "who_uses_it": [
+      "Operations Managers",
+      "Growth Hackers",
+      "Automation Engineers",
+      "No-Code Developers"
+    ],
+    "how_to_use": "Sign up at make.com, drag and drop modules onto the visual canvas, connect target APIs and OpenAI/Anthropic AI modules, configure data mapping, and enable the scenario.",
+    "key_features": [
+      "Visual drag-and-drop scenario builder with infinite branching logic",
+      "Native OpenAI, Claude, and Gemini AI data processing modules",
+      "Granular error handling, iterator, and aggregator controls",
+      "1,500+ pre-built app connectors plus generic HTTP/REST webhooks"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "1,000 free operations/month with 2 active scenarios.",
+      "paid_plans": [
+        {
+          "name": "Core",
+          "price": "$10.59/month ($9/mo annually)",
+          "notes": "10,000 operations/month, unlimited active scenarios, 1-minute execution interval."
+        },
+        {
+          "name": "Pro",
+          "price": "$18.82/month ($16/mo annually)",
+          "notes": "10,000 operations/month, custom variable functions, execution history search."
+        },
+        {
+          "name": "Teams",
+          "price": "$34.12/month",
+          "notes": "Shared team workspaces and role-based permissions."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.make.com",
+    "logo_source_note": "Official Make brand asset",
+    "related_tools": [
+      "zapier_central",
+      "n8n",
+      "relevance_ai"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "maker": "n8n GmbH",
+    "tagline": "Fair-code node-based workflow automation platform with native AI agent integration.",
+    "category": "productivity_automation",
+    "subcategory": "workflow-automation",
+    "definition": "n8n is an open-source, self-hostable node-based workflow automation engine. It features native LangChain nodes that allow engineers and privacy-conscious organizations to build custom AI agents, vector database pipelines, and automated API workflows.",
+    "why_it_matters": "Unlike proprietary cloud automation tools, n8n can be hosted on self-managed infrastructure. This provides technical teams with full data sovereignty, zero token markup, and unlimited scenario execution.",
+    "workplace_use_cases": [
+      "Building self-hosted RAG customer support agents connected to local vector databases",
+      "Automating complex engineering data transformation pipelines with custom JavaScript/Python code",
+      "Syncing sensitive medical or financial records across internal microservices using local LLMs",
+      "Creating autonomous Slack bots that execute database queries and generate reports"
+    ],
+    "who_uses_it": [
+      "Software Engineers",
+      "DevOps Engineers",
+      "Data Engineers",
+      "Automation Architects"
+    ],
+    "how_to_use": "Run n8n locally via Docker or npm (`npx n8n`), or sign up for n8n Cloud, then build node workflows using standard connectors and native LangChain AI agent nodes.",
+    "key_features": [
+      "Self-hostable open-code engine (Docker, Kubernetes) for total data privacy",
+      "Native AI & LangChain nodes (AI Agents, Vector Stores, Document Loaders)",
+      "Custom JavaScript and Python code execution inside workflow nodes",
+      "Over 400+ pre-built integrations and universal HTTP request node"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Self-hosted community version is free forever for personal/internal use.",
+      "paid_plans": [
+        {
+          "name": "Starter Cloud",
+          "price": "\u20ac20/month",
+          "notes": "2,500 workflow executions/month, hosted cloud infrastructure."
+        },
+        {
+          "name": "Pro Cloud",
+          "price": "\u20ac50/month",
+          "notes": "10,000 workflow executions/month, custom execution variables."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "Self-hosted enterprise license, SAML SSO, audit logs, dedicated support."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://n8n.io",
+    "logo_source_note": "Official n8n logo mark",
+    "related_tools": [
+      "make",
+      "zapier_central",
+      "relevance_ai"
+    ],
+    "launched": "2019",
+    "platform": [
+      "Self-Hosted",
+      "Docker",
+      "Cloud Web"
+    ]
+  },
+  {
+    "id": "relevance_ai",
+    "name": "Relevance AI",
+    "maker": "Relevance AI",
+    "tagline": "No-code platform for building, orchestrating, and managing autonomous AI B2B workforce agents.",
+    "category": "productivity_automation",
+    "subcategory": "ai-agents",
+    "definition": "Relevance AI is a B2B AI workforce platform that enables teams to build multi-agent systems. It allows users to create specialized AI agents (B2B research, sales outreach, customer support) that collaborate dynamically to complete complex business objectives.",
+    "why_it_matters": "Relevance AI moves beyond single-turn prompts toward multi-agent orchestration, enabling organizations to deploy digital workforce teams that work autonomously in the background.",
+    "workplace_use_cases": [
+      "Deploying autonomous B2B SDR agents to research prospective leads and draft outbound emails",
+      "Building automated market intelligence agents that scrape competitor releases weekly",
+      "Orchestrating multi-agent code review and pull request summary bots",
+      "Automating end-to-end customer onboarding documentation verification"
+    ],
+    "who_uses_it": [
+      "Sales Operations",
+      "Marketing Directors",
+      "Founders",
+      "Productivity Leads"
+    ],
+    "how_to_use": "Sign up at relevanceai.com, select an agent template or build a custom agent, configure tool permissions and knowledge bases, and trigger via API or scheduled runs.",
+    "key_features": [
+      "Multi-agent team orchestration and agent-to-agent communication",
+      "No-code visual agent builder with custom tool integrations",
+      "Vector knowledge base embeddings and web scraping tools",
+      "Human-in-the-loop approval guardrails before action execution"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes 100 daily execution credits.",
+      "paid_plans": [
+        {
+          "name": "Starter",
+          "price": "$199/month",
+          "notes": "15,000 credits/month, unlimited agents, team collaboration."
+        },
+        {
+          "name": "Business",
+          "price": "$599/month",
+          "notes": "60,000 credits/month, dedicated account manager, enterprise SLAs."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://relevanceai.com",
+    "logo_source_note": "Official Relevance AI asset",
+    "related_tools": [
+      "n8n",
+      "make",
+      "zapier_central"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web",
+      "API"
+    ]
+  },
+  {
+    "id": "raycast_ai",
+    "name": "Raycast AI",
+    "maker": "Raycast Technologies",
+    "tagline": "Blazing fast macOS launcher extension with integrated LLMs for system-wide AI actions.",
+    "category": "productivity_automation",
+    "subcategory": "desktop-assistant",
+    "definition": "Raycast AI embeds conversational and generative AI directly into the Raycast macOS launcher, allowing developers to execute AI prompts system-wide.",
+    "why_it_matters": "Raycast AI provides developers with instant, keyboard-driven AI access across all Mac desktop applications without opening a browser.",
+    "workplace_use_cases": [
+      "Asking quick programming questions and syntax lookups via hotkey",
+      "Summarizing copied clipboard text or selected documents",
+      "Translating selected text into different languages in any application"
+    ],
+    "who_uses_it": [
+      "Software Engineers",
+      "Designers",
+      "Mac Power Users"
+    ],
+    "how_to_use": "Press Option+Space to open Raycast on macOS, type your AI prompt or trigger an AI command.",
+    "key_features": [
+      "Instant system-wide hotkey access on macOS",
+      "Model selection (GPT-4o, Claude 3.5 Sonnet)",
+      "Custom AI prompt commands and extensions"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Standard Raycast launcher is free. AI features require subscription.",
+      "paid_plans": [
+        {
+          "name": "Raycast Pro",
+          "price": "$10/month ($8/mo annually)",
+          "notes": "Unlocks Raycast AI, cloud sync, custom themes."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.raycast.com",
+    "logo_source_note": "Official Raycast asset",
+    "related_tools": [
+      "macgpt"
+    ],
+    "launched": "2023",
+    "platform": [
+      "macOS"
+    ]
+  },
+  {
+    "id": "bardeen_ai",
+    "name": "Bardeen",
+    "maker": "Bardeen Inc.",
+    "tagline": "AI browser automation tool that automates repetitive web workflows without code.",
+    "category": "productivity_automation",
+    "subcategory": "browser-automation",
+    "definition": "Bardeen is an AI-powered browser automation extension that scrapes web data, automates web research, and executes workflows across browser tabs.",
+    "why_it_matters": "Bardeen simplifies web scraping and app integration directly inside the browser using simple natural language prompts.",
+    "workplace_use_cases": [
+      "Scraping LinkedIn lead data and saving directly to Google Sheets or HubSpot",
+      "Summarizing open browser articles and emailing key points",
+      "Automating repetitive data entry between web applications"
+    ],
+    "who_uses_it": [
+      "Sales SDRs",
+      "Recruiters",
+      "Growth Marketers",
+      "Operations Leads"
+    ],
+    "how_to_use": "Install the Bardeen Chrome extension, click the extension icon, and select or prompt an automation playbook.",
+    "key_features": [
+      "Natural language browser workflow builder",
+      "One-click web scraper for tables and structured sites",
+      "Integrations with Google Sheets, Notion, HubSpot, Slack"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes 50 credit runs/month.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$15/month ($10/mo annually)",
+          "notes": "500 credits/month, premium integrations, background automation."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.bardeen.ai",
+    "logo_source_note": "Official Bardeen asset",
+    "related_tools": [
+      "zapier_central",
+      "make"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Chrome Extension"
+    ]
+  },
+  {
+    "id": "taskade_ai",
+    "name": "Taskade",
+    "maker": "Taskade Inc.",
+    "tagline": "AI-powered productivity workspace combining project management, mind maps, and AI agents.",
+    "category": "productivity_automation",
+    "subcategory": "workspace-management",
+    "definition": "Taskade is a unified productivity platform that combines task lists, mind maps, project boards, and autonomous AI agents in one workspace.",
+    "why_it_matters": "Taskade allows teams to build custom AI agents that work alongside project management workflows.",
+    "workplace_use_cases": [
+      "Generating project task breakdowns and mind maps from simple briefs",
+      "Deploying custom AI team agents to summarize project status",
+      "Collaborating on interactive workflow documents"
+    ],
+    "who_uses_it": [
+      "Project Managers",
+      "Remote Teams",
+      "Founders"
+    ],
+    "how_to_use": "Create a workspace at taskade.com, click 'New with AI', and generate project boards.",
+    "key_features": [
+      "Multi-view project workflows (List, Board, Mind Map, Org Chart)",
+      "Custom AI Agent builder for workspace task execution",
+      "Real-time team chat and video collaboration"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes 1 workspace and basic AI credits.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$20/month ($8/mo annually)",
+          "notes": "3 users included, 10,000 AI credits/month."
+        },
+        {
+          "name": "Business",
+          "price": "$49/month ($19/mo annually)",
+          "notes": "10 users included, custom AI agents."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.taskade.com",
+    "logo_source_note": "Official Taskade asset",
+    "related_tools": [
+      "notion_ai"
+    ],
+    "launched": "2019",
+    "platform": [
+      "Web",
+      "Desktop",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": "height_app",
+    "name": "Height App",
+    "maker": "Height",
+    "tagline": "Autonomous AI project management tool that auto-updates tasks, triages bugs, and tracks progress.",
+    "category": "productivity_automation",
+    "subcategory": "project-management",
+    "definition": "Height is an AI-native project management tool designed for software engineering teams. Its AI engine automatically updates task statuses, triages incoming bug reports, and drafts release notes.",
+    "why_it_matters": "Height reduces manual task management overhead by leveraging AI to keep project boards synchronized with real engineering work.",
+    "workplace_use_cases": [
+      "Automatically triaging incoming customer bug reports into engineering tasks",
+      "Drafting product release notes based on completed task boards",
+      "Asking natural language questions about project shipping deadlines"
+    ],
+    "who_uses_it": [
+      "Product Managers",
+      "Software Engineers",
+      "Engineering Leads"
+    ],
+    "how_to_use": "Import existing tasks into height.app and enable Copilot auto-triage workflows.",
+    "key_features": [
+      "Auto-triage for incoming task routing",
+      "Natural language chat search across project task boards",
+      "Automated release notes generation"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free for up to 10 team members with basic features.",
+      "paid_plans": [
+        {
+          "name": "Team",
+          "price": "$12/user/month ($10/mo annually)",
+          "notes": "Unlimited members, full AI copilot workflows, custom attributes."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://height.app",
+    "logo_source_note": "Official Height asset",
+    "related_tools": [
+      "jira",
+      "linear"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web",
+      "Desktop",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": "shortcut_ai",
+    "name": "Shortcuts AI",
+    "maker": "Apple",
+    "tagline": "Native iOS and macOS automation engine utilizing local device AI and app actions.",
+    "category": "productivity_automation",
+    "subcategory": "native-automation",
+    "definition": "Apple Shortcuts is the native automation system built into iOS and macOS, enabling users to combine app actions, Siri prompts, and system controls into custom automated workflows.",
+    "why_it_matters": "Apple Shortcuts provides deep native system hardware integration across iPhones, iPads, and Mac computers.",
+    "workplace_use_cases": [
+      "Building custom one-tap Siri voice shortcuts for work tasks",
+      "Automating image resizing and document PDF exports on Mac",
+      "Creating custom location-based reminders"
+    ],
+    "who_uses_it": [
+      "Mac Power Users",
+      "Mobile Professionals",
+      "Developers"
+    ],
+    "how_to_use": "Open the Shortcuts app on Mac/iPhone, click '+', add action blocks, and trigger via Siri or hotkey.",
+    "key_features": [
+      "Native deep iOS and macOS system integration",
+      "Siri voice trigger support",
+      "Syncs across Apple hardware ecosystem"
+    ],
+    "pricing": {
+      "model": "free",
+      "has_free_tier": true,
+      "free_tier_details": "Built natively into iOS, iPadOS, and macOS.",
+      "paid_plans": [],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://support.apple.com/guide/shortcuts/welcome/ios",
+    "logo_source_note": "Official Apple asset",
+    "related_tools": [
+      "raycast_ai"
+    ],
+    "launched": "2018",
+    "platform": [
+      "macOS",
+      "iOS",
+      "iPadOS"
+    ]
+  }
+]

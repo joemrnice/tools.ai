@@ -1,0 +1,142 @@
+[
+  {
+    "id": "general_chat_assistants",
+    "name": "General Chat Assistants",
+    "icon": "💬",
+    "accent_color": "#ff3366",
+    "description": "General-purpose conversational AI assistants for writing, coding, reasoning, and multimodal research."
+  },
+  {
+    "id": "coding_assistants",
+    "name": "Coding Assistants & IDEs",
+    "icon": "💻",
+    "accent_color": "#00f0ff",
+    "description": "AI-native IDEs, inline code completion tools, and autonomous software development agents."
+  },
+  {
+    "id": "image_generation",
+    "name": "Image Generation & Editing",
+    "icon": "🎨",
+    "accent_color": "#ffb703",
+    "description": "Text-to-image models, generative fill editors, and brand design generation assets."
+  },
+  {
+    "id": "video_generation",
+    "name": "Video Generation & Editing",
+    "icon": "🎬",
+    "accent_color": "#e0aaff",
+    "description": "Generative video synthesis, automated avatars, clip repurposing, and AI video editors."
+  },
+  {
+    "id": "audio_voice",
+    "name": "Audio, Music & Voice",
+    "icon": "🎧",
+    "accent_color": "#70e000",
+    "description": "Voice cloning, AI music generation, vocal isolation, and speech-to-speech translation."
+  },
+  {
+    "id": "writing_editing",
+    "name": "Writing & Content Generation",
+    "icon": "✍️",
+    "accent_color": "#f15bb5",
+    "description": "Long-form editorial assistants, SEO copywriters, style checkers, and technical document generators."
+  },
+  {
+    "id": "meeting_notes",
+    "name": "Meeting Notes & Transcription",
+    "icon": "🎙️",
+    "accent_color": "#00b4d8",
+    "description": "Automated meeting recorders, real-time transcription, action item extractors, and call summaries."
+  },
+  {
+    "id": "productivity_automation",
+    "name": "Productivity & Workflow Automation",
+    "icon": "⚡",
+    "accent_color": "#ffaa00",
+    "description": "Autonomous desktop/browser agents, task execution pipelines, and smart digital workspace assistants."
+  },
+  {
+    "id": "data_bi",
+    "name": "Data Analysis & Business Intelligence",
+    "icon": "📊",
+    "accent_color": "#3a86ff",
+    "description": "Natural language SQL generators, predictive analytics platforms, and conversational reporting dashboards."
+  },
+  {
+    "id": "presentation_docs",
+    "name": "Presentation & Document Generation",
+    "icon": "📊",
+    "accent_color": "#fb5607",
+    "description": "AI slide deck generators, interactive document builders, and dynamic report creators."
+  },
+  {
+    "id": "design_ui_ux",
+    "name": "Design & UI/UX Prototyping",
+    "icon": "📐",
+    "accent_color": "#8338ec",
+    "description": "Generative UI wireframing, Figma AI extensions, dynamic component design, and canvas tools."
+  },
+  {
+    "id": "marketing_seo",
+    "name": "Marketing, SEO & Advertising",
+    "icon": "🚀",
+    "accent_color": "#ff006e",
+    "description": "SEO keyword research AI, ad creative generators, campaign optimization, and growth automation."
+  },
+  {
+    "id": "customer_support",
+    "name": "Customer Support & Chatbots",
+    "icon": "🤝",
+    "accent_color": "#06d6a0",
+    "description": "Custom agentic chatbots, knowledge-base synced support desk bots, and ticket resolution platforms."
+  },
+  {
+    "id": "sales_crm",
+    "name": "Sales & CRM Intelligence",
+    "icon": "📈",
+    "accent_color": "#118ab2",
+    "description": "Sales deal intelligence, personalized outbound email engines, call coaching, and lead scoring."
+  },
+  {
+    "id": "research_search",
+    "name": "Research & AI Search Engines",
+    "icon": "🔍",
+    "accent_color": "#48cae4",
+    "description": "Citation-backed search engines, academic paper summarizers, and deep literature research bots."
+  },
+  {
+    "id": "nocode_automation",
+    "name": "No-Code & Low-Code Builders",
+    "icon": "🧩",
+    "accent_color": "#a06cd5",
+    "description": "Text-to-app builders, visual LLM workflow orchestrators, and database automation tools."
+  },
+  {
+    "id": "developer_mlops",
+    "name": "Developer Tools & MLOps",
+    "icon": "🛠️",
+    "accent_color": "#9d4edd",
+    "description": "Vector databases, LLM observability, model evaluation suites, fine-tuning platforms, and prompts ops."
+  },
+  {
+    "id": "hr_recruiting",
+    "name": "HR, Recruiting & People-Ops",
+    "icon": "👥",
+    "accent_color": "#e07a5f",
+    "description": "AI candidate sourcing, job description tuning, interview summary tools, and internal HR assistants."
+  },
+  {
+    "id": "legal_finance",
+    "name": "Legal, Finance & Vertical AI",
+    "icon": "⚖️",
+    "accent_color": "#2a9d8f",
+    "description": "Contract review AI, SEC filing analysis, tax intelligence, and specialized vertical workflows."
+  },
+  {
+    "id": "governance_security",
+    "name": "Enterprise Governance & Security",
+    "icon": "🛡️",
+    "accent_color": "#e63946",
+    "description": "AI security gateways, shadow AI detection, data loss prevention (DLP), and LLM compliance monitoring."
+  }
+]

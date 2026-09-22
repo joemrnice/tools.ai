@@ -1,0 +1,519 @@
+[
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "maker": "ElevenLabs Inc.",
+    "tagline": "Industry-leading voice cloning, text-to-speech, and conversational AI voice platform.",
+    "category": "audio_voice",
+    "subcategory": "voice-synthesis",
+    "definition": "ElevenLabs is a speech AI platform that produces natural, human-like voice synthesis and voice cloning across 29+ languages. It enables creators, developers, and businesses to generate expressive voiceovers, dub videos, and deploy conversational voice agents.",
+    "why_it_matters": "ElevenLabs set a new quality benchmark for emotional nuance, pacing, and human realism in synthetic audio. Its low-latency Conversational AI API and Voice Library have made it the infrastructure standard for gaming, audiobook publishing, and AI telephony.",
+    "workplace_use_cases": [
+      "Generating studio-quality narrator voiceovers for e-learning modules and audiobooks",
+      "Cloning executive or founder voices for consistent automated podcast intro reads",
+      "Deploying ultra-low latency conversational voice bots for inbound customer service",
+      "Dubbing corporate video content into multiple foreign languages while retaining original vocal tone"
+    ],
+    "who_uses_it": [
+      "Content Creators",
+      "Audiobook Publishers",
+      "Game Developers",
+      "Customer Service Leads"
+    ],
+    "how_to_use": "Visit elevenlabs.io, select standard text-to-speech or Voice Cloning, upload a 1-minute clean audio sample to create a digital voice clone, and generate speech audio files or stream via API.",
+    "key_features": [
+      "Instant and Professional Voice Cloning from short audio samples",
+      "Multilingual Speech Synthesis across 29+ languages with emotional inflection control",
+      "AI Dubbing and Video Translation with speech timing synchronization",
+      "Low-Latency Conversational AI API for real-time voice agent applications"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "10,000 free characters per month for non-commercial use with standard voices.",
+      "paid_plans": [
+        {
+          "name": "Starter",
+          "price": "$5/month ($1 for first month)",
+          "notes": "30,000 characters/month, instant voice cloning, commercial license."
+        },
+        {
+          "name": "Creator",
+          "price": "$22/month",
+          "notes": "100,000 characters/month, professional voice cloning, high audio quality (192kbps)."
+        },
+        {
+          "name": "Pro",
+          "price": "$99/month",
+          "notes": "500,000 characters/month, usage analytics dashboard."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://elevenlabs.io",
+    "logo_source_note": "Official ElevenLabs asset",
+    "related_tools": [
+      "descript",
+      "suno",
+      "udio",
+      "heygen"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web",
+      "API",
+      "Mobile"
+    ]
+  },
+  {
+    "id": "suno",
+    "name": "Suno AI",
+    "maker": "Suno, Inc.",
+    "tagline": "Generative AI music engine creating full-length songs with vocals and instrumentation from text.",
+    "category": "audio_voice",
+    "subcategory": "music-generation",
+    "definition": "Suno is a generative AI platform that creates full studio-quality musical compositions\u2014including custom lyrics, instrumentation, arrangement, and vocal performances\u2014from text descriptions or simple genre prompts.",
+    "why_it_matters": "Suno revolutionized music creation by making radio-quality musical composition accessible to anyone. It enables marketers, game creators, and video editors to compose royalty-free background tracks and custom songs instantly.",
+    "workplace_use_cases": [
+      "Composing custom background scores and intro jingles for podcasts and YouTube videos",
+      "Generating genre-matched promotional tracks for ad campaigns and product launches",
+      "Creating sound tracks and ambient background scores for indie game levels",
+      "Prototyping song lyrics and musical arrangements for advertising concepts"
+    ],
+    "who_uses_it": [
+      "Marketers",
+      "Podcast Producers",
+      "Video Editors",
+      "Game Developers",
+      "Songwriters"
+    ],
+    "how_to_use": "Go to suno.com, click Create, describe your desired song style and lyrics (or toggle Custom Mode to paste custom lyrics), and generate a 2-minute audio track.",
+    "key_features": [
+      "Generates full songs complete with realistic vocals, instrumentation, and structure",
+      "Custom Mode for specifying exact lyrics, genres, and tempo parameters",
+      "Song Extension feature to elongate tracks past initial generation limits",
+      "Audio Stem separation (extract vocals or instrumental backing tracks)"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "50 free daily credits (~10 song generations) for non-commercial use.",
+      "paid_plans": [
+        {
+          "name": "Pro Plan",
+          "price": "$10/month",
+          "notes": "2,500 monthly credits (~500 songs), commercial ownership rights, priority queue."
+        },
+        {
+          "name": "Premier Plan",
+          "price": "$30/month",
+          "notes": "10,000 monthly credits (~2,000 songs), commercial rights."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://suno.com",
+    "logo_source_note": "Official Suno asset",
+    "related_tools": [
+      "udio",
+      "elevenlabs"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "iOS"
+    ]
+  },
+  {
+    "id": "udio",
+    "name": "Udio",
+    "maker": "Uncharted Labs",
+    "tagline": "High-fidelity generative AI music composition tool with advanced audio stem control.",
+    "category": "audio_voice",
+    "subcategory": "music-generation",
+    "definition": "Udio is an AI music generation service created by former Google DeepMind researchers. It allows users to generate complex musical arrangements with distinct vocal styles, instrumental tracks, and multi-section song progression control.",
+    "why_it_matters": "Udio gained industry acclaim for its crisp audio fidelity, vocal pitch accuracy, and modular editing tools, enabling musicians and producers to tweak individual sections of AI-generated compositions.",
+    "workplace_use_cases": [
+      "Producing broadcast-quality background music for commercial advertisements",
+      "Generating specialized genre soundscapes for film and television scoring",
+      "Extracting isolated vocals and instrumental stems for remixing",
+      "Creating custom audio brand identities and audio watermarks"
+    ],
+    "who_uses_it": [
+      "Music Producers",
+      "Sound Designers",
+      "Ad Directors",
+      "Content Creators"
+    ],
+    "how_to_use": "Sign in at udio.com, describe the musical composition in prompt terms, customize verse/chorus lyrics, and extend or remix generated audio segments.",
+    "key_features": [
+      "High-fidelity vocal rendering and acoustic instrument synthesis",
+      "Inpainting and audio section editing (replace specific verse or chorus measures)",
+      "Audio stem download capability (separate vocal, drum, bass, and synth tracks)",
+      "Vocal and instrumental style tagging"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "10 daily free generation credits + 100 bonus monthly credits.",
+      "paid_plans": [
+        {
+          "name": "Standard",
+          "price": "$10/month",
+          "notes": "1,200 priority credits/month, commercial license, stem downloads."
+        },
+        {
+          "name": "Pro",
+          "price": "$30/month",
+          "notes": "4,800 priority credits/month, custom cover art generation."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.udio.com",
+    "logo_source_note": "Official Udio asset",
+    "related_tools": [
+      "suno",
+      "elevenlabs"
+    ],
+    "launched": "2024",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "maker": "Descript, Inc.",
+    "tagline": "Text-based video and audio editor powered by transcript editing and synthetic voice overdubbing.",
+    "category": "audio_voice",
+    "subcategory": "audio-editing",
+    "definition": "Descript is an all-in-one audio and video editing workspace that operates like a word processor. You edit your media files simply by editing the auto-generated text transcript\u2014deleting words automatically removes matching audio/video frames.",
+    "why_it_matters": "Descript transformed podcast and video post-production by making media editing as simple as editing a text document. Its Overdub synthetic voice feature allows creators to fix misspoken words by typing text.",
+    "workplace_use_cases": [
+      "Editing corporate webinar recordings and podcasts by deleting filler words ('um', 'uh')",
+      "Overdubbing corrected spoken words into voice recordings without re-recording",
+      "Generating automated studio sound enhancement for low-quality mic recordings",
+      "Creating captioned video clips and audiograms for social media promotion"
+    ],
+    "who_uses_it": [
+      "Podcasters",
+      "Video Content Creators",
+      "Corporate Communications",
+      "Educators"
+    ],
+    "how_to_use": "Download the Descript app, drop in an audio or video file, wait for automated transcription, delete text or filler words directly, and export clean media.",
+    "key_features": [
+      "Text-based audio and video editing interface",
+      "Overdub AI voice cloning for inline speech correction",
+      "Studio Sound one-click background noise removal and voice enhancement",
+      "Automated filler word removal ('um', 'uh', 'you know')"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "1 transcription hour/month, 720p video export.",
+      "paid_plans": [
+        {
+          "name": "Hobbyist",
+          "price": "$12/user/month",
+          "notes": "10 transcription hours/month, 4K video export, watermark removal."
+        },
+        {
+          "name": "Pro",
+          "price": "$24/user/month",
+          "notes": "30 transcription hours/month, unlimited Studio Sound, custom voice cloning."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "Dedicated support, SSO, custom security compliance."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.descript.com",
+    "logo_source_note": "Official Descript asset",
+    "related_tools": [
+      "elevenlabs",
+      "otter_ai"
+    ],
+    "launched": "2017",
+    "platform": [
+      "Desktop",
+      "macOS",
+      "Windows",
+      "Web"
+    ]
+  },
+  {
+    "id": "murf_ai",
+    "name": "Murf.ai",
+    "maker": "Murf AI",
+    "tagline": "Studio-quality AI voice generator for e-learning, podcasts, and corporate presentations.",
+    "category": "audio_voice",
+    "subcategory": "voice-synthesis",
+    "definition": "Murf.ai is a cloud-based text-to-speech platform that converts written scripts into professional voiceovers with over 120+ realistic voices.",
+    "why_it_matters": "Murf simplified voiceover production for corporate training and marketing teams, offering pitch, emphasis, and speed timing controls.",
+    "workplace_use_cases": [
+      "Narrating corporate e-learning slide decks and training modules",
+      "Creating voiceover audio for promotional product demos",
+      "Converting blog text into audio podcasts"
+    ],
+    "who_uses_it": [
+      "Instructional Designers",
+      "Corporate Trainers",
+      "Marketers",
+      "Podcasters"
+    ],
+    "how_to_use": "Enter your script at murf.ai, select a voice actor persona, adjust pitch and timing, and render audio.",
+    "key_features": [
+      "120+ natural sounding AI voices across 20+ languages",
+      "Voice changer tool to convert home mic recordings into professional studio voices",
+      "Integration with Canva and Google Slides"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "10 free minutes of voice generation for testing.",
+      "paid_plans": [
+        {
+          "name": "Creator",
+          "price": "$29/month ($19/mo annually)",
+          "notes": "24 hours of voice generation/year, 120+ voices, commercial rights."
+        },
+        {
+          "name": "Business",
+          "price": "$99/month ($79/mo annually)",
+          "notes": "96 hours/year, voice changer, team collaboration, priority support."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://murf.ai",
+    "logo_source_note": "Official Murf.ai asset",
+    "related_tools": [
+      "elevenlabs",
+      "speechify"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "speechify",
+    "name": "Speechify",
+    "maker": "Speechify Inc.",
+    "tagline": "AI text-to-speech reader for listening to documents, books, and web articles.",
+    "category": "audio_voice",
+    "subcategory": "text-to-speech",
+    "definition": "Speechify is an AI text-to-speech application that reads digital text aloud at high speeds using natural human-sounding voices, including celebrity voices.",
+    "why_it_matters": "Speechify boosted reading productivity for students and executives with ADHD and dyslexia by converting PDFs and web pages into high-speed audio.",
+    "workplace_use_cases": [
+      "Listening to lengthy research PDFs and corporate reports while commuting",
+      "Proofreading written articles by listening to audio output",
+      "Converting physical book pages into audio using mobile OCR scanning"
+    ],
+    "who_uses_it": [
+      "Executives",
+      "Students",
+      "Researchers",
+      "Professionals with Dyslexia/ADHD"
+    ],
+    "how_to_use": "Install the Speechify extension or mobile app, upload a document or web page, select a voice speed, and listen.",
+    "key_features": [
+      "Listening speeds up to 4.5x (900 words per minute)",
+      "OCR photo scanning for reading printed text aloud",
+      "Natural sounding AI voices including Snoop Dogg and Gwyneth Paltrow"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free standard voice reading for basic text files.",
+      "paid_plans": [
+        {
+          "name": "Speechify Premium",
+          "price": "$139/year (~$11.58/month)",
+          "notes": "30+ HD premium voices, 20+ languages, 4.5x speed listening, note-taking."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://speechify.com",
+    "logo_source_note": "Official Speechify asset",
+    "related_tools": [
+      "elevenlabs",
+      "murf_ai"
+    ],
+    "launched": "2017",
+    "platform": [
+      "iOS",
+      "Android",
+      "Chrome Extension",
+      "Web",
+      "Desktop"
+    ]
+  },
+  {
+    "id": "rask_ai",
+    "name": "Rask AI",
+    "maker": "Rask AI",
+    "tagline": "AI video localization and voice dubbing platform preserving original vocal tone.",
+    "category": "audio_voice",
+    "subcategory": "voice-dubbing",
+    "definition": "Rask AI is a video translation and voice dubbing platform that translates video content into over 130 languages while cloning the speaker's natural voice.",
+    "why_it_matters": "Rask AI solved global video localization by automatically synchronizing translated audio with natural video lip movement.",
+    "workplace_use_cases": [
+      "Dubbing YouTube videos and corporate webinars into 130+ global languages",
+      "Preserving brand executive voice tone across international marketing campaigns",
+      "Generating multi-language audio tracks for educational courses"
+    ],
+    "who_uses_it": [
+      "Global Marketers",
+      "Educators",
+      "YouTubers",
+      "Corporate Communications"
+    ],
+    "how_to_use": "Upload your video file at rask.ai, select target languages, review AI translated scripts, and export dubbed videos.",
+    "key_features": [
+      "Translates videos into 130+ languages with automatic voice cloning",
+      "Lip-sync alignment technology matching speaker mouth movement",
+      "Multi-speaker voice separation and timing sync"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free trial video clip processing.",
+      "paid_plans": [
+        {
+          "name": "Basic",
+          "price": "$60/month ($49/mo annually)",
+          "notes": "25 minutes of video processing/month, voice cloning."
+        },
+        {
+          "name": "Pro",
+          "price": "$140/month ($119/mo annually)",
+          "notes": "100 minutes processing/month, lip-sync feature."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.rask.ai",
+    "logo_source_note": "Official Rask AI asset",
+    "related_tools": [
+      "elevenlabs",
+      "heygen"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "soundraw",
+    "name": "Soundraw",
+    "maker": "Soundraw Inc.",
+    "tagline": "Generative AI music platform for customizing royalty-free background tracks by mood and length.",
+    "category": "audio_voice",
+    "subcategory": "music-generation",
+    "definition": "Soundraw is an AI music generator that creates customizable royalty-free background music tracks based on selected genre, mood, tempo, and length.",
+    "why_it_matters": "Soundraw provides video creators with full editing control over AI music tracks, allowing them to adjust verse builds and drop locations.",
+    "workplace_use_cases": [
+      "Composing custom length background music for YouTube videos and podcasts",
+      "Generating royalty-free commercial soundtrack music for ad campaigns",
+      "Creating video game ambient background audio"
+    ],
+    "who_uses_it": [
+      "Video Editors",
+      "Podcasters",
+      "Filmmakers",
+      "Game Developers"
+    ],
+    "how_to_use": "Select mood, genre, and length at soundraw.io, preview generated tracks, adjust section intensity, and download.",
+    "key_features": [
+      "Generates unlimited customizable royalty-free music tracks",
+      "Granular editing of intro, verse, chorus, and backing instruments",
+      "Commercial license rights for YouTube monetization"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free unlimited song generation and preview listening.",
+      "paid_plans": [
+        {
+          "name": "Creator",
+          "price": "$19.99/month ($16.99/mo annually)",
+          "notes": "Unlimited music downloads, commercial license."
+        },
+        {
+          "name": "Artist",
+          "price": "$39.99/month ($29.99/mo annually)",
+          "notes": "Add custom vocals, distribution to Spotify/Apple Music."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://soundraw.io",
+    "logo_source_note": "Official Soundraw asset",
+    "related_tools": [
+      "suno",
+      "udio"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web",
+      "Premiere Pro Plugin"
+    ]
+  },
+  {
+    "id": "adobe_podcast",
+    "name": "Adobe Podcast",
+    "maker": "Adobe",
+    "tagline": "AI audio recording and enhancement suite for crystal-clear spoken audio.",
+    "category": "audio_voice",
+    "subcategory": "audio-enhancement",
+    "definition": "Adobe Podcast (formerly Project Shasta) is an AI-powered audio platform that removes background noise, enhances speech clarity, and enables text-based audio editing.",
+    "why_it_matters": "Adobe Podcast transformed remote audio recording by turning noisy laptop mic tracks into studio-quality vocal tracks with one click.",
+    "workplace_use_cases": [
+      "Enhancing remote podcast audio recordings to professional microphone quality",
+      "Editing audio tracks by deleting transcript text in a web browser",
+      "Removing room echo and background noise from video voiceovers"
+    ],
+    "who_uses_it": [
+      "Podcasters",
+      "Video Editors",
+      "Content Creators",
+      "Educators"
+    ],
+    "how_to_use": "Upload audio files to podcast.adobe.com/enhance or record in browser, and download cleaned audio.",
+    "key_features": [
+      "Enhance Speech one-click studio sound processing",
+      "Mic Check AI mic setup wizard",
+      "Text-based web audio editor"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free access to basic speech enhancement (up to 30 mins/day).",
+      "paid_plans": [
+        {
+          "name": "Adobe Express Premium",
+          "price": "$9.99/month",
+          "notes": "Unlocks bulk audio enhancement, strength controls, 4 hours/day."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://podcast.adobe.com",
+    "logo_source_note": "Official Adobe asset",
+    "related_tools": [
+      "descript",
+      "elevenlabs"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web"
+    ]
+  }
+]

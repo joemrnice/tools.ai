@@ -1,0 +1,484 @@
+[
+  {
+    "id": "fin_intercom",
+    "name": "Fin by Intercom",
+    "maker": "Intercom",
+    "tagline": "Autonomous AI support agent that resolves customer tickets with zero hallucination guardrails.",
+    "category": "customer_support",
+    "subcategory": "ai-support-agent",
+    "definition": "Fin is an autonomous customer support AI agent developed by Intercom. Powered by advanced reasoning models, it connects directly to company help centers and internal documentation to answer customer queries with zero-hallucination accuracy.",
+    "why_it_matters": "Fin proved that AI support bots can achieve 50%+ resolution rates on complex customer tickets while maintaining human-level safety, shifting customer support from reactive agent desks to autonomous resolution.",
+    "workplace_use_cases": [
+      "Resolving tier-1 support tickets (refund requests, password resets, order tracking)",
+      "Answering technical product support questions by searching help center articles",
+      "Seamlessly handing off complex edge cases to human support agents with full conversation context",
+      "Drafting real-time multilingual support responses for global customer support desks"
+    ],
+    "who_uses_it": [
+      "Customer Support Directors",
+      "Customer Experience Leads",
+      "Support Operations"
+    ],
+    "how_to_use": "Enable Fin in your Intercom inbox, point it at your public help desk URL or internal Notion/Confluence docs, configure fallback rules, and launch.",
+    "key_features": [
+      "Guaranteed zero-hallucination guardrails grounded strictly in support docs",
+      "Resolves queries in 45+ languages automatically",
+      "Seamless human agent inbox handoff with summary notes",
+      "Pay-per-resolution pricing model"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "14-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Fin Resolution Model",
+          "price": "$0.99 per successful resolution",
+          "notes": "Charged only when Fin successfully resolves a support conversation without human agent intervention."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.intercom.com/fin",
+    "logo_source_note": "Official Intercom brand mark",
+    "related_tools": [
+      "zendesk_ai",
+      "ada"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "Mobile SDK",
+      "Intercom Inbox"
+    ]
+  },
+  {
+    "id": "zendesk_ai",
+    "name": "Zendesk AI",
+    "maker": "Zendesk",
+    "tagline": "Enterprise CX intelligence suite for intent detection, smart triage, and agent copilot assistance.",
+    "category": "customer_support",
+    "subcategory": "enterprise-cx",
+    "definition": "Zendesk AI is an AI intelligence layer integrated across the Zendesk Customer Experience platform. It automatically categorizes incoming customer tickets by intent, sentiment, and language while providing support agents with inline summary tools and macro suggestions.",
+    "why_it_matters": "Zendesk AI brings automated ticket routing and agent productivity tools directly into the dominant enterprise customer service desk platform, reducing handle times across thousands of corporate agents.",
+    "workplace_use_cases": [
+      "Automatically detecting customer sentiment and prioritizing urgent escalation tickets",
+      "Summarizing long, multi-turn ticket threads for incoming support agents",
+      "Suggesting contextual knowledge base articles and macro responses to human agents",
+      "Automating intent classification (e.g. 'Billing', 'Bug Report', 'Feature Request')"
+    ],
+    "who_uses_it": [
+      "Enterprise Support Operations",
+      "CX Executives",
+      "Support Agents"
+    ],
+    "how_to_use": "Activate Zendesk AI in your Zendesk Admin Center, train intent models on past ticket data, and enable Agent Copilot in the agent workspace.",
+    "key_features": [
+      "Automatic customer intent and sentiment detection on incoming tickets",
+      "Agent Copilot for inline response drafting and ticket summaries",
+      "Generative expand/rephrase tools for support agent replies",
+      "Pre-trained CX models tuned on billions of customer interactions"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Requires active Zendesk Suite subscription.",
+      "paid_plans": [
+        {
+          "name": "Zendesk AI Add-On",
+          "price": "$50/agent/month",
+          "notes": "Unlocks advanced AI intent detection, agent copilot, and generative features on top of Zendesk Suite plans."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.zendesk.com/service/ai/",
+    "logo_source_note": "Official Zendesk asset",
+    "related_tools": [
+      "fin_intercom"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "Zendesk Workspace"
+    ]
+  },
+  {
+    "id": "ada",
+    "name": "Ada",
+    "maker": "Ada Support Inc.",
+    "tagline": "Enterprise AI customer service agent platform resolving complex multi-channel support tickets.",
+    "category": "customer_support",
+    "subcategory": "ai-customer-service",
+    "definition": "Ada is an enterprise AI customer service platform that resolves customer support inquiries across messaging, email, voice, and web chat.",
+    "why_it_matters": "Ada provides enterprise organizations with no-code AI agent building that integrates directly into backend systems (Zendesk, Salesforce, Shopify).",
+    "workplace_use_cases": [
+      "Resolving automated order tracking, refund requests, and billing queries",
+      "Deploying multi-channel AI support agents across web, mobile app, and WhatsApp",
+      "Executing automated backend account actions via API webhooks"
+    ],
+    "who_uses_it": [
+      "Customer Support Directors",
+      "VP of Customer Experience",
+      "Support Operations"
+    ],
+    "how_to_use": "Build agent workflows in Ada's visual dashboard, sync help documentation, and deploy the messaging widget.",
+    "key_features": [
+      "Multi-channel resolution engine (Web, Mobile, SMS, Voice, WhatsApp)",
+      "No-code AI agent reasoning flow builder",
+      "Native integrations with Zendesk, Salesforce, and Shopify"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Custom enterprise quotes based on resolution volume.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Resolution Plan",
+          "price": "Custom annual contract",
+          "notes": "Calculated per ticket resolution and channel support scope."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.ada.cx",
+    "logo_source_note": "Official Ada asset",
+    "related_tools": [
+      "fin_intercom",
+      "zendesk_ai"
+    ],
+    "launched": "2016",
+    "platform": [
+      "Web",
+      "iOS",
+      "Android",
+      "API"
+    ]
+  },
+  {
+    "id": "tidio_lyro",
+    "name": "Lyro by Tidio",
+    "maker": "Tidio",
+    "tagline": "Conversational AI support bot for SMBs and e-commerce stores that answers customer questions.",
+    "category": "customer_support",
+    "subcategory": "smb-chatbots",
+    "definition": "Lyro is a conversational AI customer support bot developed by Tidio, designed for small businesses and e-commerce stores to automate customer inquiries.",
+    "why_it_matters": "Lyro offers small e-commerce businesses accessible AI support bot setup that syncs with Shopify in under 5 minutes.",
+    "workplace_use_cases": [
+      "Answering e-commerce product questions and shipping policy inquiries 24/7",
+      "Reducing ticket volume for small support teams",
+      "Handing off complex sales leads to live human chat agents"
+    ],
+    "who_uses_it": [
+      "E-commerce Store Owners",
+      "SMB Customer Support Reps",
+      "Shopify Merchants"
+    ],
+    "how_to_use": "Connect Tidio to your Shopify store or website, upload FAQ URLs, and activate Lyro.",
+    "key_features": [
+      "5-minute setup trained directly on website FAQ pages",
+      "Shopify and WordPress live chat integration",
+      "Seamless human agent handoff"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes 50 AI conversations.",
+      "paid_plans": [
+        {
+          "name": "Lyro AI Add-on",
+          "price": "$39/month",
+          "notes": "Includes 500 AI conversations/month."
+        },
+        {
+          "name": "Tidio Plus",
+          "price": "$394/month",
+          "notes": "Custom AI conversations, dedicated support manager."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.tidio.com/lyro/",
+    "logo_source_note": "Official Tidio asset",
+    "related_tools": [
+      "fin_intercom",
+      "chatling"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "Shopify",
+      "WordPress"
+    ]
+  },
+  {
+    "id": "chatling",
+    "name": "Chatling",
+    "maker": "Chatling",
+    "tagline": "No-code AI chatbot builder trained on custom website content, PDFs, and knowledge bases.",
+    "category": "customer_support",
+    "subcategory": "custom-chatbots",
+    "definition": "Chatling is a no-code AI chatbot platform that allows businesses to build custom customer support chatbots trained on their website content and documents.",
+    "why_it_matters": "Chatling simplifies custom support bot creation for non-technical teams with easy document uploading and web crawling.",
+    "workplace_use_cases": [
+      "Building custom website support chatbots trained on PDF documentation",
+      "Answering visitor sales questions on SaaS marketing websites",
+      "Capturing sales lead contact details directly inside chat windows"
+    ],
+    "who_uses_it": [
+      "Small Business Owners",
+      "Marketers",
+      "Support Leads"
+    ],
+    "how_to_use": "Sign in at chatling.ai, input your website URL or upload PDF manuals, customize the chat widget, and embed.",
+    "key_features": [
+      "Train AI on website URLs, PDFs, DOCX, and Notion pages",
+      "Custom branding and chat widget styling",
+      "Lead capture forms and visitor analytics"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes 1 chatbot and 350 response credits/month.",
+      "paid_plans": [
+        {
+          "name": "Basic",
+          "price": "$15/month ($12/mo annually)",
+          "notes": "2 chatbots, 2,000 response credits/month, no watermark."
+        },
+        {
+          "name": "Pro",
+          "price": "$35/month ($28/mo annually)",
+          "notes": "5 chatbots, 5,000 response credits/month, auto-sync data sources."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://chatling.ai",
+    "logo_source_note": "Official Chatling asset",
+    "related_tools": [
+      "fin_intercom",
+      "tidio_lyro"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "forethought",
+    "name": "Forethought",
+    "maker": "Forethought Technologies",
+    "tagline": "Generative AI customer service platform automating triage, resolution, and agent coaching.",
+    "category": "customer_support",
+    "subcategory": "enterprise-cx",
+    "definition": "Forethought is an enterprise generative AI platform for customer service, featuring Solve (autonomous resolution), Triage (ticket routing), and Assist (agent copilot).",
+    "why_it_matters": "Forethought brought deep learning intent resolution to enterprise support, reducing cost per ticket dramatically.",
+    "workplace_use_cases": [
+      "Automating immediate support ticket resolution across email and chat",
+      "Routing incoming support tickets based on urgency and customer sentiment",
+      "Assisting human support agents with inline answer suggestions"
+    ],
+    "who_uses_it": [
+      "Enterprise CX Executives",
+      "Support Operations Directors"
+    ],
+    "how_to_use": "Integrate Forethought with your enterprise helpdesk (Zendesk, Salesforce Service Cloud), and configure resolution rules.",
+    "key_features": [
+      "Solve autonomous AI ticket resolution engine",
+      "Triage automated ticket routing and sentiment analysis",
+      "Assist in-inbox agent copilot"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Enterprise annual quotes based on ticket volume.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Subscription",
+          "price": "Custom annual contract",
+          "notes": "Priced per ticket resolution and helpdesk integration scope."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://forethought.ai",
+    "logo_source_note": "Official Forethought asset",
+    "related_tools": [
+      "fin_intercom",
+      "zendesk_ai",
+      "ada"
+    ],
+    "launched": "2018",
+    "platform": [
+      "Web",
+      "Zendesk",
+      "Salesforce Service Cloud"
+    ]
+  },
+  {
+    "id": "kustomer_iq",
+    "name": "Kustomer IQ",
+    "maker": "Kustomer / Meta",
+    "tagline": "AI customer service automation platform optimizing omnichannel customer service conversations.",
+    "category": "customer_support",
+    "subcategory": "omnichannel-cx",
+    "definition": "Kustomer IQ is the artificial intelligence engine embedded in the Kustomer CRM, automating routing, sentiment analysis, and self-service chat workflows.",
+    "why_it_matters": "Kustomer IQ unifies customer CRM data history with conversational AI chat across messaging apps.",
+    "workplace_use_cases": [
+      "Providing customer support agents with a 360-degree timeline of customer interactions",
+      "Automating self-service chat workflows on WhatsApp and Instagram",
+      "Predicting customer sentiment during support interactions"
+    ],
+    "who_uses_it": [
+      "Customer Service Directors",
+      "E-commerce Support Leads"
+    ],
+    "how_to_use": "Enable Kustomer IQ inside Kustomer CRM dashboard and set up self-service workflows.",
+    "key_features": [
+      "Omnichannel timeline CRM integration",
+      "Self-service conversational bot builder",
+      "Automated ticket sentiment scoring"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Requires active Kustomer CRM platform subscription.",
+      "paid_plans": [
+        {
+          "name": "Enterprise",
+          "price": "$89/user/month",
+          "notes": "Includes core Kustomer IQ routing and self-service bots."
+        },
+        {
+          "name": "Ultimate",
+          "price": "$139/user/month",
+          "notes": "Advanced AI capabilities, custom SLAs."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.kustomer.com",
+    "logo_source_note": "Official Kustomer asset",
+    "related_tools": [
+      "zendesk_ai",
+      "fin_intercom"
+    ],
+    "launched": "2017",
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": "chatbase",
+    "name": "Chatbase",
+    "maker": "Chatbase",
+    "tagline": "Custom AI chatbot builder that creates ChatGPT-like bots trained on your data.",
+    "category": "customer_support",
+    "subcategory": "custom-chatbots",
+    "definition": "Chatbase is a popular no-code AI chatbot creation platform that lets users build a custom support bot trained on files, web links, and Notion pages in minutes.",
+    "why_it_matters": "Chatbase popularized quick, custom knowledge-base chatbot creation for creators and startups.",
+    "workplace_use_cases": [
+      "Embedding a custom AI support chatbot on marketing websites",
+      "Creating internal documentation Q&A bots for employees",
+      "Answering customer product queries on e-commerce sites"
+    ],
+    "who_uses_it": [
+      "Founders",
+      "Marketers",
+      "Support Reps",
+      "Web Developers"
+    ],
+    "how_to_use": "Upload documents or enter website links at chatbase.co, customize chatbot appearance, and paste embed script.",
+    "key_features": [
+      "Trained on PDFs, text files, website URLs, and Notion",
+      "Custom domain and chat widget branding options",
+      "Lead generation collection forms"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes 1 chatbot and 20 message credits/month.",
+      "paid_plans": [
+        {
+          "name": "Hobby",
+          "price": "$19/month",
+          "notes": "2 chatbots, 2,000 message credits/month."
+        },
+        {
+          "name": "Standard",
+          "price": "$99/month",
+          "notes": "5 chatbots, 10,000 message credits/month, custom domain."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.chatbase.co",
+    "logo_source_note": "Official Chatbase asset",
+    "related_tools": [
+      "chatling",
+      "fin_intercom"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "customgpt_ai",
+    "name": "CustomGPT.ai",
+    "maker": "CustomGPT",
+    "tagline": "Privacy-first enterprise custom AI chatbot builder with zero hallucination protection.",
+    "category": "customer_support",
+    "subcategory": "enterprise-chatbots",
+    "definition": "CustomGPT.ai is an enterprise custom AI platform that builds chatbots trained on company data with strict anti-hallucination guardrails and citations.",
+    "why_it_matters": "CustomGPT.ai focuses heavily on enterprise data privacy and accurate citation backings for every answer.",
+    "workplace_use_cases": [
+      "Building internal employee knowledge base Q&A bots with exact document citation links",
+      "Deploying customer support chatbots with zero hallucination protection",
+      "Searching across enterprise technical manuals"
+    ],
+    "who_uses_it": [
+      "Enterprise IT Directors",
+      "Customer Support Leads",
+      "Knowledge Managers"
+    ],
+    "how_to_use": "Upload data sources at customgpt.ai, configure persona guardrails, and deploy via widget or API.",
+    "key_features": [
+      "Zero hallucination guardrails with document citation links",
+      "Supports 1,400+ file formats and site crawling",
+      "SOC 2 Type II certified data security"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "14-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Standard",
+          "price": "$99/month",
+          "notes": "10 chatbots, 5,000 query credits/month."
+        },
+        {
+          "name": "Premium",
+          "price": "$499/month",
+          "notes": "100 chatbots, 50,000 query credits/month, API access."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://customgpt.ai",
+    "logo_source_note": "Official CustomGPT asset",
+    "related_tools": [
+      "chatbase",
+      "fin_intercom"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "API"
+    ]
+  }
+]

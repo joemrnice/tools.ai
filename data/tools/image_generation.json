@@ -1,0 +1,536 @@
+[
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "maker": "Midjourney, Inc.",
+    "tagline": "State-of-the-art text-to-image generative AI model renowned for artistic fidelity and realism.",
+    "category": "image_generation",
+    "subcategory": "text-to-image",
+    "definition": "Midjourney is an independent research lab generative AI tool that produces photorealistic and artistic visual imagery from natural language prompts. It operates primarily through Discord and a web interface, serving creative professionals and designers worldwide.",
+    "why_it_matters": "Midjourney set the gold standard for aesthetic quality, lighting, and texture in AI image generation. It is widely relied upon in advertising, concept art, and brand design for rapid visual brainstorming and production-grade key art.",
+    "workplace_use_cases": [
+      "Creating concept art, storyboards, and mood boards for film and ad campaigns",
+      "Generating high-resolution marketing visual assets and editorial illustrations",
+      "Prototyping product packaging design concepts and interior architectural renders",
+      "Designing background textures and branding mockups for web assets"
+    ],
+    "who_uses_it": [
+      "Designers",
+      "Marketers",
+      "Art Directors",
+      "Creative Directors",
+      "Illustrators"
+    ],
+    "how_to_use": "Access midjourney.com or join the official Midjourney Discord server, enter prompts using '/imagine prompt:' or the web creation canvas, and upscale or iterate on generated candidate images.",
+    "key_features": [
+      "Unmatched photorealism and fine-art stylistic control",
+      "Web creation canvas with inpainting, outpainting, and image panning",
+      "Style Tuner and Character Reference consistency controls",
+      "V6 generation engine with high text rendering fidelity"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "No permanent free tier; occasional promotional trials available.",
+      "paid_plans": [
+        {
+          "name": "Basic Plan",
+          "price": "$10/month",
+          "notes": "3.3 hours/month of Fast GPU time (~200 generations)."
+        },
+        {
+          "name": "Standard Plan",
+          "price": "$30/month",
+          "notes": "15 hours/month of Fast GPU time plus unlimited Relaxed GPU time."
+        },
+        {
+          "name": "Pro Plan",
+          "price": "$60/month",
+          "notes": "30 hours Fast GPU time, stealth mode (private image generations)."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.midjourney.com",
+    "logo_source_note": "Official Midjourney brand asset",
+    "related_tools": [
+      "dall_e_3",
+      "flux",
+      "ideogram",
+      "adobe_firefly"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web",
+      "Discord"
+    ]
+  },
+  {
+    "id": "dall_e_3",
+    "name": "DALL-E 3",
+    "maker": "OpenAI",
+    "tagline": "Prompt-accurate AI image generator integrated natively into ChatGPT.",
+    "category": "image_generation",
+    "subcategory": "text-to-image",
+    "definition": "DALL-E 3 is OpenAI's advanced image generation model that converts nuanced textual descriptions into detailed images. Built natively on ChatGPT, it excels at interpreting complex prompt syntax, rendering readable text inside images, and maintaining strict safety guidelines.",
+    "why_it_matters": "DALL-E 3 democratized high-quality image generation by eliminating the need for complex 'prompt engineering'. Because it understands conversational language directly inside ChatGPT, users can refine images naturally through back-and-forth chat.",
+    "workplace_use_cases": [
+      "Generating branded social media banners and promotional graphics",
+      "Creating inline visual diagrams and illustrations for blog posts and reports",
+      "Designing custom icons, stickers, and presentation slide graphics",
+      "Refining visual concepts iteratively through conversational prompts"
+    ],
+    "who_uses_it": [
+      "Marketers",
+      "Writers",
+      "Social Media Managers",
+      "Designers",
+      "Educators"
+    ],
+    "how_to_use": "Open ChatGPT (Plus/Team/Enterprise), prompt the chat to generate an image (e.g., 'Create a clean vector illustration of a modern cloud datacenter'), and click on the generated image to edit or download.",
+    "key_features": [
+      "Native ChatGPT prompt translation and refinement",
+      "High accuracy in rendering text and typographic elements inside images",
+      "In-chat seed control and targeted regional editing (inpainting)",
+      "Built-in provenance metadata (C2PA standard)"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Limited free image generation access via ChatGPT free tier and Microsoft Copilot.",
+      "paid_plans": [
+        {
+          "name": "ChatGPT Plus",
+          "price": "$20/month",
+          "notes": "Includes full DALL-E 3 image generation access."
+        },
+        {
+          "name": "API Access",
+          "price": "$0.04 - $0.12 per image",
+          "notes": "Varies by resolution (1024x1024 to 1024x1792) and quality tier."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://openai.com/dall-e-3",
+    "logo_source_note": "Official OpenAI asset",
+    "related_tools": [
+      "midjourney",
+      "ideogram",
+      "flux"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "API",
+      "Mobile"
+    ]
+  },
+  {
+    "id": "flux",
+    "name": "FLUX.1",
+    "maker": "Black Forest Labs",
+    "tagline": "Open-weights state-of-the-art image generation model suite with extreme detail and prompt fidelity.",
+    "category": "image_generation",
+    "subcategory": "text-to-image",
+    "definition": "FLUX.1 is a family of open-weights and commercial image generation models created by Black Forest Labs (founded by original Stable Diffusion architects). It sets benchmark records for image detail, anatomy accuracy, complex prompt adherence, and text rendering.",
+    "why_it_matters": "FLUX.1 redefined open image models by surpassing proprietary models on prompt adherence and visual realism while offering open weights (FLUX.1 [schnell] and [dev]) for local deployment and custom fine-tuning.",
+    "workplace_use_cases": [
+      "Fine-tuning custom brand LoRA models on internal product photography",
+      "Generating photorealistic commercial advertising assets locally without cloud API costs",
+      "Synthesizing high-fidelity typography and logo graphics within images",
+      "Integrating ultra-fast image generation into custom commercial creative software"
+    ],
+    "who_uses_it": [
+      "Designers",
+      "AI Researchers",
+      "Creative Developers",
+      "Ad Agencies"
+    ],
+    "how_to_use": "Access FLUX.1 models via API platforms (Fal.ai, Replicate) or run open-weight versions locally using ComfyUI / Automatic1111 web UIs.",
+    "key_features": [
+      "12 billion parameter Hybrid Transformer architecture",
+      "Flawless hand/anatomy structure and crisp embedded text rendering",
+      "Available in Schnell (fast open), Dev (non-commercial open), and Pro (commercial API) tiers",
+      "Extensive ecosystem of community LoRAs and ControlNet extensions"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Open-source weights (Schnell & Dev) are free to download and run locally.",
+      "paid_plans": [
+        {
+          "name": "FLUX.1 [pro] API",
+          "price": "$0.025-$0.05 per image",
+          "notes": "Hosted commercial API with maximum speed and output fidelity."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://blackforestlabs.ai",
+    "logo_source_note": "Official Black Forest Labs asset",
+    "related_tools": [
+      "midjourney",
+      "dall_e_3",
+      "ideogram"
+    ],
+    "launched": "2024",
+    "platform": [
+      "API",
+      "Web",
+      "Local Execution"
+    ]
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "maker": "Ideogram AI",
+    "tagline": "Generative image AI specialized in reliable typography, graphic design, and brand lettering.",
+    "category": "image_generation",
+    "subcategory": "graphic-design",
+    "definition": "Ideogram is an advanced AI image generator engineered specifically to solve text rendering in generative visuals. It produces crisp, accurate lettering, logos, typography posters, and graphic design compositions directly from text descriptions.",
+    "why_it_matters": "Before Ideogram, rendering coherent, correctly spelled text inside AI generated images was notoriously unreliable. Ideogram solved this bottleneck, becoming an essential visual tool for merchandise designers, typographers, and graphic artists.",
+    "workplace_use_cases": [
+      "Designing apparel graphics, t-shirt prints, and merchandise typography",
+      "Generating poster art, event flyers, and social media text quotes",
+      "Creating custom vector-style logos and typography lockups",
+      "Producing marketing banners with embedded brand headlines"
+    ],
+    "who_uses_it": [
+      "Graphic Designers",
+      "Merchandise Creators",
+      "Marketers",
+      "Brand Strategists"
+    ],
+    "how_to_use": "Go to ideogram.ai, enter your prompt containing quotation marks around target text (e.g. 'A retro neon sign that says \"Tools.ai\" in vibrant pink'), select your style preset, and generate.",
+    "key_features": [
+      "Industry-leading text and typography accuracy inside images",
+      "Magic Prompt automated prompt expansion for elevated aesthetics",
+      "Design style presets (Typography, Poster, 3D, Photorealism, Illustration)",
+      "Palette color control and aspect ratio customization"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "10 slow prompt generations per day on the free plan.",
+      "paid_plans": [
+        {
+          "name": "Basic",
+          "price": "$8/month",
+          "notes": "400 fast credits/month, priority processing, private generations."
+        },
+        {
+          "name": "Plus",
+          "price": "$20/month",
+          "notes": "1,000 fast credits/month, unlimited slow generations, image uploads."
+        },
+        {
+          "name": "Pro",
+          "price": "$60/month",
+          "notes": "3,000 fast credits/month, maximum generation concurrency."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://ideogram.ai",
+    "logo_source_note": "Official Ideogram asset",
+    "related_tools": [
+      "midjourney",
+      "dall_e_3",
+      "recraft"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "adobe_firefly",
+    "name": "Adobe Firefly",
+    "maker": "Adobe",
+    "tagline": "Commercially safe generative AI built into Adobe Creative Cloud.",
+    "category": "image_generation",
+    "subcategory": "enterprise-design",
+    "definition": "Adobe Firefly is Adobe's family of creative generative AI models trained exclusively on Adobe Stock images, openly licensed content, and public domain material. It powers Generative Fill, Generative Expand, and Text-to-Image features across Photoshop, Illustrator, and Express.",
+    "why_it_matters": "Firefly provides enterprise creative teams with copyright indemnification and commercial safety. Because it is trained on licensed catalog data, global enterprises can use generated image assets in commercial advertising campaigns without IP liability.",
+    "workplace_use_cases": [
+      "Extending photo canvas boundaries with Generative Expand in Photoshop",
+      "Removing unwanted background objects or adding elements with Generative Fill",
+      "Generating scalable vector graphics (SVG) in Adobe Illustrator",
+      "Designing branded marketing banners in Adobe Express"
+    ],
+    "who_uses_it": [
+      "Graphic Designers",
+      "Photographers",
+      "Art Directors",
+      "Corporate Brand Teams"
+    ],
+    "how_to_use": "Access firefly.adobe.com or open Photoshop/Illustrator, select a region using marquee tools, and enter natural language prompts in the contextual taskbar.",
+    "key_features": [
+      "Commercial IP safety and copyright indemnification for enterprises",
+      "Seamless integration with Photoshop, Illustrator, and Adobe Express",
+      "Generative Vector Graphics for scalable resolution output",
+      "Content Credentials (C2PA) automatic attribution tagging"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "25 free generative credits per month with an Adobe ID.",
+      "paid_plans": [
+        {
+          "name": "Firefly Premium Plan",
+          "price": "$4.99/month",
+          "notes": "100 generative credits per month and watermark-free downloads."
+        },
+        {
+          "name": "Creative Cloud All Apps",
+          "price": "$59.99/month",
+          "notes": "Includes 1,000 generative credits/month and full access to Photoshop, Illustrator, etc."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://firefly.adobe.com",
+    "logo_source_note": "Official Adobe Firefly asset",
+    "related_tools": [
+      "midjourney",
+      "recraft",
+      "magnific_ai"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "Desktop Applications"
+    ]
+  },
+  {
+    "id": "recraft",
+    "name": "Recraft",
+    "maker": "Recraft AI",
+    "tagline": "Infinite canvas vector and raster design editor powered by AI style control.",
+    "category": "image_generation",
+    "subcategory": "vector-design",
+    "definition": "Recraft is a visual AI design tool operating on an infinite canvas. It allows designers to generate, edit, and export both vector (SVG) and raster (PNG/JPG) graphics in precisely consistent brand styles.",
+    "why_it_matters": "Recraft stands out by giving graphic designers true vector output (clean, edit-ready SVG files) alongside deep style palette matching, making it an indispensable workspace tool for UI asset generation and brand design systems.",
+    "workplace_use_cases": [
+      "Generating clean vector icons and illustrations for web apps and brand design systems",
+      "Creating cohesive icon sets matching a strict custom brand palette",
+      "Vectorizing raster sketches into editable multi-layer SVG files",
+      "Editing vector nodes and paths directly on an infinite canvas workspace"
+    ],
+    "who_uses_it": [
+      "UI/UX Designers",
+      "Graphic Designers",
+      "Brand Designers",
+      "Illustrators"
+    ],
+    "how_to_use": "Sign up at recraft.ai, create a new project canvas, select Vector or Raster mode, choose or train a brand style preset, and prompt your graphic assets.",
+    "key_features": [
+      "Generates production-grade scalable vector (SVG) files with clean paths",
+      "Infinite design canvas with multi-image orchestration",
+      "Custom brand style palette training and color palette enforcement",
+      "In-canvas vector editing and background eraser tools"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes 50 credits/day with public generations.",
+      "paid_plans": [
+        {
+          "name": "Basic",
+          "price": "$20/month",
+          "notes": "1,000 credits/month, commercial license, private generations."
+        },
+        {
+          "name": "Pro",
+          "price": "$48/month",
+          "notes": "2,500 credits/month, fast parallel generation mode."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.recraft.ai",
+    "logo_source_note": "Official Recraft asset",
+    "related_tools": [
+      "adobe_firefly",
+      "ideogram",
+      "midjourney"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "magnific_ai",
+    "name": "Magnific AI",
+    "maker": "Magnific",
+    "tagline": "AI image upscaler and detail enhancer that adds hallucinated micro-details to visuals.",
+    "category": "image_generation",
+    "subcategory": "image-upscaling",
+    "definition": "Magnific AI is an advanced image upscaling and detail-synthesis tool. Utilizing generative diffusion algorithms, it can scale low-resolution or blurry photos up to 10k resolution while synthesizing realistic, context-aware textures (skin pores, fabric weaves, foliage).",
+    "why_it_matters": "Magnific transformed image post-production by turning low-resolution renders or vintage photos into ultra-high-definition campaign assets, giving visual artists unprecedented control over sharpness and detail density.",
+    "workplace_use_cases": [
+      "Upscaling low-res 3D renders into 8K billboard-ready advertising visuals",
+      "Enhancing product photography micro-textures for e-commerce catalogs",
+      "Restoring low-resolution archival photos and film stills",
+      "Adding realistic skin textures and fine detail to AI-generated portraits"
+    ],
+    "who_uses_it": [
+      "Photographers",
+      "3D Artists",
+      "Ad Agencies",
+      "VFX Specialists",
+      "Digital Artists"
+    ],
+    "how_to_use": "Upload low-resolution images to magnific.ai, adjust the 'Creativity' and 'Resemblance' sliders, choose a preset (e.g., Portrait, Architecture), and render high-res output.",
+    "key_features": [
+      "Generative upscaling up to 10,000 x 10,000 pixels resolution",
+      "Creativity slider to control how many new details the model synthesizes",
+      "Relight tool for changing lighting angles and atmospheric effects",
+      "Presets for Portraits, 3D Renders, Landscapes, and Sci-Fi art"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "No free tier; paid plans required to process images.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$39/month",
+          "notes": "Includes ~2,500 small upscales or 200 large upscales per month."
+        },
+        {
+          "name": "Premium",
+          "price": "$99/month",
+          "notes": "Includes ~7,500 small upscales or 600 large upscales."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://magnific.ai",
+    "logo_source_note": "Official Magnific AI asset",
+    "related_tools": [
+      "midjourney",
+      "adobe_firefly"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "leonardo_ai",
+    "name": "Leonardo.Ai",
+    "maker": "Canva / Leonardo Interactive",
+    "tagline": "Full-stack generative AI content studio for game assets, design, and visual production.",
+    "category": "image_generation",
+    "subcategory": "creative-studio",
+    "definition": "Leonardo.Ai (acquired by Canva) is a comprehensive generative AI platform tailored for game developers, visual artists, and marketers. It features fine-tuned model control, custom model training, 3D texture generation, and real-time canvas editing.",
+    "why_it_matters": "Leonardo provides granular control over AI asset generation. Its ability to train custom LoRAs on proprietary artwork makes it a favorite among indie game studios and entertainment production teams.",
+    "workplace_use_cases": [
+      "Training custom AI models on proprietary game art styles and character concept art",
+      "Generating 3D asset texture maps (PBR) from 2D prompts",
+      "Creating consistent character concept art across multiple poses and outfits",
+      "Designing UI elements, inventory icons, and environment backgrounds for games"
+    ],
+    "who_uses_it": [
+      "Game Developers",
+      "Concept Artists",
+      "3D Animators",
+      "Graphic Designers"
+    ],
+    "how_to_use": "Visit leonardo.ai, log in, select from preset models or train your own dataset, set generation controls (Alchemy, Prompt Magic), and generate assets.",
+    "key_features": [
+      "Custom AI model training on user-uploaded dataset images",
+      "Realtime Canvas for instant live sketch-to-image rendering",
+      "3D Texture Generation for game development software (Unity, Unreal)",
+      "Alchemy pipeline for enhanced visual composition and lighting"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "150 daily free token credits renewed every 24 hours.",
+      "paid_plans": [
+        {
+          "name": "Apprentice",
+          "price": "$12/month",
+          "notes": "8,500 credits/month, faster generation speed, custom model training."
+        },
+        {
+          "name": "Artisan",
+          "price": "$30/month",
+          "notes": "25,000 credits/month, relaxed generation queue, private models."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://leonardo.ai",
+    "logo_source_note": "Official Leonardo.Ai asset",
+    "related_tools": [
+      "midjourney",
+      "recraft",
+      "adobe_firefly"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web",
+      "iOS"
+    ]
+  },
+  {
+    "id": "stable_diffusion",
+    "name": "Stable Diffusion 3.5",
+    "maker": "Stability AI",
+    "tagline": "Open-weights generative image model family optimized for local deployment and community fine-tuning.",
+    "category": "image_generation",
+    "subcategory": "text-to-image",
+    "definition": "Stable Diffusion 3.5 is Stability AI's flagship open-weights text-to-image model suite. It offers high prompt adherence, photorealistic image rendering, and extensive fine-tuning capabilities.",
+    "why_it_matters": "Stable Diffusion laid the foundation for open-source AI art ecosystems, empowering developers to fine-tune custom LoRAs and run local image pipelines without cloud API fees.",
+    "workplace_use_cases": [
+      "Generating custom brand concept art and advertising illustrations locally",
+      "Fine-tuning specialized image LoRAs on private product photography datasets",
+      "Integrating offline image generation pipelines into mobile or desktop software",
+      "Creating high-resolution digital art using ComfyUI workflow nodes"
+    ],
+    "who_uses_it": [
+      "Digital Artists",
+      "Game Developers",
+      "AI Researchers",
+      "Creative Agencies"
+    ],
+    "how_to_use": "Download model weights from Hugging Face or Stability AI, run locally using ComfyUI or Automatic1111 web UIs, or access via Stability API.",
+    "key_features": [
+      "Open-weights architecture available for commercial self-hosting",
+      "High text rendering quality and prompt instruction following",
+      "Ecosystem support for ControlNet, IP-Adapter, and custom LoRAs",
+      "Multiple model sizes (SD 3.5 Large, Large Turbo, Medium)"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free for self-hosted non-commercial and commercial research use (under $1M revenue).",
+      "paid_plans": [
+        {
+          "name": "Stability Enterprise License",
+          "price": "Custom pricing",
+          "notes": "Commercial license for enterprises exceeding revenue thresholds."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://stability.ai",
+    "logo_source_note": "Official Stability AI asset",
+    "related_tools": [
+      "midjourney",
+      "flux",
+      "dall_e_3"
+    ],
+    "launched": "2024",
+    "platform": [
+      "API",
+      "Local Execution",
+      "Web"
+    ]
+  }
+]
