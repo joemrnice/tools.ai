@@ -1,0 +1,505 @@
+[
+  {
+    "id": "otter_ai",
+    "name": "Otter.ai",
+    "maker": "Otter.ai, Inc.",
+    "tagline": "Automated AI meeting assistant for real-time transcription, summaries, and action items.",
+    "category": "meeting_notes",
+    "subcategory": "meeting-transcription",
+    "definition": "Otter.ai is an automated meeting transcription and note-taking platform. It connects to Zoom, Google Meet, and Microsoft Teams calendars to automatically join calls, record audio, generate real-time speaker-tagged transcripts, and extract action items.",
+    "why_it_matters": "Otter popularized autonomous meeting bots in remote and hybrid workplaces, eliminating the need for manual note-taking and enabling team members to stay focused on active call discussions.",
+    "workplace_use_cases": [
+      "Automatically recording and transcribing daily Zoom/Teams team standups",
+      "Generating automated meeting summaries and slide captures for absent teammates",
+      "Extracting assigned action items and deadlines into team follow-up emails",
+      "Searching past meeting transcripts across company sales calls and interviews"
+    ],
+    "who_uses_it": [
+      "Product Managers",
+      "Sales Representatives",
+      "Executives",
+      "HR Recruiters"
+    ],
+    "how_to_use": "Connect your Google or Outlook calendar at otter.ai, grant OtterPilot permission to join upcoming video calls, and review automatically generated transcripts and summaries in your dashboard.",
+    "key_features": [
+      "OtterPilot automated calendar call join for Zoom, Google Meet, Teams",
+      "Otter AI Chat for asking questions across past call transcripts",
+      "Automated slide capture during presentation screen shares",
+      "Real-time live speaker identification and keyword tagging"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "300 transcription minutes/month (30 mins per call max).",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$16.99/month ($10/mo annually)",
+          "notes": "1,200 transcription minutes/month (90 mins per call), team sharing."
+        },
+        {
+          "name": "Business",
+          "price": "$30/user/month ($20/mo annually)",
+          "notes": "6,000 transcription minutes/month, admin controls, usage analytics."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "Single Sign-On (SSO), domain capture, custom retention policies."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://otter.ai",
+    "logo_source_note": "Official Otter.ai asset",
+    "related_tools": [
+      "fireflies_ai",
+      "fathom",
+      "tldv"
+    ],
+    "launched": "2016",
+    "platform": [
+      "Web",
+      "iOS",
+      "Android",
+      "Chrome Extension"
+    ]
+  },
+  {
+    "id": "fireflies_ai",
+    "name": "Fireflies.ai",
+    "maker": "Fireflies.ai",
+    "tagline": "AI voice assistant for capturing, analyzing, and searching across corporate conversations.",
+    "category": "meeting_notes",
+    "subcategory": "conversation-intelligence",
+    "definition": "Fireflies.ai is a conversation intelligence platform that records, transcribes, and analyzes team meetings. It connects across call platforms, phone systems, and CRMs, extracting topics, sentiment, speaker talk-time analytics, and automated CRM entries.",
+    "why_it_matters": "Fireflies goes beyond transcriptions by serving as an analytical engine for sales and leadership teams, measuring talk-to-listen ratios and auto-logging call notes directly into Salesforce or HubSpot.",
+    "workplace_use_cases": [
+      "Logging structured customer meeting notes directly into CRM deal records",
+      "Analyzing sales call talk time ratio and objection handling metrics",
+      "Creating soundbites and snippets of key customer feedback for product teams",
+      "Tracking competitor mentions and pricing objections across all team sales calls"
+    ],
+    "who_uses_it": [
+      "Sales Leads",
+      "Customer Success Reps",
+      "Product Managers",
+      "Executive Leadership"
+    ],
+    "how_to_use": "Sign in at fireflies.ai, connect calendar and CRM accounts, invite Fred (the AI bot) to meetings, and access auto-generated intelligence dashboards.",
+    "key_features": [
+      "Fred AI meeting recorder bot for web conferencing and dialers",
+      "Customizable AskFred conversational search bot across meeting transcripts",
+      "Native integrations with Salesforce, HubSpot, Slack, and Zapier",
+      "Topic Tracker and sentiment/analytics dashboard"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "800 minutes of storage per seat with limited transcription credits.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$18/user/month ($10/mo annually)",
+          "notes": "Unlimited transcription, 8,000 mins storage, AI summaries, smart search filters."
+        },
+        {
+          "name": "Business",
+          "price": "$29/user/month ($19/mo annually)",
+          "notes": "Unlimited storage, conversation intelligence, video screen recording, CRM entry."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://fireflies.ai",
+    "logo_source_note": "Official Fireflies.ai logo asset",
+    "related_tools": [
+      "otter_ai",
+      "fathom",
+      "tldv"
+    ],
+    "launched": "2018",
+    "platform": [
+      "Web",
+      "Chrome Extension"
+    ]
+  },
+  {
+    "id": "fathom",
+    "name": "Fathom",
+    "maker": "Fathom Video, Inc.",
+    "tagline": "Free AI meeting assistant that records, transcribes, and highlights key call moments.",
+    "category": "meeting_notes",
+    "subcategory": "meeting-transcription",
+    "definition": "Fathom is a meeting recording and transcription assistant built for Zoom, Microsoft Teams, and Google Meet. It automatically records calls, generates instant transcripts, and highlights critical call moments for rapid review.",
+    "why_it_matters": "Fathom won widespread popularity among individuals and small teams by offering robust, high-accuracy meeting transcription with generous free tier features and one-click copy-paste formatting.",
+    "workplace_use_cases": [
+      "Summarizing client discovery calls and highlighting decision points",
+      "Copy-pasting bulleted meeting notes into Notion, Asana, or Google Docs",
+      "Sharing video clips of customer feedback directly into Slack channels",
+      "Auto-syncing call notes with CRM records in HubSpot or Salesforce"
+    ],
+    "who_uses_it": [
+      "Account Executives",
+      "Consultants",
+      "Freelancers",
+      "Product Managers"
+    ],
+    "how_to_use": "Download the Fathom application or web extension, connect your calendar, click 'Record' during video calls, and view instant structured summaries immediately after ending the call.",
+    "key_features": [
+      "Instant summary generation upon ending calls",
+      "One-click bookmarking during calls to highlight important moments",
+      "Direct sync to CRM platforms (HubSpot, Salesforce, Close)",
+      "Multi-language call summary support"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free forever for individuals with unlimited recording and transcription.",
+      "paid_plans": [
+        {
+          "name": "Premium Edition",
+          "price": "$19/user/month ($15/mo annually)",
+          "notes": "Advanced AI summary customization, zapier triggers, and enhanced CRM sync."
+        },
+        {
+          "name": "Team Edition",
+          "price": "$29/user/month",
+          "notes": "Shared team repository, central billing, deal intelligence dashboard."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://fathom.video",
+    "logo_source_note": "Official Fathom asset",
+    "related_tools": [
+      "otter_ai",
+      "fireflies_ai",
+      "tldv"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web",
+      "Desktop App"
+    ]
+  },
+  {
+    "id": "tldv",
+    "name": "tl;dv",
+    "maker": "tl;dv",
+    "tagline": "AI meeting recorder for Google Meet, Zoom, and Teams with timestamped clip sharing.",
+    "category": "meeting_notes",
+    "subcategory": "video-notes",
+    "definition": "tl;dv is a meeting recorder and summary assistant engineered specifically for remote product and sales teams. It transcribes calls in over 30 languages, generates AI summaries, and makes video recordings searchable by timestamped keywords.",
+    "why_it_matters": "tl;dv focuses heavily on multi-language global teams and video highlight creation, enabling product managers to clip 10-second video quotes of user feedback to share in Slack or Jira tickets.",
+    "workplace_use_cases": [
+      "Creating bite-sized video clip highlights of user research interviews",
+      "Searching across 100+ past recorded product meetings for specific feature requests",
+      "Auto-summarizing customer support discovery calls into Slack channels",
+      "Transcribing international client meetings across 30+ regional languages"
+    ],
+    "who_uses_it": [
+      "UX Researchers",
+      "Product Managers",
+      "Sales Leads",
+      "Customer Support"
+    ],
+    "how_to_use": "Install the Google Meet Chrome extension or Zoom integration at tldv.io, set record preferences, tag timestamps live during calls, and share generated clip URLs.",
+    "key_features": [
+      "Multi-language transcription supporting 30+ languages",
+      "Bite-sized video snippet clipping and shareable link generator",
+      "AI-driven call topic summarization aligned with custom prompts",
+      "Integrations with Notion, Slack, HubSpot, and Salesforce"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free unlimited meeting recording and transcription with basic summaries.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$25/user/month ($18/mo annually)",
+          "notes": "Advanced AI meeting reports, auto-download video files, CRM integrations."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "Custom security policies, dedicated account management, custom data retention."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://tldv.io",
+    "logo_source_note": "Official tl;dv asset",
+    "related_tools": [
+      "fathom",
+      "otter_ai",
+      "fireflies_ai"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web",
+      "Chrome Extension"
+    ]
+  },
+  {
+    "id": "avoma",
+    "name": "Avoma",
+    "maker": "Avoma, Inc.",
+    "tagline": "AI meeting assistant and conversation intelligence platform for sales and customer success.",
+    "category": "meeting_notes",
+    "subcategory": "conversation-intelligence",
+    "definition": "Avoma is an AI meeting assistant that automatically records, transcribes, and summarizes business meetings, analyzing conversation insights for sales and support.",
+    "why_it_matters": "Avoma unifies pre-meeting scheduling, live note-taking, and post-meeting CRM updates in one platform.",
+    "workplace_use_cases": [
+      "Automatically logging structured call notes into Salesforce and HubSpot",
+      "Analyzing sales team talk-to-listen ratios and key topic mentions",
+      "Sharing timestamped meeting snippets with product teams"
+    ],
+    "who_uses_it": [
+      "Account Executives",
+      "Customer Success Leads",
+      "Sales Managers"
+    ],
+    "how_to_use": "Connect calendar and web conferencing to Avoma, and the AI bot will join scheduled meetings.",
+    "key_features": [
+      "AI Meeting Assistant with automated speaker identification",
+      "Revenue Intelligence and deal pipeline tracking",
+      "CRM automatic note sync and keyword search"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes basic manual note-taking and call recording.",
+      "paid_plans": [
+        {
+          "name": "Starter",
+          "price": "$24/user/month ($19/mo annually)",
+          "notes": "AI meeting summaries, automated CRM sync."
+        },
+        {
+          "name": "Plus",
+          "price": "$59/user/month ($49/mo annually)",
+          "notes": "Advanced conversation intelligence, topic tracking."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.avoma.com",
+    "logo_source_note": "Official Avoma asset",
+    "related_tools": [
+      "gong_io",
+      "fireflies_ai"
+    ],
+    "launched": "2017",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "supernormal",
+    "name": "Supernormal",
+    "maker": "Supernormal",
+    "tagline": "AI note taker for Google Meet, Zoom, and Teams with customizable meeting templates.",
+    "category": "meeting_notes",
+    "subcategory": "meeting-transcription",
+    "definition": "Supernormal is an AI meeting assistant that automatically records, transcribes, and writes structured meeting notes tailored to specific meeting types.",
+    "why_it_matters": "Supernormal stands out with custom meeting templates designed for 1-on-1s, executive syncs, and candidate interviews.",
+    "workplace_use_cases": [
+      "Capturing structured action items and decision points during executive meetings",
+      "Generating standardized interview summaries for candidate hiring loops",
+      "Syncing notes into Notion, Slack, and HubSpot"
+    ],
+    "who_uses_it": [
+      "Product Managers",
+      "Hiring Managers",
+      "Executives",
+      "Consultants"
+    ],
+    "how_to_use": "Install the Chrome extension or invite Supernormal bot to your calendar events.",
+    "key_features": [
+      "Customizable meeting templates for different meeting formats",
+      "Multi-language transcription in 20+ languages",
+      "Direct export to Notion, Slack, and Google Docs"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "1,000 free meeting minutes upon signup.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$18/user/month ($10/mo annually)",
+          "notes": "Unlimited meeting notes, custom templates, CRM integration."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://supernormal.com",
+    "logo_source_note": "Official Supernormal asset",
+    "related_tools": [
+      "fathom",
+      "otter_ai"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web",
+      "Chrome Extension"
+    ]
+  },
+  {
+    "id": "meetgeek",
+    "name": "MeetGeek",
+    "maker": "MeetGeek.ai",
+    "tagline": "AI meeting assistant that auto-records, transcribes, and shares call insights with team channels.",
+    "category": "meeting_notes",
+    "subcategory": "meeting-transcription",
+    "definition": "MeetGeek is an automated meeting recorder and analytics platform that captures video meetings and distributes AI summaries into company tools.",
+    "why_it_matters": "MeetGeek focuses on automated team knowledge distribution, pushing highlights directly to Slack channels.",
+    "workplace_use_cases": [
+      "Pushing automated meeting summaries to dedicated Slack channels",
+      "Tracking team meeting effectiveness metrics and talk-time distribution",
+      "Creating searchable meeting repositories for team knowledge bases"
+    ],
+    "who_uses_it": [
+      "Team Leads",
+      "Project Managers",
+      "Remote Operations"
+    ],
+    "how_to_use": "Connect your Google/Outlook calendar and web conferencing app to MeetGeek.",
+    "key_features": [
+      "Automated meeting recording, transcription, and summarization",
+      "Auto-sharing rules for Slack, Trello, and Notion",
+      "Meeting sentiment and engagement analytics"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "5 hours of transcription/month on the free plan.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$19/user/month ($15/mo annually)",
+          "notes": "20 hours transcription/month, HD video downloads."
+        },
+        {
+          "name": "Business",
+          "price": "$39/user/month ($29/mo annually)",
+          "notes": "100 hours transcription/month, CRM integrations."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://meetgeek.ai",
+    "logo_source_note": "Official MeetGeek asset",
+    "related_tools": [
+      "otter_ai",
+      "fireflies_ai"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "read_ai",
+    "name": "Read AI",
+    "maker": "Read AI, Inc.",
+    "tagline": "Meeting analytics and summary assistant that measures participant engagement and sentiment.",
+    "category": "meeting_notes",
+    "subcategory": "meeting-analytics",
+    "definition": "Read AI is a meeting productivity assistant that generates transcripts, executive summaries, and real-time engagement and sentiment metrics.",
+    "why_it_matters": "Read AI stands out by measuring meeting health, participant engagement levels, and sentiment during live video calls.",
+    "workplace_use_cases": [
+      "Measuring meeting effectiveness and team engagement scores",
+      "Generating automated multi-meeting weekly digest reports",
+      "Generating action item checklists post-call"
+    ],
+    "who_uses_it": [
+      "Executives",
+      "Operations Leads",
+      "Engineering Managers"
+    ],
+    "how_to_use": "Connect your calendar at read.ai and invite Read AI to video calls.",
+    "key_features": [
+      "Meeting engagement and sentiment score dashboards",
+      "Automated meeting summaries and action items",
+      "Read Chief of Staff multi-meeting weekly report synthesis"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes 2 meeting reports/month.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$29.75/user/month ($19.75/mo annually)",
+          "notes": "Unlimited meeting reports, custom meeting templates."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.read.ai",
+    "logo_source_note": "Official Read AI asset",
+    "related_tools": [
+      "otter_ai",
+      "fathom"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "krisp_ai",
+    "name": "Krisp",
+    "maker": "Krisp Technologies",
+    "tagline": "AI noise-cancellation app that removes background noise, echo, and generates meeting notes.",
+    "category": "meeting_notes",
+    "subcategory": "audio-noise-cancellation",
+    "definition": "Krisp is an AI desktop application that removes background noise, room echo, and voices from microphone and speaker audio during live calls, while auto-generating meeting notes.",
+    "why_it_matters": "Krisp is the gold standard for real-time background noise cancellation, allowing remote workers to take calls in noisy cafes or home environments.",
+    "workplace_use_cases": [
+      "Canceling barking dogs, construction, and cafe noise during live Zoom calls",
+      "Removing room acoustic echo from microphone audio",
+      "Generating automated meeting transcripts and summaries"
+    ],
+    "who_uses_it": [
+      "Remote Workers",
+      "Customer Support Agents",
+      "Executives",
+      "Podcasters"
+    ],
+    "how_to_use": "Download Krisp on macOS/Windows, select Krisp Microphone/Speaker in Zoom/Teams, and toggle noise cancellation.",
+    "key_features": [
+      "Real-time bi-directional AI noise and echo cancellation",
+      "Automatic meeting recording and transcription",
+      "Works with all video conferencing apps (Zoom, Teams, Meet)"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes 60 minutes/day of noise cancellation.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$12/user/month ($8/mo annually)",
+          "notes": "Unlimited noise cancellation, unlimited meeting notes, central billing."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://krisp.ai",
+    "logo_source_note": "Official Krisp asset",
+    "related_tools": [
+      "otter_ai",
+      "fathom"
+    ],
+    "launched": "2017",
+    "platform": [
+      "macOS",
+      "Windows",
+      "Desktop"
+    ]
+  }
+]

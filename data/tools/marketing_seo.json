@@ -1,0 +1,518 @@
+[
+  {
+    "id": "surfer_seo",
+    "name": "Surfer SEO",
+    "maker": "Surfer",
+    "tagline": "Data-driven SEO content optimization platform providing real-time guidelines and AI copywriting.",
+    "category": "marketing_seo",
+    "subcategory": "seo-optimization",
+    "definition": "Surfer SEO is an search engine optimization platform that analyzes top-ranking Google search results to provide real-time keyword density, content structure, and topic guidelines for writers. It includes an AI article generator tuned for search engine visibility.",
+    "why_it_matters": "Surfer SEO replaced guesswork in content marketing with empirical competitor data, showing writers exactly which keywords, headings, and word counts are required to rank competitively.",
+    "workplace_use_cases": [
+      "Optimizing blog posts and landing pages against live top-10 search competitors",
+      "Generating detailed content briefs and keyword clusters for content marketing teams",
+      "Auditing existing web pages to identify missing keyword entities and technical SEO gaps",
+      "Generating SEO-optimized articles automatically in Jasper or Google Docs via browser plugin"
+    ],
+    "who_uses_it": [
+      "SEO Specialists",
+      "Content Marketers",
+      "Digital Agencies",
+      "Copywriters"
+    ],
+    "how_to_use": "Enter a target keyword in surferseo.com, open the Content Editor canvas, follow the Content Score gauge while writing, and incorporate suggested structural terms.",
+    "key_features": [
+      "Live Content Score gauge measuring competitor keyword parity",
+      "Keyword Research tool for visual topic cluster mapping",
+      "Surfer AI for generating complete optimized articles in 2 minutes",
+      "Direct plugin integration with Google Docs, WordPress, and Jasper"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "7-day money-back guarantee available.",
+      "paid_plans": [
+        {
+          "name": "Essential",
+          "price": "$99/month ($89/mo annually)",
+          "notes": "30 Content Editor articles/month, keyword research tool."
+        },
+        {
+          "name": "Advanced",
+          "price": "$179/month ($149/mo annually)",
+          "notes": "100 Content Editor articles/month, 5 seats included."
+        },
+        {
+          "name": "Max",
+          "price": "$299/month ($249/mo annually)",
+          "notes": "200 Content Editor articles/month, white-label branding, dedicated manager."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://surferseo.com",
+    "logo_source_note": "Official Surfer SEO asset",
+    "related_tools": [
+      "semrush_one2tree",
+      "jasper",
+      "copy_ai"
+    ],
+    "launched": "2017",
+    "platform": [
+      "Web",
+      "Google Docs Plugin",
+      "WordPress Plugin"
+    ]
+  },
+  {
+    "id": "adcreative_ai",
+    "name": "AdCreative.ai",
+    "maker": "AdCreative.ai",
+    "tagline": "AI ad banner and social media creative generator focused on conversion rate optimization.",
+    "category": "marketing_seo",
+    "subcategory": "ad-creative",
+    "definition": "AdCreative.ai is a conversion-focused generative AI platform designed for performance marketers. It analyzes millions of high-performing ad creatives to generate ready-to-run digital ad graphics, text headlines, and product banners in multiple display aspect ratios.",
+    "why_it_matters": "AdCreative.ai speeds up digital ad creative production, allowing performance marketing teams to generate hundreds of ad variations for Meta, Google, and TikTok A/B testing in seconds.",
+    "workplace_use_cases": [
+      "Generating hundreds of conversion-optimized ad visual variations for Meta and Google Ads",
+      "Producing matching social media graphics in 1080x1080, 1080x1920, and 1200x628 dimensions",
+      "Scoring ad creatives with AI conversion probability predictions before launching campaigns",
+      "Extracting top-performing competitor ad layouts and generating brand-matched variations"
+    ],
+    "who_uses_it": [
+      "Performance Marketers",
+      "Media Buyers",
+      "E-commerce Brands",
+      "Ad Agencies"
+    ],
+    "how_to_use": "Connect your ad accounts at adcreative.ai, upload brand logos and colors, enter target audience descriptions, and generate conversion-scored ad creatives.",
+    "key_features": [
+      "Conversion score probability engine trained on high-converting ad data",
+      "Multi-size ad generation (Feed, Story, Banner, Landscape) from one prompt",
+      "Direct integration with Meta Ads, Google Ads, and Zapier",
+      "Competitor Ad Insights tool for analyzing competitor campaign visual strategy"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "7-day free trial with 10 free credit downloads.",
+      "paid_plans": [
+        {
+          "name": "Startup",
+          "price": "$29/month ($21/mo annually)",
+          "notes": "10 download credits/month, 1 brand profile."
+        },
+        {
+          "name": "Professional",
+          "price": "$189/month ($141/mo annually)",
+          "notes": "100 download credits/month, 5 brand profiles, competitor insights."
+        },
+        {
+          "name": "Agency",
+          "price": "$299/month ($224/mo annually)",
+          "notes": "250 download credits/month, 50 brand profiles, sub-accounts."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.adcreative.ai",
+    "logo_source_note": "Official AdCreative.ai asset",
+    "related_tools": [
+      "jasper",
+      "copy_ai"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "semrush_one2tree",
+    "name": "Semrush Copilot AI",
+    "maker": "Semrush",
+    "tagline": "Enterprise SEO and digital marketing intelligence platform with AI content and keyword insights.",
+    "category": "marketing_seo",
+    "subcategory": "seo-platform",
+    "definition": "Semrush Copilot AI is the intelligent automation layer across the Semrush platform, providing personalized SEO recommendations, keyword gap analysis, and content ideas.",
+    "why_it_matters": "Semrush is the enterprise backbone of SEO, combining massive search databases with AI-driven competitor analysis.",
+    "workplace_use_cases": [
+      "Auditing domain technical SEO health and identifying high-volume keyword gaps",
+      "Generating automated SEO content briefs for content marketing teams",
+      "Tracking global search engine ranking positions across competitors"
+    ],
+    "who_uses_it": [
+      "SEO Directors",
+      "Content Strategists",
+      "Digital Agencies",
+      "Growth Marketers"
+    ],
+    "how_to_use": "Log in at semrush.com, view Semrush Copilot recommendations dashboard, and run site audits.",
+    "key_features": [
+      "Semrush Copilot personalized AI SEO alert engine",
+      "Database of 25 billion+ keywords across global search engines",
+      "AI Writing Assistant for real-time SEO score checking"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "7-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$139.95/month ($117/mo annually)",
+          "notes": "5 projects, 500 keywords to track."
+        },
+        {
+          "name": "Guru",
+          "price": "$249.95/month ($208/mo annually)",
+          "notes": "15 projects, 1,500 keywords, historical data."
+        },
+        {
+          "name": "Business",
+          "price": "$499.95/month ($416/mo annually)",
+          "notes": "40 projects, 5,000 keywords, API access."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.semrush.com",
+    "logo_source_note": "Official Semrush asset",
+    "related_tools": [
+      "surfer_seo",
+      "ahrefs"
+    ],
+    "launched": "2008",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "ahrefs_brand",
+    "name": "Ahrefs AI Tools",
+    "maker": "Ahrefs",
+    "tagline": "Industry-leading backlink and SEO research platform with AI content and keyword tools.",
+    "category": "marketing_seo",
+    "subcategory": "seo-platform",
+    "definition": "Ahrefs AI is a collection of free and premium AI tools built into Ahrefs for generating meta tags, content outlines, keyword ideas, and auditing backlink profiles.",
+    "why_it_matters": "Ahrefs possesses the web's largest backlink crawler index, providing unmatched data accuracy for link building and SEO research.",
+    "workplace_use_cases": [
+      "Analyzing competitor backlink strategies and domain authority metrics",
+      "Generating SEO meta titles and descriptions automatically",
+      "Conducting keyword difficulty and search volume research"
+    ],
+    "who_uses_it": [
+      "SEO Specialists",
+      "Digital Marketers",
+      "Link Builders",
+      "Content Leads"
+    ],
+    "how_to_use": "Visit ahrefs.com, enter a target domain or keyword, and utilize Site Explorer and AI writing tools.",
+    "key_features": [
+      "Industry-leading web crawler backlink database",
+      "AI Content Helper for SEO score optimization",
+      "Site Audit tool for technical SEO issue detection"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free Webmaster Tools for verified website owners.",
+      "paid_plans": [
+        {
+          "name": "Lite",
+          "price": "$129/month ($99/mo annually)",
+          "notes": "Essential data for small business SEO."
+        },
+        {
+          "name": "Standard",
+          "price": "$249/month ($199/mo annually)",
+          "notes": "Full research historical data and SERP updates."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://ahrefs.com",
+    "logo_source_note": "Official Ahrefs asset",
+    "related_tools": [
+      "semrush_one2tree",
+      "surfer_seo"
+    ],
+    "launched": "2010",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "anyword",
+    "name": "Anyword",
+    "maker": "Anyword Inc.",
+    "tagline": "Performance copywriting AI that scores and predicts ad and email conversion rates.",
+    "category": "marketing_seo",
+    "subcategory": "conversion-copywriting",
+    "definition": "Anyword is an AI copywriting platform designed for performance marketers. It analyzes target audience demographics to score copy variations based on predicted conversion performance.",
+    "why_it_matters": "Anyword stands out by assigning a predictive Performance Score to generated copy variations prior to launching ad campaigns.",
+    "workplace_use_cases": [
+      "Scoring ad copy variations before launching Meta and Google Ad campaigns",
+      "Generating high-converting email subject lines and CTA buttons",
+      "Personalizing web landing page copy by target audience demographic"
+    ],
+    "who_uses_it": [
+      "Performance Marketers",
+      "Copywriters",
+      "Growth Marketers",
+      "Ad Agencies"
+    ],
+    "how_to_use": "Sign in at anyword.com, input your target audience persona, select a channel, and generate scored copy.",
+    "key_features": [
+      "Predictive Performance Score evaluating conversion probability",
+      "Custom AI trained on your brand's historical ad performance data",
+      "Landing page copy optimization and A/B testing"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "7-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Starter",
+          "price": "$49/month ($39/mo annually)",
+          "notes": "1 user, predictive performance score, 100+ copy templates."
+        },
+        {
+          "name": "Data-Driven",
+          "price": "$99/month ($79/mo annually)",
+          "notes": "Connect ad accounts for custom performance model training."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://anyword.com",
+    "logo_source_note": "Official Anyword asset",
+    "related_tools": [
+      "adcreative_ai",
+      "jasper",
+      "copy_ai"
+    ],
+    "launched": "2013",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "brand24",
+    "name": "Brand24",
+    "maker": "Brand24",
+    "tagline": "AI social listening and brand reputation monitoring platform with automated sentiment analysis.",
+    "category": "marketing_seo",
+    "subcategory": "brand-monitoring",
+    "definition": "Brand24 is an AI brand monitoring tool that tracks brand mentions across social media, news, blogs, and podcasts in real time, analyzing brand sentiment.",
+    "why_it_matters": "Brand24 provides automated crisis detection and sentiment scoring across social media channels.",
+    "workplace_use_cases": [
+      "Monitoring real-time social media brand mentions and executive discussions",
+      "Detecting sudden negative sentiment spikes during PR crises",
+      "Tracking competitor share of voice across industry news outlets"
+    ],
+    "who_uses_it": [
+      "PR Directors",
+      "Brand Managers",
+      "Social Media Leads",
+      "Executives"
+    ],
+    "how_to_use": "Enter brand keywords at brand24.com, configure alert notifications, and view the AI sentiment dashboard.",
+    "key_features": [
+      "AI Sentiment Analysis categorizing positive, neutral, and negative mentions",
+      "Automated PR Crisis Alert notifications",
+      "Share of Voice and Reach metric tracking"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "14-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Individual",
+          "price": "$99/month ($79/mo annually)",
+          "notes": "3 keywords, 2k mentions/month."
+        },
+        {
+          "name": "Team",
+          "price": "$179/month ($149/mo annually)",
+          "notes": "7 keywords, 5k mentions/month, AI insights."
+        },
+        {
+          "name": "Pro",
+          "price": "$249/month ($199/mo annually)",
+          "notes": "12 keywords, 25k mentions/month, real-time alerts."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://brand24.com",
+    "logo_source_note": "Official Brand24 asset",
+    "related_tools": [
+      "semrush_one2tree"
+    ],
+    "launched": "2011",
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": "phrasee",
+    "name": "Phrasee",
+    "maker": "Phrasee",
+    "tagline": "Enterprise AI marketing platform optimizing brand messaging across email, push, and SMS.",
+    "category": "marketing_seo",
+    "subcategory": "enterprise-marketing",
+    "definition": "Phrasee is an enterprise marketing AI platform that generates and optimizes commercial message copy across email marketing, push notifications, and SMS campaigns.",
+    "why_it_matters": "Phrasee focuses on enterprise brand voice safety and automated multivariate copy testing.",
+    "workplace_use_cases": [
+      "Optimizing enterprise email newsletter subject lines for open rate uplift",
+      "Generating compliant SMS ad copy for retail promotions",
+      "Executing multivariate copy testing across millions of consumer push notifications"
+    ],
+    "who_uses_it": [
+      "Enterprise Marketers",
+      "CRM Directors",
+      "E-commerce Growth Leads"
+    ],
+    "how_to_use": "Integrate Phrasee with Salesforce Marketing Cloud or Braze, set brand guardrails, and run automated copy experiments.",
+    "key_features": [
+      "Enterprise Brand Language fine-tuned model guardrails",
+      "Automated multivariate copy optimization engine",
+      "Integrations with Salesforce Marketing Cloud, Braze, and Klaviyo"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Enterprise custom annual quotes.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Subscription",
+          "price": "Custom annual contract",
+          "notes": "Calculated per consumer messaging volume and platform integrations."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://phrasee.co",
+    "logo_source_note": "Official Phrasee asset",
+    "related_tools": [
+      "anyword",
+      "jasper"
+    ],
+    "launched": "2015",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "buzzsumo_ai",
+    "name": "BuzzSumo",
+    "maker": "Brand24 / BuzzSumo",
+    "tagline": "Content research and influencer discovery platform analyzing viral social media engagement.",
+    "category": "marketing_seo",
+    "subcategory": "content-research",
+    "definition": "BuzzSumo is a content research tool that analyzes social media shares and backlink trends to identify top-performing content ideas and key influencers.",
+    "why_it_matters": "BuzzSumo provides content strategists with data-backed insights on which article topics generate viral social media shares.",
+    "workplace_use_cases": [
+      "Researching viral content headlines and topic ideas across social media",
+      "Identifying key niche influencers for brand campaign outreach",
+      "Monitoring competitor content performance"
+    ],
+    "who_uses_it": [
+      "Content Strategists",
+      "PR Leads",
+      "Social Media Managers"
+    ],
+    "how_to_use": "Enter a keyword or domain at buzzsumo.com, view top shared content, and export reports.",
+    "key_features": [
+      "Content Analyzer indexing billions of social media posts",
+      "Influencer discovery and outreach database",
+      "Brand mention monitoring alerts"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "30-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Content Creation",
+          "price": "$199/month ($159/mo annually)",
+          "notes": "1 user, 80 searches/day, content research."
+        },
+        {
+          "name": "PR & Comms",
+          "price": "$299/month ($239/mo annually)",
+          "notes": "5 users, media database, real-time alerts."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://buzzsumo.com",
+    "logo_source_note": "Official BuzzSumo asset",
+    "related_tools": [
+      "semrush_one2tree",
+      "ahrefs_brand"
+    ],
+    "launched": "2014",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "marketmuse",
+    "name": "MarketMuse",
+    "maker": "MarketMuse, Inc.",
+    "tagline": "AI content strategy and SEO platform providing domain content auditing and topic modeling.",
+    "category": "marketing_seo",
+    "subcategory": "content-strategy",
+    "definition": "MarketMuse is an AI content intelligence platform that analyzes domain content authority to build data-driven SEO content plans and content briefs.",
+    "why_it_matters": "MarketMuse focuses on domain topic authority, telling content teams exactly where their site has content gaps compared to competitors.",
+    "workplace_use_cases": [
+      "Auditing website content authority and identifying high-value topic gaps",
+      "Generating detailed SEO content briefs for staff writers",
+      "Planning quarterly editorial content roadmaps"
+    ],
+    "who_uses_it": [
+      "SEO Directors",
+      "Content Strategists",
+      "Managing Editors"
+    ],
+    "how_to_use": "Enter domain URL at marketmuse.com, review topic authority scores, and build content briefs.",
+    "key_features": [
+      "First-party AI topic modeling engine",
+      "Content Inventory & Audit tool for domain authority mapping",
+      "Automated Content Brief generator"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes 10 queries/month and 1 user.",
+      "paid_plans": [
+        {
+          "name": "Standard",
+          "price": "$149/month",
+          "notes": "Includes 100 queries/month and full topic modeling."
+        },
+        {
+          "name": "Team",
+          "price": "$399/month",
+          "notes": "3 seats, un-capped queries, custom domain tracking."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.marketmuse.com",
+    "logo_source_note": "Official MarketMuse asset",
+    "related_tools": [
+      "surfer_seo",
+      "semrush_one2tree"
+    ],
+    "launched": "2015",
+    "platform": [
+      "Web"
+    ]
+  }
+]

@@ -1,0 +1,486 @@
+[
+  {
+    "id": "figma_ai",
+    "name": "Figma AI",
+    "maker": "Figma",
+    "tagline": "AI design assistant built into Figma for generating UI layouts, renaming layers, and auto-layout.",
+    "category": "design_ui_ux",
+    "subcategory": "ui-design",
+    "definition": "Figma AI is an integrated suite of generative features embedded directly in the Figma canvas. It allows UI/UX designers to generate initial UI component layouts from text prompts, automatically rename messy layers, replace text copy, and apply auto-layout constraints.",
+    "why_it_matters": "By integrating AI directly into the dominant professional UI design tool, Figma AI removes tedious wireframing and layer organization tasks from product designers' daily workflows.",
+    "workplace_use_cases": [
+      "Generating initial mobile application wireframes and UI components from text briefs",
+      "Automatically organizing and renaming messy canvas layers and frame hierarchies",
+      "Replacing placeholder text with contextually accurate UI microcopy",
+      "Removing backgrounds from user avatar photos directly on the design canvas"
+    ],
+    "who_uses_it": [
+      "UI/UX Designers",
+      "Product Designers",
+      "Design Systems Engineers",
+      "Product Managers"
+    ],
+    "how_to_use": "Open any Figma canvas, click the Figma AI action button in the toolbar, select 'Make a design', enter a prompt (e.g. 'Build a settings page for a iOS health app'), and iterate.",
+    "key_features": [
+      "Generates editable UI frames complete with design system components",
+      "Automated layer renaming and layer structure clean-up",
+      "Contextual visual search across design component libraries",
+      "Integrated visual background removal and image generation"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Included in standard Figma Free and Professional plans during beta.",
+      "paid_plans": [
+        {
+          "name": "Figma Professional",
+          "price": "$15/editor/month ($12/mo annually)",
+          "notes": "Includes full Figma AI feature access and team component libraries."
+        },
+        {
+          "name": "Figma Organization",
+          "price": "$45/editor/month",
+          "notes": "Enterprise design systems and AI workspace security policies."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.figma.com/ai",
+    "logo_source_note": "Official Figma asset",
+    "related_tools": [
+      "v0",
+      "framer_ai",
+      "relume"
+    ],
+    "launched": "2024",
+    "platform": [
+      "Desktop",
+      "Web"
+    ]
+  },
+  {
+    "id": "framer_ai",
+    "name": "Framer AI",
+    "maker": "Framer",
+    "tagline": "Generative website builder turning text prompts into published responsive web pages.",
+    "category": "design_ui_ux",
+    "subcategory": "web-design",
+    "definition": "Framer AI is a web design tool that converts text descriptions into fully responsive, published websites. It generates page layouts, custom color palettes, responsive CSS breakpoints, and interactive web animations on a canvas workspace.",
+    "why_it_matters": "Framer AI bridged the gap between raw UI design and web publishing, enabling design teams to build and publish interactive marketing sites without writing HTML or CSS.",
+    "workplace_use_cases": [
+      "Generating complete SaaS product landing pages from brief marketing descriptions",
+      "Iterating on site color palettes and typography pairings with one-click AI shuffle",
+      "Publishing responsive portfolio sites and campaign splash pages instantly",
+      "Creating web animations and page scroll effects without code"
+    ],
+    "who_uses_it": [
+      "Web Designers",
+      "Growth Marketers",
+      "Founders",
+      "Frontend Designers"
+    ],
+    "how_to_use": "Visit framer.com, click 'Start with AI', prompt your site concept (e.g. 'Build a landing page for a fintech app featuring dark mode and pricing card'), and publish.",
+    "key_features": [
+      "Text-to-website generation with fully responsive mobile/tablet breakpoints",
+      "One-click theme, font, and copy variation shuffling",
+      "Built-in CMS for blog posts and dynamic web content",
+      "Instant custom domain publishing and fast global CDN hosting"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes framer.website domain and basic site traffic.",
+      "paid_plans": [
+        {
+          "name": "Mini",
+          "price": "$10/month ($5/mo annually)",
+          "notes": "Custom domain, 1,000 visitors/month, basic landing page."
+        },
+        {
+          "name": "Basic",
+          "price": "$20/month ($15/mo annually)",
+          "notes": "10,000 visitors/month, password protection, custom code integration."
+        },
+        {
+          "name": "Pro",
+          "price": "$40/month ($30/mo annually)",
+          "notes": "200,000 visitors/month, full site analytics, staging environments."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.framer.com",
+    "logo_source_note": "Official Framer logo mark",
+    "related_tools": [
+      "figma_ai",
+      "relume",
+      "v0"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "Desktop"
+    ]
+  },
+  {
+    "id": "relume",
+    "name": "Relume AI",
+    "maker": "Relume",
+    "tagline": "AI site builder for generating sitemaps and wireframes exportable to Webflow and Figma.",
+    "category": "design_ui_ux",
+    "subcategory": "wireframing",
+    "definition": "Relume AI is a site planning and wireframing assistant. Given a prompt, it generates complete website sitemaps and wireframe page layouts, which can be exported directly into Figma component libraries or Webflow projects.",
+    "why_it_matters": "Relume streamlined web agency project scoping by automating sitemap architecture and low-fidelity wireframing before visual design begins.",
+    "workplace_use_cases": [
+      "Generating sitemap structures and page briefs for complex corporate websites",
+      "Creating low-fidelity wireframe layouts for client web design pitches",
+      "Exporting wireframe components straight into Webflow for rapid site building",
+      "Syncing wireframe structures with team Figma component design systems"
+    ],
+    "who_uses_it": [
+      "Web Agencies",
+      "UX Strategists",
+      "Information Architects",
+      "Webflow Developers"
+    ],
+    "how_to_use": "Go to relume.io, describe your company or website project, refine generated sitemap nodes, click 'Generate Wireframes', and export to Figma or Webflow.",
+    "key_features": [
+      "AI Sitemap and page structure builder",
+      "Component-based wireframe generator (thousands of pre-built UI sections)",
+      "Direct one-click export to Figma and Webflow",
+      "Collaborative web agency client presentation mode"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes 1 project with 1 sitemap and 1 wireframe.",
+      "paid_plans": [
+        {
+          "name": "Starter",
+          "price": "$38/month ($32/mo annually)",
+          "notes": "3 projects/month, full Figma and Webflow export."
+        },
+        {
+          "name": "Pro",
+          "price": "$60/month ($48/mo annually)",
+          "notes": "Unlimited AI sitemaps and wireframes, team library access."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.relume.io",
+    "logo_source_note": "Official Relume brand asset",
+    "related_tools": [
+      "figma_ai",
+      "framer_ai"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "uizard",
+    "name": "Uizard",
+    "maker": "Uizard Technologies",
+    "tagline": "AI-powered UI design and prototyping tool that converts hand-drawn sketches into editable wireframes.",
+    "category": "design_ui_ux",
+    "subcategory": "prototyping",
+    "definition": "Uizard is an AI design platform that converts text prompts, paper wireframe sketches, and web screenshots into editable, interactive digital prototypes.",
+    "why_it_matters": "Uizard democratized app wireframing, allowing non-designers to convert whiteboard sketches into functional UI prototypes in minutes.",
+    "workplace_use_cases": [
+      "Converting paper wireframe sketches into digital mobile prototypes",
+      "Generating full application UI wireframes from text prompts",
+      "Creating interactive click-through prototypes for stakeholder demos"
+    ],
+    "who_uses_it": [
+      "Product Managers",
+      "Founders",
+      "UX Researchers",
+      "Non-Designers"
+    ],
+    "how_to_use": "Sign in at uizard.io, upload a sketch or type a prompt, and edit generated UI wireframe screens.",
+    "key_features": [
+      "Sketch-to-screen AI wireframe conversion",
+      "Text-to-UI screen generator",
+      "Autodesign 2.0 theme and component styling"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes 2 projects and 10 free AI generations.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$19/month ($12/mo annually)",
+          "notes": "Unlimited projects, 500 AI generations/month."
+        },
+        {
+          "name": "Business",
+          "price": "$49/month ($39/mo annually)",
+          "notes": "Unlimited AI generations, custom design systems."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://uizard.io",
+    "logo_source_note": "Official Uizard asset",
+    "related_tools": [
+      "figma_ai",
+      "framer_ai"
+    ],
+    "launched": "2018",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "visily",
+    "name": "Visily",
+    "maker": "Visily",
+    "tagline": "AI wireframing and UI prototyping tool engineered for software teams and product managers.",
+    "category": "design_ui_ux",
+    "subcategory": "wireframing",
+    "definition": "Visily is an AI design tool that converts screenshots, templates, and text prompts into low and high-fidelity wireframes.",
+    "why_it_matters": "Visily focuses specifically on product managers and developers needing fast, accessible wireframes without Figma's complexity.",
+    "workplace_use_cases": [
+      "Converting app screenshots into editable wireframe components",
+      "Creating low-fidelity wireframes for user stories and PRDs",
+      "Collaborating on product user flow diagrams"
+    ],
+    "who_uses_it": [
+      "Product Managers",
+      "Software Engineers",
+      "UX Designers"
+    ],
+    "how_to_use": "Open visily.ai, select Screenshot-to-Design or Text-to-Design, and generate wireframes.",
+    "key_features": [
+      "Screenshot to editable UI wireframe converter",
+      "Text to wireframe layout generator",
+      "Rich library of pre-built UI components"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free access during public platform launch.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$14/user/month",
+          "notes": "Advanced AI credits, team design libraries, export to code."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.visily.ai",
+    "logo_source_note": "Official Visily asset",
+    "related_tools": [
+      "uizard",
+      "figma_ai"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "galileo_ai",
+    "name": "Galileo AI",
+    "maker": "Galileo AI",
+    "tagline": "Generative AI platform for creating editable UI designs from natural language prompts.",
+    "category": "design_ui_ux",
+    "subcategory": "generative-ui",
+    "definition": "Galileo AI is a generative UI tool that creates complex, multi-screen mobile and web interface designs from text prompts, exportable directly to Figma.",
+    "why_it_matters": "Galileo AI generates high-fidelity UI screens complete with realistic microcopy and iconography.",
+    "workplace_use_cases": [
+      "Generating full mobile application user flows from text briefs",
+      "Exporting generated UI screens into Figma component files",
+      "Exploring visual UI theme options"
+    ],
+    "who_uses_it": [
+      "UI/UX Designers",
+      "Product Designers",
+      "Founders"
+    ],
+    "how_to_use": "Visit usegalileo.ai, type a prompt (e.g. 'Build a food delivery checkout screen'), and export to Figma.",
+    "key_features": [
+      "Generates high-fidelity mobile and web UI screens",
+      "Direct export to editable Figma layers and auto-layouts",
+      "Contextually accurate microcopy generation"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free trial credits upon signup.",
+      "paid_plans": [
+        {
+          "name": "Standard",
+          "price": "$19/month ($16/mo annually)",
+          "notes": "1,200 credits/month, Figma export."
+        },
+        {
+          "name": "Pro",
+          "price": "$39/month ($32/mo annually)",
+          "notes": "3,000 credits/month, private generation mode."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.usegalileo.ai",
+    "logo_source_note": "Official Galileo AI asset",
+    "related_tools": [
+      "figma_ai",
+      "v0"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "spline_ai",
+    "name": "Spline AI",
+    "maker": "Spline",
+    "tagline": "3D design platform with generative AI for creating, animating, and embedding interactive 3D assets.",
+    "category": "design_ui_ux",
+    "subcategory": "3d-design",
+    "definition": "Spline AI is a 3D web design editor that uses generative prompts to create, texture, and animate 3D objects directly on a web canvas.",
+    "why_it_matters": "Spline AI democratized 3D web design, enabling UI designers to embed interactive 3D elements into websites without complex Blender workflows.",
+    "workplace_use_cases": [
+      "Generating 3D web assets and background objects from text prompts",
+      "Applying AI textures to 3D meshes on a web canvas",
+      "Embedding interactive 3D models into Framer or Webflow sites"
+    ],
+    "who_uses_it": [
+      "3D Web Designers",
+      "UI/UX Designers",
+      "Brand Designers"
+    ],
+    "how_to_use": "Open spline.design, click Spline AI, enter a prompt (e.g. 'Create a glowing sci-fi cube'), and embed.",
+    "key_features": [
+      "Text-to-3D object and texture generation",
+      "Real-time physics and interactivity controls",
+      "Direct export to WebGL, React, and HTML embed code"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes unlimited personal 3D files and basic AI credits.",
+      "paid_plans": [
+        {
+          "name": "Super",
+          "price": "$12/month ($9/mo annually)",
+          "notes": "Full AI features, export without watermark."
+        },
+        {
+          "name": "Team",
+          "price": "$20/user/month",
+          "notes": "Shared 3D asset libraries and team folders."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://spline.design",
+    "logo_source_note": "Official Spline asset",
+    "related_tools": [
+      "midjourney",
+      "framer_ai"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "macOS",
+      "Windows"
+    ]
+  },
+  {
+    "id": "khroma",
+    "name": "Khroma",
+    "maker": "Khroma",
+    "tagline": "AI color palette generator trained on professional human designer preferences.",
+    "category": "design_ui_ux",
+    "subcategory": "color-design",
+    "definition": "Khroma is an AI color tool for designers that learns your color preferences and generates endless, harmonious color palettes, typography pairs, and gradients.",
+    "why_it_matters": "Khroma uses neural networks trained on thousands of professional color combinations to personalize palette generation.",
+    "workplace_use_cases": [
+      "Selecting personalized brand color palettes for UI design systems",
+      "Testing accessible typography contrast combinations",
+      "Generating custom dual-color gradients"
+    ],
+    "who_uses_it": [
+      "Brand Designers",
+      "UI/UX Designers",
+      "Graphic Artists"
+    ],
+    "how_to_use": "Select 50 favorite colors at khroma.co to train the neural network, then browse generated palettes.",
+    "key_features": [
+      "Personalized neural network color matching engine",
+      "Displays color pairs on typography, cards, and gradients",
+      "WCAG accessibility contrast score checking"
+    ],
+    "pricing": {
+      "model": "free",
+      "has_free_tier": true,
+      "free_tier_details": "Free forever for all web users.",
+      "paid_plans": [],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.khroma.co",
+    "logo_source_note": "Official Khroma asset",
+    "related_tools": [
+      "figma_ai"
+    ],
+    "launched": "2018",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "diagram_genius",
+    "name": "Genius by Diagram",
+    "maker": "Diagram / Figma",
+    "tagline": "AI design companion embedded in Figma for automated component generation and layout iteration.",
+    "category": "design_ui_ux",
+    "subcategory": "figma-plugins",
+    "definition": "Genius (created by Diagram, acquired by Figma) is an AI design assistant plugin for Figma that suggests UI component iterations and autocompletes design frames.",
+    "why_it_matters": "Genius brought predictive UI design autocompletion directly inside professional Figma design files.",
+    "workplace_use_cases": [
+      "Autocompleting UI design frame layouts based on adjacent design system tokens",
+      "Generating custom UI icons and vector graphics in Figma",
+      "Writing UI microcopy"
+    ],
+    "who_uses_it": [
+      "Figma Designers",
+      "Design Systems Engineers",
+      "UI/UX Specialists"
+    ],
+    "how_to_use": "Install Diagram plugins in Figma, invoke Genius on a frame, and accept design suggestions.",
+    "key_features": [
+      "Predictive UI design autocompletion",
+      "Direct integration with Figma design tokens and component libraries",
+      "AI vector graphic generation"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier included with Figma account.",
+      "paid_plans": [
+        {
+          "name": "Diagram Pro",
+          "price": "$15/month",
+          "notes": "Full access to Magician, Genius, and Automator Figma plugins."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://diagram.com",
+    "logo_source_note": "Official Diagram asset",
+    "related_tools": [
+      "figma_ai"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Figma Plugin"
+    ]
+  }
+]

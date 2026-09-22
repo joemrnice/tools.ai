@@ -1,0 +1,466 @@
+[
+  {
+    "id": "paradox_ai",
+    "name": "Paradox AI (Olivia)",
+    "maker": "Paradox",
+    "tagline": "Conversational AI recruiting assistant automating candidate screening, scheduling, and onboarding.",
+    "category": "hr_recruiting",
+    "subcategory": "recruiting-automation",
+    "definition": "Paradox AI is an enterprise recruiting platform centered around Olivia, a conversational AI assistant. Olivia communicates with job applicants via SMS, WhatsApp, and web chat to answer job questions, screen resumes, and automatically schedule interviews onto recruiters' calendars.",
+    "why_it_matters": "Paradox eliminates interview scheduling friction for high-volume talent acquisition (retail, healthcare, hospitality), reducing time-to-hire from weeks to minutes.",
+    "workplace_use_cases": [
+      "Screening high-volume job applicant qualifications via automated mobile chat",
+      "Scheduling candidate interviews automatically across complex hiring manager calendars",
+      "Answering candidate questions about company benefits and job requirements 24/7",
+      "Automating new hire onboarding document requests and digital signature collection"
+    ],
+    "who_uses_it": [
+      "Talent Acquisition Leaders",
+      "HR Recruiters",
+      "Hiring Managers",
+      "People Ops"
+    ],
+    "how_to_use": "Integrate Paradox with your Enterprise Applicant Tracking System (Workday, Greenhouse, SAP SuccessFactors), configure screening questions, and enable Olivia on career sites.",
+    "key_features": [
+      "Conversational SMS/WhatsApp/Web chat candidate screening",
+      "Automated calendar interview scheduling and reminder alerts",
+      "Direct integration with major enterprise ATS platforms",
+      "Multilingual chat support across 30+ global languages"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Custom enterprise pricing based on hiring volume.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Plan",
+          "price": "Custom annual subscription",
+          "notes": "Custom pricing based on candidate volume, ATS integrations, and active seats."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.paradox.ai",
+    "logo_source_note": "Official Paradox AI asset",
+    "related_tools": [
+      "textio"
+    ],
+    "launched": "2016",
+    "platform": [
+      "Web",
+      "SMS",
+      "WhatsApp",
+      "ATS Integrations"
+    ]
+  },
+  {
+    "id": "textio",
+    "name": "Textio",
+    "maker": "Textio",
+    "tagline": "Augmented writing platform for creating unbiased job descriptions and inclusive performance reviews.",
+    "category": "hr_recruiting",
+    "subcategory": "inclusive-writing",
+    "definition": "Textio is an AI writing guidance engine built for HR and talent teams. It analyzes job descriptions and performance evaluations in real time, detecting age, gender, and racial bias while scoring document appeal to ensure inclusive, competitive recruiting copy.",
+    "why_it_matters": "Textio helps enterprise HR departments eliminate unconscious bias from talent acquisition and performance reviews, ensuring equitable workplace communications.",
+    "workplace_use_cases": [
+      "Auditing corporate job posts for subtle gender, age, or racial phrasing bias",
+      "Guiding managers during annual performance review writing to ensure actionable feedback",
+      "Optimizing job posting language to increase qualified candidate application rates",
+      "Standardizing inclusive company tone across distributed recruiting teams"
+    ],
+    "who_uses_it": [
+      "HR Directors",
+      "DEI Officers",
+      "Recruiters",
+      "People Operations Leads"
+    ],
+    "how_to_use": "Log in at textio.com or use the browser extension inside your ATS/HRIS, type or paste copy, and follow real-time bias score suggestions.",
+    "key_features": [
+      "Textio Score predicting candidate application response rates",
+      "Real-time bias detection (gender, age, ethnicity, ability)",
+      "Performance review guidance for constructive, unbiased manager feedback",
+      "Integrations with Workday, Greenhouse, LinkedIn Recruiter, and Gmail"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Enterprise demos available upon request.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Subscription",
+          "price": "Custom annual quote",
+          "notes": "Priced per organization size and HRIS platform integration scope."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://textio.com",
+    "logo_source_note": "Official Textio asset",
+    "related_tools": [
+      "paradox_ai"
+    ],
+    "launched": "2014",
+    "platform": [
+      "Web",
+      "Browser Extension",
+      "HRIS Extensions"
+    ]
+  },
+  {
+    "id": "hirevue",
+    "name": "HireVue",
+    "maker": "HireVue",
+    "tagline": "Enterprise talent experience platform featuring automated video interview analysis and skill assessments.",
+    "category": "hr_recruiting",
+    "subcategory": "video-interviewing",
+    "definition": "HireVue is an enterprise recruitment platform that provides automated video interviews, AI-driven skill assessments, and conversational interview scheduling.",
+    "why_it_matters": "HireVue pioneered digital video interview screening for Fortune 500 high-volume hiring pipelines.",
+    "workplace_use_cases": [
+      "Screening high-volume job applicant video responses automatically",
+      "Conducting standardized technical and behavioral skill assessments",
+      "Automating candidate interview scheduling"
+    ],
+    "who_uses_it": [
+      "Enterprise Recruiters",
+      "Talent Acquisition Directors",
+      "HR Leads"
+    ],
+    "how_to_use": "Integrate HireVue with your enterprise ATS (Workday, SAP), send video interview links to candidates, and review candidate scorecards.",
+    "key_features": [
+      "On-demand structured video interview recording",
+      "AI-backed technical and conversational skill assessments",
+      "ATS integrations with Workday, SuccessFactors, Greenhouse"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Custom enterprise quotes based on hiring volume.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Subscription",
+          "price": "Custom annual contract",
+          "notes": "Priced per candidate assessment volume and ATS integration scope."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.hirevue.com",
+    "logo_source_note": "Official HireVue asset",
+    "related_tools": [
+      "paradox_ai",
+      "textio"
+    ],
+    "launched": "2004",
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": "eightfold_ai",
+    "name": "Eightfold AI",
+    "maker": "Eightfold AI",
+    "tagline": "AI-powered talent intelligence platform for skills-based hiring, retention, and workforce planning.",
+    "category": "hr_recruiting",
+    "subcategory": "talent-intelligence",
+    "definition": "Eightfold AI is an enterprise talent intelligence platform that uses deep learning to match candidate skills with open roles, track internal mobility, and promote diversity.",
+    "why_it_matters": "Eightfold shifted recruiting from strict resume keyword matching toward holistic skills-based talent matching.",
+    "workplace_use_cases": [
+      "Matching candidate skill profiles against enterprise job openings",
+      "Identifying internal employees for career promotion and internal mobility",
+      "Auditing workforce skill gaps and planning future talent needs"
+    ],
+    "who_uses_it": [
+      "Chief Human Resources Officers (CHROs)",
+      "Talent Acquisition Directors",
+      "People Ops"
+    ],
+    "how_to_use": "Connect Eightfold to your enterprise HRIS and ATS systems to view talent intelligence graphs.",
+    "key_features": [
+      "Deep learning skill matching engine trained on global career data",
+      "Diversity and equal opportunity hiring guardrails",
+      "Internal mobility and career path planning portal"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Enterprise annual quotes.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Talent Platform",
+          "price": "Custom annual contract",
+          "notes": "Calculated based on organization headcount and ATS integration."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://eightfold.ai",
+    "logo_source_note": "Official Eightfold asset",
+    "related_tools": [
+      "paradox_ai",
+      "hirevue"
+    ],
+    "launched": "2016",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "seeker_ai",
+    "name": "Fetcher",
+    "maker": "Fetcher",
+    "tagline": "Automated candidate sourcing platform combining AI recruiting search with human recruiter review.",
+    "category": "hr_recruiting",
+    "subcategory": "candidate-sourcing",
+    "definition": "Fetcher is an AI-powered talent sourcing platform that searches candidate databases to deliver qualified, diverse candidate pools directly to recruiters.",
+    "why_it_matters": "Fetcher automates tedious candidate sourcing, delivering curated prospect lists directly to recruiter inboxes daily.",
+    "workplace_use_cases": [
+      "Automating outbound LinkedIn candidate sourcing for niche engineering roles",
+      "Sending automated email outreach sequences to passive job candidates",
+      "Tracking candidate email open and response metrics"
+    ],
+    "who_uses_it": [
+      "Technical Recruiters",
+      "Talent Acquisition Leads",
+      "Founders"
+    ],
+    "how_to_use": "Input a job description at fetcher.ai, configure target candidate criteria, and receive daily vetted candidate profiles.",
+    "key_features": [
+      "AI candidate sourcing paired with human quality review",
+      "Automated email outreach sequences and follow-up cadences",
+      "Diversity sourcing filters"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "14-day free demo available.",
+      "paid_plans": [
+        {
+          "name": "Starter",
+          "price": "$149/month",
+          "notes": "1 active job search, automated email sequences."
+        },
+        {
+          "name": "Professional",
+          "price": "$599/month",
+          "notes": "5 active job searches, dedicated sourcing team support."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.fetcher.ai",
+    "logo_source_note": "Official Fetcher asset",
+    "related_tools": [
+      "textio",
+      "paradox_ai"
+    ],
+    "launched": "2017",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "metaview",
+    "name": "Metaview",
+    "maker": "Metaview",
+    "tagline": "AI conversation intelligence tool that writes structured interview notes for hiring teams.",
+    "category": "hr_recruiting",
+    "subcategory": "interview-notes",
+    "definition": "Metaview is an AI meeting assistant built specifically for recruiting. It transcribes candidate interviews and generates structured interview notes aligned with company scorecards.",
+    "why_it_matters": "Metaview eliminates manual recruiter note-taking during candidate calls, allowing interviewers to focus entirely on conversation.",
+    "workplace_use_cases": [
+      "Generating structured candidate interview summaries for ATS scorecards",
+      "Ensuring consistent, unbiased interviewer evaluation criteria",
+      "Coaching hiring managers on interview best practices"
+    ],
+    "who_uses_it": [
+      "Recruiters",
+      "Hiring Managers",
+      "Talent Acquisition Leads"
+    ],
+    "how_to_use": "Connect Metaview to your calendar and web conferencing, conduct candidate calls, and view generated interview notes.",
+    "key_features": [
+      "Auto-generates structured candidate notes aligned with ATS scorecards",
+      "Integrates with Greenhouse, Lever, Ashby, Zoom, and Teams",
+      "Interview coaching analytics for hiring managers"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes 5 interview recordings/month.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$48/user/month ($39/mo annually)",
+          "notes": "Unlimited interview recordings, ATS integrations."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.metaview.ai",
+    "logo_source_note": "Official Metaview asset",
+    "related_tools": [
+      "otter_ai",
+      "paradox_ai"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web",
+      "Chrome Extension"
+    ]
+  },
+  {
+    "id": "seekout",
+    "name": "SeekOut",
+    "maker": "SeekOut",
+    "tagline": "Enterprise talent discovery and analytics platform for sourcing hard-to-find technical and diverse talent.",
+    "category": "hr_recruiting",
+    "subcategory": "talent-discovery",
+    "definition": "SeekOut is an enterprise talent sourcing platform that indexes public GitHub code repositories, academic papers, and patent databases to uncover specialized technical candidate profiles.",
+    "why_it_matters": "SeekOut provides technical recruiters with deep visibility into developer GitHub repositories and diversity talent pools.",
+    "workplace_use_cases": [
+      "Sourcing niche software engineering talent based on GitHub code contributions",
+      "Discovering diverse candidate profiles across technical industries",
+      "Analyzing competitive talent movement trends"
+    ],
+    "who_uses_it": [
+      "Technical Recruiters",
+      "Talent Acquisition Executives",
+      "Diversity Leads"
+    ],
+    "how_to_use": "Search candidate criteria at seekout.com, view GitHub/patent portfolio analytics, and initiate candidate outreach.",
+    "key_features": [
+      "GitHub code repository and academic paper candidate indexing",
+      "SeekOut AI Assistant for natural language talent searching",
+      "Diversity sourcing and talent analytics dashboards"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Custom enterprise annual quotes.",
+      "paid_plans": [
+        {
+          "name": "Enterprise License",
+          "price": "Custom annual contract",
+          "notes": "Priced per recruiter seat count and database access scope."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.seekout.com",
+    "logo_source_note": "Official SeekOut asset",
+    "related_tools": [
+      "fetcher",
+      "eightfold_ai"
+    ],
+    "launched": "2017",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "beamery",
+    "name": "Beamery",
+    "maker": "Beamery",
+    "tagline": "Enterprise talent lifecycle management platform for talent marketing, CRM, and skills planning.",
+    "category": "hr_recruiting",
+    "subcategory": "talent-crm",
+    "definition": "Beamery is an enterprise talent CRM and lifecycle management platform that uses AI skills intelligence to manage candidate relationships, internal mobility, and talent pipelines.",
+    "why_it_matters": "Beamery combines CRM candidate relationship marketing with AI skills workforce analytics.",
+    "workplace_use_cases": [
+      "Managing long-term candidate talent pipelines for enterprise roles",
+      "Executing personalized email nurturing campaigns for past job applicants",
+      "Mapping workforce skills transformation and internal career paths"
+    ],
+    "who_uses_it": [
+      "Enterprise Talent Directors",
+      "Recruiting Operations",
+      "CHROs"
+    ],
+    "how_to_use": "Connect Beamery with your enterprise ATS and HRIS, and set up automated talent pipeline nurture workflows.",
+    "key_features": [
+      "Enterprise Talent CRM with automated candidate relationship tracking",
+      "AI Skills Architecture for internal mobility mapping",
+      "SOC 2 Type II enterprise security"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Enterprise annual quotes.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Talent CRM",
+          "price": "Custom annual contract",
+          "notes": "Calculated based on enterprise talent database size and recruiter seat count."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://beamery.com",
+    "logo_source_note": "Official Beamery asset",
+    "related_tools": [
+      "eightfold_ai",
+      "paradox_ai"
+    ],
+    "launched": "2014",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "charthop_ai",
+    "name": "ChartHop",
+    "maker": "ChartHop",
+    "tagline": "People analytics platform providing AI organization charts, headcount planning, and compensation analysis.",
+    "category": "hr_recruiting",
+    "subcategory": "people-analytics",
+    "definition": "ChartHop is an AI people analytics platform that consolidates HRIS data into interactive organization charts, headcount planning forecasts, and compensation benchmarks.",
+    "why_it_matters": "ChartHop unifies HRIS data silos to give executives clear visibility into organization structure and headcount spend.",
+    "workplace_use_cases": [
+      "Visualizing interactive company org charts and reporting lines",
+      "Modeling future headcount budgets and compensation equity scenarios",
+      "Analyzing employee turnover and performance metrics"
+    ],
+    "who_uses_it": [
+      "HR Directors",
+      "People Ops",
+      "CFOs",
+      "Executives"
+    ],
+    "how_to_use": "Connect ChartHop to your HRIS (BambooHR, Gusto, Workday) and view people analytics dashboards.",
+    "key_features": [
+      "Interactive visual organization chart with custom field filters",
+      "Headcount scenario planning and compensation modeling",
+      "HRIS data integrations with major payroll tools"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "14-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Standard",
+          "price": "$8/user/month",
+          "notes": "Includes org charts, basic people analytics, HRIS sync."
+        },
+        {
+          "name": "Premium",
+          "price": "$12/user/month",
+          "notes": "Advanced headcount planning, compensation reviews."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.charthop.com",
+    "logo_source_note": "Official ChartHop asset",
+    "related_tools": [
+      "textio",
+      "paradox_ai"
+    ],
+    "launched": "2019",
+    "platform": [
+      "Web"
+    ]
+  }
+]

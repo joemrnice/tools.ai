@@ -1,0 +1,520 @@
+[
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "maker": "Anysphere",
+    "tagline": "AI-native code editor designed for rapid repository-wide editing and code generation.",
+    "category": "coding_assistants",
+    "subcategory": "ai-ide",
+    "definition": "Cursor is a popular AI-native fork of Visual Studio Code engineered specifically for deep LLM integration. It indexes your entire local codebase to enable intelligent multi-file code editing, automated bug fixing, and context-aware natural language terminal execution.",
+    "why_it_matters": "Cursor pioneered the 'AI-first IDE' movement by proving that deep repository indexing and multi-file refactoring ('Composer') vastly outperform traditional single-file code completion extensions, setting a new benchmark for software engineering productivity.",
+    "workplace_use_cases": [
+      "Generating multi-file feature implementations across frontend and backend codebases",
+      "Tracing complex code flow, bugs, and error stack traces directly in the editor",
+      "Refactoring legacy functions to modern TypeScript/Rust syntax with full codebase context",
+      "Asking natural language questions about architectural dependencies and API endpoints"
+    ],
+    "who_uses_it": [
+      "Software Engineers",
+      "Full-Stack Developers",
+      "DevOps Engineers",
+      "Technical Architects"
+    ],
+    "how_to_use": "Download Cursor, import your existing VS Code settings and extensions in one click, and press Cmd+K for inline edits or Cmd+I to invoke the multi-file Composer agent.",
+    "key_features": [
+      "Repository-wide semantic codebase indexing",
+      "Composer mode for multi-file code generation and editing",
+      "Inline Cmd+K prompt edits and diff view preview",
+      "One-click VS Code settings and extension import"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "14-day Pro trial, plus 2000 free completions and 50 slow premium requests/month.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$20/month",
+          "notes": "500 fast premium requests/month, unlimited slow requests, and unlimited completions."
+        },
+        {
+          "name": "Business",
+          "price": "$40/user/month",
+          "notes": "Centralized team billing, admin dashboard, enforcement of zero data retention mode."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://cursor.com",
+    "logo_source_note": "Official Cursor brand mark",
+    "related_tools": [
+      "copilot",
+      "windsurf",
+      "bolt_new"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Desktop",
+      "macOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  {
+    "id": "copilot",
+    "name": "GitHub Copilot",
+    "maker": "GitHub / Microsoft",
+    "tagline": "The world's most widely adopted AI pair programmer, integrated directly into major IDEs.",
+    "category": "coding_assistants",
+    "subcategory": "code-completion",
+    "definition": "GitHub Copilot is an AI code completion tool trained on billions of lines of public code. It functions as an extension inside popular IDEs like VS Code, JetBrains, and Neovim, providing real-time ghost text code completions, chat assistance, and automated pull request summaries.",
+    "why_it_matters": "As the first mainstream commercial AI coding assistant backed by GitHub and Microsoft, Copilot established the standard for enterprise developer AI tools, boasting millions of active developers and deep integrations with GitHub CI/CD pipelines.",
+    "workplace_use_cases": [
+      "Autocompleting repetitive boilerplate code, unit tests, and routine API calls",
+      "Explaining unfamiliar legacy code syntax or regex formulas inline",
+      "Generating automated pull request descriptions and code reviews on GitHub",
+      "Translating pseudocode comments into functional code implementation"
+    ],
+    "who_uses_it": [
+      "Software Engineers",
+      "Data Engineers",
+      "DevOps Engineers",
+      "Computer Science Students"
+    ],
+    "how_to_use": "Install the GitHub Copilot extension in Visual Studio Code, JetBrains IDEs, or Neovim, log in with your GitHub account, and start typing code to receive ghost-text suggestions.",
+    "key_features": [
+      "Real-time ghost text code autocomplete across dozens of programming languages",
+      "Copilot Chat in the IDE sidebar for interactive debugging",
+      "GitHub Workspace agent for converting GitHub issues into code PRs",
+      "Enterprise security and intellectual property indemnification"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": true,
+      "free_tier_details": "Free for verified students, teachers, and prominent open-source maintainers. Free basic tier with usage limits available.",
+      "paid_plans": [
+        {
+          "name": "Individual",
+          "price": "$10/month or $100/year",
+          "notes": "Unlimited code completions and IDE chat assistance."
+        },
+        {
+          "name": "Business",
+          "price": "$19/user/month",
+          "notes": "Organization management, policy controls, and zero training on private code."
+        },
+        {
+          "name": "Enterprise",
+          "price": "$39/user/month",
+          "notes": "Custom model fine-tuning on company code, PR summaries, and knowledge bases."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://github.com/features/copilot",
+    "logo_source_note": "Official GitHub Copilot brand asset",
+    "related_tools": [
+      "cursor",
+      "windsurf",
+      "claude"
+    ],
+    "launched": "2021",
+    "platform": [
+      "VS Code Plugin",
+      "JetBrains Plugin",
+      "Neovim Plugin",
+      "Xcode",
+      "CLI"
+    ]
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "maker": "Codeium",
+    "tagline": "Agentic AI IDE featuring collaborative human-AI flows and deep context awareness.",
+    "category": "coding_assistants",
+    "subcategory": "ai-ide",
+    "definition": "Windsurf is an AI-first IDE developed by Codeium that combines real-time inline copilot completions with an autonomous agentic framework called 'Cascade'. It allows developers to collaborate seamlessly with AI agents that can run terminal commands, inspect files, and apply multi-file edits.",
+    "why_it_matters": "Windsurf introduced the concept of 'Flows'\u2014a hybrid model where the AI acts as both an instant autocomplete engine and an autonomous agent capable of executing shell commands and multi-file code modifications under human supervision.",
+    "workplace_use_cases": [
+      "Orchestrating end-to-end bug fixes where the AI reads terminal logs and edits code",
+      "Building full-stack web applications from architectural diagrams or design prompts",
+      "Navigating unfamiliar codebases with deep indexing and semantic search",
+      "Executing automated build and test suites directly from the agent chat"
+    ],
+    "who_uses_it": [
+      "Software Engineers",
+      "Full-Stack Developers",
+      "DevOps Engineers",
+      "Technical Leads"
+    ],
+    "how_to_use": "Download the Windsurf editor, open your project directory, and use the Cascade chat window to prompt the agent to analyze logs, edit files, or execute terminal commands.",
+    "key_features": [
+      "Cascade Agentic Flow for multi-file edits and terminal command execution",
+      "Supercomplete inline prediction engine",
+      "Deep local repository indexing and context retrieval",
+      "Seamless migration from VS Code settings"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes unlimited basic completions and access to Cascade agent limits.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$10-$15/month",
+          "notes": "Higher fast agent request limits and access to frontier reasoning models."
+        },
+        {
+          "name": "Teams / Enterprise",
+          "price": "$30+/user/month",
+          "notes": "Admin panel, zero data retention guarantee, and self-hosted deployments."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://codeium.com/windsurf",
+    "logo_source_note": "Official Codeium Windsurf asset",
+    "related_tools": [
+      "cursor",
+      "copilot",
+      "bolt_new"
+    ],
+    "launched": "2024",
+    "platform": [
+      "Desktop",
+      "macOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  {
+    "id": "v0",
+    "name": "v0 by Vercel",
+    "maker": "Vercel",
+    "tagline": "Generative UI platform for turning natural language prompts into production-ready React component code.",
+    "category": "coding_assistants",
+    "subcategory": "generative-ui",
+    "definition": "v0 is a generative UI development tool created by Vercel. It uses AI to convert text prompts or wireframe image uploads into clean, customizable React code styled with Tailwind CSS and Shadcn UI components.",
+    "why_it_matters": "v0 bridges the gap between UI design and frontend implementation, enabling developers and designers to instantly prototype and deploy production-grade Web UI components without manually coding boilerplate markup.",
+    "workplace_use_cases": [
+      "Rapidly prototyping dashboard layouts, landing pages, and interactive web forms",
+      "Converting Figma UI screenshots or sketch images directly into React component code",
+      "Iterating on UI design themes and responsiveness with natural language instructions",
+      "Exporting generated components straight into Next.js or React repositories"
+    ],
+    "who_uses_it": [
+      "Frontend Engineers",
+      "UI/UX Designers",
+      "Full-Stack Developers",
+      "Product Managers"
+    ],
+    "how_to_use": "Go to v0.dev, enter a prompt like 'Build a modern analytics dashboard with dark theme', iterate on rendered previews, and copy the code or deploy directly via Vercel CLI.",
+    "key_features": [
+      "Generates modern React code using Tailwind CSS and Radix UI / Shadcn UI",
+      "Image-to-code prompt input (upload wireframes or screenshots)",
+      "Interactive live preview sandbox with code side-by-side view",
+      "One-click integration with Vercel deployment pipelines"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free credits renewed monthly for basic UI generations.",
+      "paid_plans": [
+        {
+          "name": "Premium",
+          "price": "$20/month",
+          "notes": "5,000 generation credits/month, private projects, and higher quality model limits."
+        },
+        {
+          "name": "Team",
+          "price": "$30/user/month",
+          "notes": "Shared team workspaces, custom component design system integration, and admin controls."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://v0.dev",
+    "logo_source_note": "Official Vercel logo mark",
+    "related_tools": [
+      "bolt_new",
+      "cursor"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "bolt_new",
+    "name": "Bolt.new",
+    "maker": "StackBlitz",
+    "tagline": "In-browser AI web application builder that scaffolds, runs, and deploys full-stack apps.",
+    "category": "coding_assistants",
+    "subcategory": "fullstack-generator",
+    "definition": "Bolt.new is an in-browser AI development platform powered by StackBlitz WebContainers. It enables users to prompt, execute, debug, and deploy full-stack Node.js and web applications entirely inside the browser without local environment setup.",
+    "why_it_matters": "By executing full Node.js runtime environments inside the browser via WebContainers, Bolt.new allows AI agents to install npm packages, run build tools, fix runtime errors, and deploy web applications in real-time.",
+    "workplace_use_cases": [
+      "Building complete MVP web apps with frontend, backend, and database integration from a single prompt",
+      "Debugging runtime web application errors live in an isolated browser sandbox",
+      "Prototyping full-stack SaaS applications for investor demos or stakeholder reviews",
+      "Deploying instant live preview builds to Netlify or Supabase"
+    ],
+    "who_uses_it": [
+      "Full-Stack Developers",
+      "Entrepreneurs",
+      "Product Managers",
+      "Software Engineers"
+    ],
+    "how_to_use": "Visit bolt.new, enter your app prompt (e.g. 'Build a Kanban project management app with Supabase auth'), watch the agent write code and run Node.js in the browser, and click Deploy.",
+    "key_features": [
+      "Full Node.js runtime environment execution inside browser (WebContainers)",
+      "Automated npm package installation and shell command execution",
+      "Real-time live app preview alongside generated source code",
+      "Direct deployment to production hosting services"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Daily free token allowance for building and testing small projects.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$20/month",
+          "notes": "10 million tokens/month, private projects, and higher concurrency."
+        },
+        {
+          "name": "Teams",
+          "price": "$50/month",
+          "notes": "Shared team workspaces and increased daily token limits."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://bolt.new",
+    "logo_source_note": "Official StackBlitz Bolt logo asset",
+    "related_tools": [
+      "cursor",
+      "v0",
+      "windsurf"
+    ],
+    "launched": "2024",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "replit_agent",
+    "name": "Replit Agent",
+    "maker": "Replit",
+    "tagline": "Autonomous AI software development agent capable of building and hosting web apps from scratch.",
+    "category": "coding_assistants",
+    "subcategory": "autonomous-agent",
+    "definition": "Replit Agent is an autonomous AI developer built into Replit's cloud development environment. It plans, writes code, manages project files, installs dependencies, sets up databases, and deploys full-stack software applications from natural language specifications.",
+    "why_it_matters": "Replit Agent represents a leap forward in end-to-end software synthesis, executing complete product buildouts including backend DB migrations and deployment entirely on Replit infrastructure.",
+    "workplace_use_cases": [
+      "Building custom internal tools and database web apps from scratch",
+      "Prototyping hackathon MVPs and SaaS product ideas in under an hour",
+      "Setting up PostgreSQL database schemas and API authentication routes automatically",
+      "Refactoring full-stack repositories with conversational prompts"
+    ],
+    "who_uses_it": [
+      "Founders",
+      "Product Managers",
+      "Software Engineers",
+      "Students"
+    ],
+    "how_to_use": "Open Replit, click 'Agent', describe the application you want to build, and review step-by-step progress as it builds and deploys.",
+    "key_features": [
+      "Autonomous file creation, dependency installation, and server setup",
+      "Automated database schema provisioning (PostgreSQL)",
+      "Instant deployment to Replit cloud hosting with custom domain support",
+      "Interactive conversational debugging interface"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Requires Replit Core membership to access Agent capabilities.",
+      "paid_plans": [
+        {
+          "name": "Replit Core",
+          "price": "$20/month ($120/year)",
+          "notes": "Includes Replit Agent access, private Repls, fast cloud resources."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://replit.com",
+    "logo_source_note": "Official Replit logo mark",
+    "related_tools": [
+      "bolt_new",
+      "cursor"
+    ],
+    "launched": "2024",
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": "amazon_q_developer",
+    "name": "Amazon Q Developer",
+    "maker": "Amazon Web Services",
+    "tagline": "AI coding and cloud architecture assistant tailored for AWS deployments and enterprise software.",
+    "category": "coding_assistants",
+    "subcategory": "cloud-coding",
+    "definition": "Amazon Q Developer (formerly AWS CodeWhisperer) is an AI developer assistant created by AWS. It provides inline code completion, automated code transformation (e.g. Java version upgrades), security vulnerability scanning, and AWS cloud architecture guidance.",
+    "why_it_matters": "Amazon Q Developer is uniquely optimized for enterprise software engineering teams running on AWS, offering automated security scans and legacy code transformation pipelines.",
+    "workplace_use_cases": [
+      "Upgrading legacy Java applications to modern Java versions automatically",
+      "Scanning codebases for security vulnerabilities and hardcoded AWS credentials",
+      "Generating infrastructure-as-code (Terraform, AWS CDK) templates",
+      "Receiving real-time AWS architectural recommendations inside the IDE"
+    ],
+    "who_uses_it": [
+      "Cloud Architects",
+      "DevOps Engineers",
+      "Backend Developers",
+      "Enterprise Software Engineers"
+    ],
+    "how_to_use": "Install the Amazon Q extension in VS Code or JetBrains, authenticate with AWS Builder ID, and start coding.",
+    "key_features": [
+      "Inline code completion across 15+ programming languages",
+      "Automated Java code transformation and dependency upgrading",
+      "Security vulnerability scanning with suggested remediation code",
+      "AWS architectural guidance and command-line (CLI) integration"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free Individual Tier with code completions and security scans.",
+      "paid_plans": [
+        {
+          "name": "Pro Tier",
+          "price": "$19/user/month",
+          "notes": "Includes code transformation agents, administrative management, custom IP controls."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://aws.amazon.com/q/developer/",
+    "logo_source_note": "Official AWS Amazon Q asset",
+    "related_tools": [
+      "copilot",
+      "cody_sourcegraph"
+    ],
+    "launched": "2023",
+    "platform": [
+      "VS Code Plugin",
+      "JetBrains Plugin",
+      "CLI",
+      "AWS Console"
+    ]
+  },
+  {
+    "id": "cody_sourcegraph",
+    "name": "Cody by Sourcegraph",
+    "maker": "Sourcegraph",
+    "tagline": "Code intelligence AI assistant leveraging Sourcegraph's code graph for deep codebase context.",
+    "category": "coding_assistants",
+    "subcategory": "enterprise-code-search",
+    "definition": "Cody is an AI coding assistant built on Sourcegraph's code intelligence engine. It retrieves context across vast multi-repository enterprise codebases to answer technical questions, explain legacy systems, and generate context-aware code.",
+    "why_it_matters": "Cody stands out in large enterprise engineering organizations by searching across thousands of repositories simultaneously to provide accurate context that single-repository tools miss.",
+    "workplace_use_cases": [
+      "Searching across hundreds of enterprise repositories to find existing API implementations",
+      "Explaining undocumented legacy microservices architecture to newly onboarded engineers",
+      "Generating automated unit tests aligned with company coding standards",
+      "Refactoring multi-repository code dependencies safely"
+    ],
+    "who_uses_it": [
+      "Enterprise Developers",
+      "Software Architects",
+      "Engineering Managers"
+    ],
+    "how_to_use": "Install the Cody extension in VS Code or JetBrains, connect your Sourcegraph instance, and query Cody Chat.",
+    "key_features": [
+      "Multi-repository code graph context retrieval",
+      "Supports top LLMs (Claude 3.5 Sonnet, GPT-4o, Mixtral)",
+      "Automated unit test generation and inline documentation",
+      "Enterprise data privacy and zero retention guarantees"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes 500 autocomplete suggestions and 20 chat commands/month.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$9/month",
+          "notes": "Unlimited autocompletes, unlimited chat, model selection."
+        },
+        {
+          "name": "Enterprise",
+          "price": "$19/user/month",
+          "notes": "Multi-repo code graph indexing, SSO, enterprise security."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://sourcegraph.com/cody",
+    "logo_source_note": "Official Sourcegraph Cody asset",
+    "related_tools": [
+      "cursor",
+      "copilot"
+    ],
+    "launched": "2023",
+    "platform": [
+      "VS Code Plugin",
+      "JetBrains Plugin",
+      "Web"
+    ]
+  },
+  {
+    "id": "continue_dev",
+    "name": "Continue",
+    "maker": "Continue Dev, Inc.",
+    "tagline": "Open-source AI code assistant allowing developers to connect custom LLMs and local models inside IDEs.",
+    "category": "coding_assistants",
+    "subcategory": "open-source-copilot",
+    "definition": "Continue is an open-source AI coding extension for VS Code and JetBrains. It allows developers to connect any commercial or local open-weights model (Ollama, vLLM, LM Studio, Claude, OpenAI) to create a custom AI copilot environment.",
+    "why_it_matters": "Continue is the leading open-source alternative to GitHub Copilot, giving privacy-conscious developers and enterprise teams total control over model routing and data privacy.",
+    "workplace_use_cases": [
+      "Connecting local LLMs (Llama 3, DeepSeek-Coder) via Ollama for 100% offline code completion",
+      "Routing complex refactoring tasks to Claude 3.5 Sonnet while using fast local models for autocomplete",
+      "Building custom prompt shortcuts for team-specific documentation and code style guides",
+      "Running fully air-gapped coding environments for sensitive government or financial projects"
+    ],
+    "who_uses_it": [
+      "Software Engineers",
+      "Privacy Engineers",
+      "DevOps Specialists",
+      "Open Source Contributors"
+    ],
+    "how_to_use": "Install the Continue extension in VS Code, configure your config.json with your preferred local or API model keys, and press Cmd+I or Cmd+L.",
+    "key_features": [
+      "Open-source modular architecture (MIT License)",
+      "Supports local model runtimes (Ollama, LM Studio, vLLM)",
+      "Flexible model routing (use different models for autocomplete, chat, and editing)",
+      "Full codebase indexing via local embeddings"
+    ],
+    "pricing": {
+      "model": "free",
+      "has_free_tier": true,
+      "free_tier_details": "100% free and open-source extension. You only pay for self-hosted compute or third-party API keys.",
+      "paid_plans": [],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.continue.dev",
+    "logo_source_note": "Official Continue open-source logo",
+    "related_tools": [
+      "cursor",
+      "copilot"
+    ],
+    "launched": "2023",
+    "platform": [
+      "VS Code Plugin",
+      "JetBrains Plugin"
+    ]
+  }
+]

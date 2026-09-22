@@ -1,0 +1,486 @@
+[
+  {
+    "id": "gong_io",
+    "name": "Gong",
+    "maker": "Gong.io",
+    "tagline": "Revenue intelligence platform analyzing customer interactions to guide sales deal pipeline strategy.",
+    "category": "sales_crm",
+    "subcategory": "revenue-intelligence",
+    "definition": "Gong is a revenue intelligence and sales conversation analysis platform. It records, transcribes, and analyzes customer calls, emails, and CRM interactions to give revenue leaders visibility into deal risks, pipeline health, and rep coaching opportunities.",
+    "why_it_matters": "Gong created the conversation intelligence category for B2B revenue teams. By analyzing unstructured sales conversations, Gong equips sales leaders with objective data on which deals are likely to close and why.",
+    "workplace_use_cases": [
+      "Analyzing sales rep calls to identify winning objection-handling patterns and talk ratios",
+      "Detecting deal risk indicators (e.g. key decision makers absent, pricing hesitations)",
+      "Generating automated sales call summaries and syncs into CRM deal pipelines",
+      "Coaching new account executives with recorded best-practice call snippets"
+    ],
+    "who_uses_it": [
+      "Chief Revenue Officers",
+      "VP of Sales",
+      "Account Executives",
+      "Sales Enablement"
+    ],
+    "how_to_use": "Connect Gong to your Google/Outlook calendar, Zoom/Teams web conferencing, and CRM, then view deal execution intelligence dashboards and call transcripts.",
+    "key_features": [
+      "Gong AI Smart Trackers for detecting competitor mentions and budget discussions",
+      "Deal Intelligence dashboard highlighting pipeline risks and engagement drop-offs",
+      "Automated CRM logging across Salesforce and HubSpot",
+      "Call coaching scorecard metrics and rep talk-time analytics"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Custom enterprise quotes based on platform fee + seat count.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Subscription",
+          "price": "Custom (~$1,200-$1,600/user/year)",
+          "notes": "Base platform license fee plus per-rep annual user subscription fee."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.gong.io",
+    "logo_source_note": "Official Gong logo asset",
+    "related_tools": [
+      "clay_run",
+      "salesforce_einstein"
+    ],
+    "launched": "2015",
+    "platform": [
+      "Web",
+      "Mobile"
+    ]
+  },
+  {
+    "id": "clay_run",
+    "name": "Clay",
+    "maker": "Clay",
+    "tagline": "AI lead enrichment and outbound prospecting platform combining 75+ data providers.",
+    "category": "sales_crm",
+    "subcategory": "data-enrichment",
+    "definition": "Clay is an AI data enrichment and outbound prospecting platform that aggregates 75+ data providers into a spreadsheet-like interface. It uses AI agents (Claygent) to scrape the web and research sales leads to craft personalized outbound email campaigns.",
+    "why_it_matters": "Clay replaced tedious manual sales research with AI agent automation. Sales Development Reps (SDRs) can research thousands of target accounts and write customized email hooks in minutes.",
+    "workplace_use_cases": [
+      "Enriching sales lead lists with verified email addresses and company headcount metrics",
+      "Deploying Claygent web scraper bots to research target company job postings and tech stack",
+      "Drafting hyper-personalized first-line cold email hooks tailored to individual prospects",
+      "Syncing enriched lead data directly into Smartlead, Instantly, or Salesforce"
+    ],
+    "who_uses_it": [
+      "Sales Development Reps",
+      "Growth Marketers",
+      "Founders",
+      "Outbound Agencies"
+    ],
+    "how_to_use": "Import a domain list or LinkedIn URL export into Clay, add enrichment columns from 75+ providers, configure Claygent AI research prompts, and export enriched campaigns.",
+    "key_features": [
+      "Waterfall Data Enrichment connecting 75+ data vendors (Apollo, Clearbit, Hunter)",
+      "Claygent AI web scraping agent for custom prospect research questions",
+      "AI Copywriter for generating personalized outbound cold email cadences",
+      "Native integrations with Smartlead, Instantly, Salesforce, and HubSpot"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "100 free credits upon signup.",
+      "paid_plans": [
+        {
+          "name": "Starter",
+          "price": "$149/month",
+          "notes": "2,000 credits/month, access to 75+ data providers, standard integrations."
+        },
+        {
+          "name": "Explorer",
+          "price": "$349/month",
+          "notes": "10,000 credits/month, advanced AI research agent access."
+        },
+        {
+          "name": "Pro",
+          "price": "$800/month",
+          "notes": "50,000 credits/month, priority support, custom Webhook integrations."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.clay.com",
+    "logo_source_note": "Official Clay asset",
+    "related_tools": [
+      "gong_io",
+      "copy_ai"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "apollo_ai",
+    "name": "Apollo.io AI",
+    "maker": "Apollo.io",
+    "tagline": "All-in-one sales intelligence and engagement platform with AI lead recommendations.",
+    "category": "sales_crm",
+    "subcategory": "sales-intelligence",
+    "definition": "Apollo.io is a sales intelligence platform featuring a database of 275 million+ B2B contacts, integrated with AI lead scoring, email writing, and call intelligence.",
+    "why_it_matters": "Apollo combined contact database lookup with automated AI outbound sales sequences in a single workspace.",
+    "workplace_use_cases": [
+      "Finding verified prospect phone numbers and emails for target accounts",
+      "Generating personalized outbound email cadences using AI Assistant",
+      "Automating multi-touch sales sequences across email and phone calls"
+    ],
+    "who_uses_it": [
+      "Sales Development Reps",
+      "Account Executives",
+      "Founders",
+      "Growth Marketers"
+    ],
+    "how_to_use": "Search prospect leads at apollo.io, add to an AI sales sequence, and track email engagement.",
+    "key_features": [
+      "275M+ B2B prospect database with email/phone verification",
+      "AI Power Assistant for personalized email copy generation",
+      "Dialer and automated sequence execution"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes 60 mobile credits and 120 export credits/year.",
+      "paid_plans": [
+        {
+          "name": "Basic",
+          "price": "$59/user/month ($49/mo annually)",
+          "notes": "Unlimited email credits, 2,500 export credits/year."
+        },
+        {
+          "name": "Professional",
+          "price": "$99/user/month ($79/mo annually)",
+          "notes": "Uncapped email send, AI assistant, call recording."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.apollo.io",
+    "logo_source_note": "Official Apollo asset",
+    "related_tools": [
+      "clay_run",
+      "gong_io"
+    ],
+    "launched": "2018",
+    "platform": [
+      "Web",
+      "Chrome Extension"
+    ]
+  },
+  {
+    "id": "salesforce_einstein",
+    "name": "Salesforce Einstein AI",
+    "maker": "Salesforce",
+    "tagline": "Enterprise CRM AI layer delivering lead scoring, automated deal insights, and predictive analytics.",
+    "category": "sales_crm",
+    "subcategory": "enterprise-crm-ai",
+    "definition": "Salesforce Einstein is the conversational and predictive AI layer built natively into Salesforce CRM, providing predictive lead scoring, opportunity insights, and automated email drafting.",
+    "why_it_matters": "Einstein brings predictive AI directly into the world's most widely used enterprise CRM platform.",
+    "workplace_use_cases": [
+      "Predictively scoring incoming sales leads based on historical deal conversion data",
+      "Drafting personalized sales emails directly inside Salesforce Sales Cloud",
+      "Generating automated pipeline forecasting summaries for CROs"
+    ],
+    "who_uses_it": [
+      "Enterprise Account Executives",
+      "VP of Sales",
+      "Sales Operations Leads"
+    ],
+    "how_to_use": "Enable Einstein AI features in Salesforce Setup and view predictive scores on Opportunity records.",
+    "key_features": [
+      "Einstein Lead & Opportunity Scoring predictive models",
+      "Einstein GPT for automated email and response drafting",
+      "Seamless integration with Sales Cloud and Service Cloud"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Requires active Salesforce Sales Cloud license.",
+      "paid_plans": [
+        {
+          "name": "Sales Cloud Enterprise + Einstein",
+          "price": "$165-$300/user/month",
+          "notes": "Includes core Einstein predictive scoring and generative AI capabilities."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.salesforce.com/products/einstein/overview/",
+    "logo_source_note": "Official Salesforce asset",
+    "related_tools": [
+      "gong_io",
+      "hubspot_breeze"
+    ],
+    "launched": "2016",
+    "platform": [
+      "Web",
+      "Mobile"
+    ]
+  },
+  {
+    "id": "hubspot_breeze",
+    "name": "HubSpot Breeze AI",
+    "maker": "HubSpot",
+    "tagline": "AI intelligence copilot and autonomous agents embedded across HubSpot CRM.",
+    "category": "sales_crm",
+    "subcategory": "crm-ai-copilot",
+    "definition": "HubSpot Breeze is the AI intelligence suite integrated across HubSpot CRM, featuring Breeze Copilot (AI assistant), Breeze Agents (automated marketing/sales bots), and Breeze Intelligence (data enrichment).",
+    "why_it_matters": "HubSpot Breeze provides accessible AI automation for inbound sales, content generation, and CRM data enrichment.",
+    "workplace_use_cases": [
+      "Enriching incoming CRM lead records with company headcount and revenue data",
+      "Drafting blog posts, social graphics, and sales emails inside HubSpot",
+      "Deploying automated customer service and prospecting agents"
+    ],
+    "who_uses_it": [
+      "Inbound Marketers",
+      "Sales Reps",
+      "Customer Success Leads",
+      "SMB Owners"
+    ],
+    "how_to_use": "Access Breeze Copilot in your HubSpot portal toolbar or trigger Breeze Intelligence enrichment.",
+    "key_features": [
+      "Breeze Intelligence automated CRM B2B data enrichment",
+      "Breeze Copilot for inline content generation and data lookup",
+      "Autonomous Social Media and Prospecting Agents"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Core AI features included in HubSpot Free tools.",
+      "paid_plans": [
+        {
+          "name": "Sales Hub Professional",
+          "price": "$100/user/month ($90/mo annually)",
+          "notes": "Includes full Breeze AI capabilities and sequence automation."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.hubspot.com/products/breeze",
+    "logo_source_note": "Official HubSpot asset",
+    "related_tools": [
+      "salesforce_einstein",
+      "clay_run"
+    ],
+    "launched": "2024",
+    "platform": [
+      "Web",
+      "Mobile"
+    ]
+  },
+  {
+    "id": "instantly_ai",
+    "name": "Instantly.ai",
+    "maker": "Instantly",
+    "tagline": "Cold email outreach platform featuring automated warmup, lead database, and AI copywriter.",
+    "category": "sales_crm",
+    "subcategory": "cold-email",
+    "definition": "Instantly.ai is a cold email outreach platform designed to scale outbound email deliverability with automated inbox warmup, multi-account rotation, and AI lead copy generation.",
+    "why_it_matters": "Instantly solved cold email deliverability at scale by allowing users to connect unlimited sending accounts with automated warmup.",
+    "workplace_use_cases": [
+      "Scaling cold email outreach across dozens of dedicated domain accounts",
+      "Warming up new sales sending domains automatically to prevent spam flags",
+      "Generating personalized outbound email cadences using AI"
+    ],
+    "who_uses_it": [
+      "Sales Development Reps",
+      "Outbound Agencies",
+      "Founders"
+    ],
+    "how_to_use": "Connect sending domains at instantly.ai, upload prospect leads, enable warmup, and launch sequences.",
+    "key_features": [
+      "Unlimited email sending account connections and automated warmup",
+      "AI Copywriter for personalized outbound email generation",
+      "CRM Unibox for managing prospect email replies"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "14-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Growth",
+          "price": "$37/month ($30/mo annually)",
+          "notes": "5,000 leads, 1,000 monthly emails, unlimited warmup."
+        },
+        {
+          "name": "Hypergrowth",
+          "price": "$97/month ($77/mo annually)",
+          "notes": "25,000 leads, 125,000 monthly emails, premium support."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://instantly.ai",
+    "logo_source_note": "Official Instantly asset",
+    "related_tools": [
+      "clay_run",
+      "smartlead"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "smartlead",
+    "name": "Smartlead.ai",
+    "maker": "Smartlead",
+    "tagline": "Enterprise cold email outreach infrastructure platform built for agencies and SDR teams.",
+    "category": "smartlead",
+    "subcategory": "cold-email-infrastructure",
+    "definition": "Smartlead.ai is a cold email automation engine designed for sales agencies and growth teams, offering unlimited email account warmup, master inbox management, and webhooks.",
+    "why_it_matters": "Smartlead provides enterprise-grade infrastructure for managing complex multi-domain outbound sales operations.",
+    "workplace_use_cases": [
+      "Managing outbound sales cold email infrastructure for multiple client accounts",
+      "Automating multi-channel email sequences with webhook triggers",
+      "Tracking centralized master inbox responses across 100+ domains"
+    ],
+    "who_uses_it": [
+      "Outbound Agencies",
+      "Sales Operations Leads",
+      "Growth Hackers"
+    ],
+    "how_to_use": "Connect domains at smartlead.ai, set up sequence schedules, and manage replies in Master Inbox.",
+    "key_features": [
+      "Unlimited email account warmup and domain rotation",
+      "Master Inbox for centralized response management",
+      "API webhooks for integration with Clay and CRM platforms"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "14-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Basic",
+          "price": "$39/month ($33/mo annually)",
+          "notes": "2,000 active leads, 6,000 emails/month, unlimited warmup."
+        },
+        {
+          "name": "Pro",
+          "price": "$94/month ($78/mo annually)",
+          "notes": "30,000 active leads, 150,000 emails/month, master inbox."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.smartlead.ai",
+    "logo_source_note": "Official Smartlead asset",
+    "related_tools": [
+      "instantly_ai",
+      "clay_run"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "outreach_kaia",
+    "name": "Outreach Kaia",
+    "maker": "Outreach",
+    "tagline": "Real-time sales execution and conversation intelligence assistant built into Outreach sales platform.",
+    "category": "sales_crm",
+    "subcategory": "sales-execution",
+    "definition": "Outreach Kaia (Knowledge AI Assistant) is a real-time sales conversation assistant that provides Account Executives with live content prompts, objection handling cards, and automated call summaries during video calls.",
+    "why_it_matters": "Kaia delivers live, in-call assistance to sales reps, surfacing relevant competitive battlecards during live prospect meetings.",
+    "workplace_use_cases": [
+      "Surfacing real-time competitive battlecards during live prospect sales calls",
+      "Generating automated post-call meeting summaries and action item lists",
+      "Syncing call notes automatically into Outreach deal pipelines"
+    ],
+    "who_uses_it": [
+      "Account Executives",
+      "Sales Managers",
+      "Sales Enablement"
+    ],
+    "how_to_use": "Enable Kaia in your Outreach workspace, and Kaia will join Zoom/Teams calls to provide live prompts.",
+    "key_features": [
+      "Real-time in-call competitive battlecard prompts",
+      "Automated post-call summary and action item capture",
+      "Direct integration with Outreach sales execution platform"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Enterprise custom annual quotes.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Subscription",
+          "price": "Custom annual contract",
+          "notes": "Priced per user seat on top of Outreach sales execution platform."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.outreach.io",
+    "logo_source_note": "Official Outreach asset",
+    "related_tools": [
+      "gong_io",
+      "salesforce_einstein"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "lusha_ai",
+    "name": "Lusha",
+    "maker": "Lusha",
+    "tagline": "B2B sales prospecting database and contact intelligence platform with AI lead recommendations.",
+    "category": "sales_crm",
+    "subcategory": "b2b-contact-data",
+    "definition": "Lusha is a B2B sales intelligence tool that provides verified phone numbers, direct email addresses, and company insights for sales prospecting.",
+    "why_it_matters": "Lusha provides sales reps with reliable direct phone numbers and B2B emails via a convenient browser extension.",
+    "workplace_use_cases": [
+      "Finding direct cell phone numbers for B2B target decision-makers",
+      "Enriching corporate CRM leads with company headcount and industry data",
+      "Sourcing prospects directly while browsing LinkedIn"
+    ],
+    "who_uses_it": [
+      "Sales Development Reps",
+      "Account Executives",
+      "Recruiters"
+    ],
+    "how_to_use": "Install Lusha Chrome extension, visit LinkedIn prospect profiles, and reveal contact info.",
+    "key_features": [
+      "85M+ direct phone numbers and B2B contact database",
+      "Chrome extension for instant contact reveal on LinkedIn",
+      "Salesforce and HubSpot CRM integration"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes 5 contact credits/month.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$49/user/month ($36/mo annually)",
+          "notes": "480 contact credits/year, export data."
+        },
+        {
+          "name": "Premium",
+          "price": "$79/user/month ($59/mo annually)",
+          "notes": "960 contact credits/year, usage analytics."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.lusha.com",
+    "logo_source_note": "Official Lusha asset",
+    "related_tools": [
+      "apollo_ai",
+      "clay_run"
+    ],
+    "launched": "2016",
+    "platform": [
+      "Web",
+      "Chrome Extension"
+    ]
+  }
+]

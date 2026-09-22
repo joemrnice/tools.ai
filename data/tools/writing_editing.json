@@ -1,0 +1,528 @@
+[
+  {
+    "id": "grammarly",
+    "name": "Grammarly AI",
+    "maker": "Grammarly",
+    "tagline": "Ubiquitous AI writing assistant for grammar, tone adjustments, and contextual rewrites.",
+    "category": "writing_editing",
+    "subcategory": "writing-assistant",
+    "definition": "Grammarly AI is an enterprise writing assistance platform integrated into desktop and browser applications. It checks grammar, tone, clarity, and style in real time, offering inline generative AI rewrites across web apps and documents.",
+    "why_it_matters": "As the market leader in enterprise writing software, Grammarly brings generative AI assistance directly into millions of existing desktop text fields, emails, and Google Docs without requiring workflow shifts.",
+    "workplace_use_cases": [
+      "Ensuring professional tone and zero typos across internal Slack and email messages",
+      "Rewriting complex technical documentation for clarity and executive readability",
+      "Standardizing corporate brand voice across customer support ticket responses",
+      "Generating email replies and meeting agenda outlines directly inside Gmail or Outlook"
+    ],
+    "who_uses_it": [
+      "Executives",
+      "Customer Support",
+      "Marketers",
+      "Writers",
+      "Corporate Teams"
+    ],
+    "how_to_use": "Install the Grammarly browser extension or desktop app, type text in any text field, and click the Grammarly widget icon to accept tone and rewrite suggestions.",
+    "key_features": [
+      "Real-time contextual grammar and clarity suggestions",
+      "Generative AI inline prompt rewrites and tone adjustments",
+      "Custom enterprise brand tone style guides and terminology rules",
+      "Plagiarism detection and citation generator"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Basic grammar and tone detection with 100 generative AI prompts/month.",
+      "paid_plans": [
+        {
+          "name": "Premium",
+          "price": "$12/month (billed annually)",
+          "notes": "1,000 generative AI prompts/month, advanced clarity rewrites, plagiarism check."
+        },
+        {
+          "name": "Business",
+          "price": "$15/user/month",
+          "notes": "2,000 prompts/user/month, company style guide, central admin billing, SOC2 security."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.grammarly.com",
+    "logo_source_note": "Official Grammarly brand mark",
+    "related_tools": [
+      "writer_com",
+      "notion_ai",
+      "jasper"
+    ],
+    "launched": "2009",
+    "platform": [
+      "Web Extension",
+      "Desktop",
+      "iOS",
+      "Android",
+      "MS Office Add-in"
+    ]
+  },
+  {
+    "id": "copy_ai",
+    "name": "Copy.ai",
+    "maker": "Copy.ai",
+    "tagline": "GTM AI platform for automating marketing copy, sales workflows, and content pipelines.",
+    "category": "writing_editing",
+    "subcategory": "gtm-copywriting",
+    "definition": "Copy.ai is an AI GTM (Go-To-Market) platform designed for revenue and marketing teams. It combines generative copywriting with automated OS workflows to streamline blog posts, ad creative, email sequences, and product descriptions.",
+    "why_it_matters": "Copy.ai evolved from a simple copywriting assistant into an automated workflow engine for growth teams, enabling companies to execute end-to-end content marketing ops at scale.",
+    "workplace_use_cases": [
+      "Generating automated blog posts and SEO-optimized articles from keyword briefs",
+      "Drafting personalized outbound sales email cadences and LinkedIn copy",
+      "Translating product release notes into social media campaign copy",
+      "Automating bulk e-commerce product description generation"
+    ],
+    "who_uses_it": [
+      "Marketers",
+      "Copywriters",
+      "Sales Development Reps",
+      "E-commerce Managers"
+    ],
+    "how_to_use": "Sign in at copy.ai, select an automated GTM workflow or Chat canvas, input target keywords or campaign goals, and generate formatted copy.",
+    "key_features": [
+      "GTM Workflow Builder for multi-step marketing automation",
+      "Infused Brand Voice and Knowledge Base integration",
+      "Multi-model routing (select underlying LLM engines)",
+      "Real-time team collaboration and template library"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "2,000 free words in Chat per month for 1 user seat.",
+      "paid_plans": [
+        {
+          "name": "Starter",
+          "price": "$49/month ($36/mo annually)",
+          "notes": "Unlimited words in Chat, 5 seats included, brand voices."
+        },
+        {
+          "name": "Advanced",
+          "price": "$249/month",
+          "notes": "2,000 workflow credits/month, 15 seats included, API access."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.copy.ai",
+    "logo_source_note": "Official Copy.ai brand asset",
+    "related_tools": [
+      "jasper",
+      "writer_com",
+      "grammarly"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "maker": "Jasper AI, Inc.",
+    "tagline": "Enterprise marketing AI copilot built for on-brand campaigns and content strategy.",
+    "category": "writing_editing",
+    "subcategory": "marketing-copywriting",
+    "definition": "Jasper is an AI content co-pilot tailored specifically for enterprise marketing departments. It analyzes brand guidelines, company style guides, and product catalogs to generate on-brand copy across blog articles, email campaigns, and social media ads.",
+    "why_it_matters": "Jasper focuses strictly on enterprise brand governance. Its Brand Voice feature scans company websites and style guides to ensure generated copy strictly matches executive messaging guidelines.",
+    "workplace_use_cases": [
+      "Creating multi-channel integrated marketing campaigns from a single brief",
+      "Drafting SEO-optimized long-form blog content with Surfer SEO integration",
+      "Enforcing consistent tone across distributed corporate copywriters",
+      "Generating ad copy variations for A/B testing on Meta and Google Ads"
+    ],
+    "who_uses_it": [
+      "Content Marketers",
+      "Brand Strategists",
+      "Ad Agencies",
+      "Corporate Communications"
+    ],
+    "how_to_use": "Log in at jasper.ai, upload company style guides to set up Brand Voice, select a campaign template, and generate collateral.",
+    "key_features": [
+      "Brand Voice & Knowledge Base enforcement across all outputs",
+      "Campaign Studio for generating multi-channel assets simultaneously",
+      "Browser extension for inline writing in WordPress, Gmail, and Google Docs",
+      "Integrated AI image generation and SEO optimization score"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "7-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$69/user/month ($59/mo annually)",
+          "notes": "1 Brand Voice, 10 Knowledge assets, access to AI image generator."
+        },
+        {
+          "name": "Creator",
+          "price": "$49/user/month",
+          "notes": "Single seat, 1 Brand Voice, standard templates."
+        },
+        {
+          "name": "Business",
+          "price": "Custom pricing",
+          "notes": "Unlimited Brand Voices, API access, SSO, dedicated account manager."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.jasper.ai",
+    "logo_source_note": "Official Jasper logo mark",
+    "related_tools": [
+      "copy_ai",
+      "writer_com",
+      "grammarly"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web",
+      "Browser Extension"
+    ]
+  },
+  {
+    "id": "writer_com",
+    "name": "Writer",
+    "maker": "Writer, Inc.",
+    "tagline": "Full-stack enterprise generative AI platform with custom Palmyra models and compliance guardrails.",
+    "category": "writing_editing",
+    "subcategory": "enterprise-writing",
+    "definition": "Writer is a generative AI platform built for enterprise organizations. Powered by its proprietary Palmyra LLM family, Writer integrates directly into corporate databases, enforcing strict brand guidelines, data privacy, and industry compliance standards.",
+    "why_it_matters": "Writer sets the enterprise gold standard for governance. It offers self-hosted and cloud options that prevent data leakage while enforcing company terminology, regulatory compliance, and inclusive language guidelines.",
+    "workplace_use_cases": [
+      "Enforcing strict medical or financial regulatory terminology across customer communications",
+      "Summarizing quarterly earnings calls and internal compliance reports",
+      "Automating product documentation updates directly from Jira and GitHub tickets",
+      "Providing compliant inline writing assistance across executive leadership"
+    ],
+    "who_uses_it": [
+      "Enterprise Executives",
+      "Compliance Officers",
+      "Technical Writers",
+      "Corporate Communications"
+    ],
+    "how_to_use": "Deploy Writer via cloud or VPC, connect corporate knowledge bases, set compliance rules in the admin dashboard, and use plugins in Word, Chrome, or Figma.",
+    "key_features": [
+      "Proprietary Palmyra LLMs optimized for enterprise accuracy and zero hallucination",
+      "AI Guardrails for enforcing regulatory compliance and trademark standards",
+      "Knowledge Graph connection to private corporate databases",
+      "SOC 2 Type II, HIPAA, and GDPR compliance certifications"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Free demo available for enterprise teams.",
+      "paid_plans": [
+        {
+          "name": "Team",
+          "price": "$18/user/month",
+          "notes": "Up to 5 seats, brand voice, custom style guide, standard integrations."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "Unlimited seats, Palmyra LLM fine-tuning, VPC/on-prem deployment, custom guardrails."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://writer.com",
+    "logo_source_note": "Official Writer asset",
+    "related_tools": [
+      "grammarly",
+      "jasper",
+      "notion_ai"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web",
+      "Browser Extension",
+      "Figma",
+      "Word",
+      "API"
+    ]
+  },
+  {
+    "id": "notion_ai",
+    "name": "Notion AI",
+    "maker": "Notion Labs",
+    "tagline": "Connected AI workspace assistant for searching, drafting, and summarizing inside Notion.",
+    "category": "writing_editing",
+    "subcategory": "connected-workspace",
+    "definition": "Notion AI is an add-on assistant embedded directly into the Notion workspace. It can query all pages across your workspace, draft documents, generate meeting summaries, translate text, and automatically extract action items into Notion databases.",
+    "why_it_matters": "Because Notion AI has full contextual search over your company's entire Notion wiki and project databases, it answers complex questions about company policy and projects without needing manual document copy-pasting.",
+    "workplace_use_cases": [
+      "Asking questions across your company's entire Notion knowledge base (Q&A)",
+      "Extracting key action items and deadline dates from raw meeting notes into database properties",
+      "Drafting initial product requirements documents (PRDs) inside existing project pages",
+      "Translating wiki documentation into multiple international team languages"
+    ],
+    "who_uses_it": [
+      "Product Managers",
+      "Operations Leads",
+      "Engineering Managers",
+      "Executives"
+    ],
+    "how_to_use": "Inside any Notion page, press Spacebar or type '/ai' to invoke AI text generation, or click the Notion AI Q&A search bar to search across all workspace docs.",
+    "key_features": [
+      "Notion Q&A for natural language search across all team pages",
+      "Automatic database property auto-fill (summaries, tags, translation)",
+      "Inline text generation, tone adjustment, and lengthening/shortening",
+      "Native integration with Notion docs, wikis, and project management"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": true,
+      "free_tier_details": "Free trial with limited AI responses per user.",
+      "paid_plans": [
+        {
+          "name": "Notion AI Add-on",
+          "price": "$8/user/month (billed annually) or $10/mo",
+          "notes": "Requires a standard Notion workspace plan; unlocks unlimited AI Q&A and text generation."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.notion.so/product/ai",
+    "logo_source_note": "Official Notion AI asset",
+    "related_tools": [
+      "grammarly",
+      "writer_com"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "Desktop",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": "rytr",
+    "name": "Rytr",
+    "maker": "Rytr LLC",
+    "tagline": "Intuitive AI copywriting assistant for generating marketing content, emails, and social copy.",
+    "category": "writing_editing",
+    "subcategory": "copywriting",
+    "definition": "Rytr is an AI writing assistant that helps users generate high-converting copy for blogs, social media, emails, and product descriptions.",
+    "why_it_matters": "Rytr offers an accessible, fast copywriting tool with built-in tone selection and inline document editing.",
+    "workplace_use_cases": [
+      "Drafting social media posts and ad copy",
+      "Generating catchy email subject lines and sales outreach body copy",
+      "Creating SEO meta descriptions and landing page headlines"
+    ],
+    "who_uses_it": [
+      "Marketers",
+      "Copywriters",
+      "Entrepreneurs",
+      "Social Media Managers"
+    ],
+    "how_to_use": "Sign up at rytr.me, select a use case and tone, input key points, and click Ryte for me.",
+    "key_features": [
+      "40+ use cases and 20+ tone variations",
+      "Built-in plagiarism checker and text reformer",
+      "Rich text editor with formatting options"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "10,000 characters per month on the free plan.",
+      "paid_plans": [
+        {
+          "name": "Unlimited",
+          "price": "$9/month ($7.50/mo annually)",
+          "notes": "Unlimited characters, 20+ tones, custom use cases."
+        },
+        {
+          "name": "Premium",
+          "price": "$29/month ($24.16/mo annually)",
+          "notes": "Plagiarism checks included, priority support."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://rytr.me",
+    "logo_source_note": "Official Rytr logo asset",
+    "related_tools": [
+      "copy_ai",
+      "jasper"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web",
+      "Extension"
+    ]
+  },
+  {
+    "id": "sudowrite",
+    "name": "Sudowrite",
+    "maker": "Sudowrite",
+    "tagline": "AI narrative writing partner engineered specifically for creative fiction authors and novelists.",
+    "category": "writing_editing",
+    "subcategory": "fiction-writing",
+    "definition": "Sudowrite is an AI story generator and writing assistant tailored for creative writers, novelists, and screenwriters.",
+    "why_it_matters": "Unlike corporate copywriting tools, Sudowrite is built specifically for narrative pacing, sensory description, and character dialogue development.",
+    "workplace_use_cases": [
+      "Brainstorming plot twists and character arc developments",
+      "Expanding sensory scene descriptions (sight, sound, smell)",
+      "Drafting full chapter prose from outline beats"
+    ],
+    "who_uses_it": [
+      "Novelists",
+      "Fiction Authors",
+      "Screenwriters",
+      "Creative Writers"
+    ],
+    "how_to_use": "Open sudowrite.com, paste your draft, highlight text, and use Write, Describe, or Rewrite tools.",
+    "key_features": [
+      "Story Engine for turning detailed story bibles into full chapters",
+      "Describe tool for rich sensory prose generation",
+      "Brainstorm tool for dialogue and plot ideas"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "14-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Hobby & Student",
+          "price": "$19/month ($10/mo annually)",
+          "notes": "225,000 AI credits per month."
+        },
+        {
+          "name": "Professional",
+          "price": "$29/month ($22/mo annually)",
+          "notes": "450,000 AI credits per month."
+        },
+        {
+          "name": "Max",
+          "price": "$59/month ($44/mo annually)",
+          "notes": "2,000,000 AI credits per month."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.sudowrite.com",
+    "logo_source_note": "Official Sudowrite asset",
+    "related_tools": [
+      "claude",
+      "chatgpt"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "quillbot",
+    "name": "QuillBot",
+    "maker": "Course Hero / QuillBot",
+    "tagline": "AI paraphrasing, grammar checking, and summarizing tool for academic and professional writing.",
+    "category": "writing_editing",
+    "subcategory": "paraphrasing",
+    "definition": "QuillBot is an AI writing platform that specializes in paraphrasing, sentence restructuring, summarization, and grammar correction.",
+    "why_it_matters": "QuillBot is widely used by students and researchers to rephrase complex sentences and improve writing clarity.",
+    "workplace_use_cases": [
+      "Paraphrasing academic excerpts for research summaries",
+      "Shortening lengthy paragraphs for executive briefs",
+      "Checking grammar and vocabulary fluency"
+    ],
+    "who_uses_it": [
+      "Students",
+      "Researchers",
+      "Academic Writers",
+      "Non-native English Speakers"
+    ],
+    "how_to_use": "Paste text into quillbot.com, choose a paraphrasing mode (Standard, Fluency, Formal), and click Paraphrase.",
+    "key_features": [
+      "Paraphraser with 8 customizable modes and synonym slider",
+      "Summarizer tool for extracting key points from long articles",
+      "Built-in Grammar Checker and Citation Generator"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "125 words max on free paraphraser, basic modes.",
+      "paid_plans": [
+        {
+          "name": "Premium",
+          "price": "$19.95/month ($8.33/mo annually)",
+          "notes": "Unlimited words in Paraphraser, all modes, plagiarism checker."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://quillbot.com",
+    "logo_source_note": "Official QuillBot asset",
+    "related_tools": [
+      "grammarly",
+      "writer_com"
+    ],
+    "launched": "2017",
+    "platform": [
+      "Web",
+      "Chrome Extension",
+      "Word Add-in"
+    ]
+  },
+  {
+    "id": "wordtune",
+    "name": "Wordtune",
+    "maker": "AI21 Labs",
+    "tagline": "AI reading and writing companion that offers contextual sentence rephrasing and summarization.",
+    "category": "writing_editing",
+    "subcategory": "paraphrasing",
+    "definition": "Wordtune is an AI writing tool built by AI21 Labs that suggests contextual rewrites to make written text more clear, compelling, and professional.",
+    "why_it_matters": "Wordtune provides sentence-level rephrasing options, giving writers fine control over tone and length.",
+    "workplace_use_cases": [
+      "Rewriting informal draft emails into professional executive messages",
+      "Shortening long sentences to improve readability",
+      "Summarizing YouTube videos and long PDFs"
+    ],
+    "who_uses_it": [
+      "Executives",
+      "Marketers",
+      "Copywriters",
+      "Customer Support Reps"
+    ],
+    "how_to_use": "Highlight text in Wordtune or via Chrome extension and select a rewrite suggestion.",
+    "key_features": [
+      "Contextual Rewrite with Formal and Casual tone switches",
+      "Spelling and grammar checking",
+      "Summarize tool for web pages and documents"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "10 free rewrites per day on free plan.",
+      "paid_plans": [
+        {
+          "name": "Plus",
+          "price": "$24.99/month ($9.99/mo annually)",
+          "notes": "30 rewrites/day, premium AI prompts."
+        },
+        {
+          "name": "Unlimited",
+          "price": "$37.50/month ($14.99/mo annually)",
+          "notes": "Unlimited rewrites and summaries."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.wordtune.com",
+    "logo_source_note": "Official Wordtune asset",
+    "related_tools": [
+      "grammarly",
+      "quillbot"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web",
+      "Chrome Extension"
+    ]
+  }
+]

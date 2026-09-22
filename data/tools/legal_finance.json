@@ -1,0 +1,447 @@
+[
+  {
+    "id": "harvey_ai",
+    "name": "Harvey",
+    "maker": "Counsel AI Corp",
+    "tagline": "Domain-specific AI platform built for elite law firms, corporate legal teams, and private equity.",
+    "category": "legal_finance",
+    "subcategory": "legal-ai",
+    "definition": "Harvey is a domain-specific generative AI platform engineered for elite law firms and corporate legal departments. Built on fine-tuned LLMs backed by the OpenAI Startup Fund, it assists attorneys with contract analysis, due diligence, regulatory compliance, and legal brief drafting.",
+    "why_it_matters": "Harvey became a landmark application of LLMs in professional legal services, earning adoption from major law firms (Allen & Overy) and accounting networks (PwC) to automate complex legal document analysis securely.",
+    "workplace_use_cases": [
+      "Analyzing thousands of merger and acquisition (M&A) due diligence contract agreements",
+      "Drafting legal briefs, motions, and memorandum memos with custom jurisdiction parameters",
+      "Extracting specific indemnity and liability clauses from complex corporate contracts",
+      "Reviewing cross-border regulatory compliance documentation"
+    ],
+    "who_uses_it": [
+      "Corporate Attorneys",
+      "Law Firm Associates",
+      "General Counsels",
+      "Paralegals"
+    ],
+    "how_to_use": "Access Harvey via secure enterprise SSO portal or Microsoft Word plugin, upload legal contract bundles, and prompt the system for clause comparison or brief drafting.",
+    "key_features": [
+      "Domain-specific legal models fine-tuned on legal doctrine and court filings",
+      "Enterprise security architecture (SOC 2 Type II, zero model training on customer data)",
+      "Contract clause extraction and automated redlining suggestions",
+      "Seamless integration with Microsoft Word and enterprise document management systems"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "No free tier; available via enterprise firm-wide contracts.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Firm Contract",
+          "price": "Custom annual subscription",
+          "notes": "Custom pricing calculated per law firm seat count and security deployment requirements."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.harvey.ai",
+    "logo_source_note": "Official Harvey AI asset",
+    "related_tools": [
+      "cocounsel"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web",
+      "MS Word Extension"
+    ]
+  },
+  {
+    "id": "cocounsel",
+    "name": "CoCounsel",
+    "maker": "Casetext / Thomson Reuters",
+    "tagline": "AI legal assistant powered by GPT-4 for reliable legal research, document review, and deposition prep.",
+    "category": "legal_finance",
+    "subcategory": "legal-ai",
+    "definition": "CoCounsel is an AI legal assistant developed by Casetext (acquired by Thomson Reuters). Powered by GPT-4 and grounded in Casetext's verified primary law database, it performs legal research, reviews discovery documents, and prepares deposition outlines.",
+    "why_it_matters": "CoCounsel resolved LLM hallucination risks in legal research by grounding GPT-4 answers strictly in Casetext's verified database of statutes, case law, and regulations with real citations.",
+    "workplace_use_cases": [
+      "Searching millions of case law precedents to answer complex legal research questions",
+      "Extracting critical facts and contradictions across thousands of discovery documents",
+      "Drafting comprehensive deposition outlines aligned with witness testimony statements",
+      "Summarizing lengthy legal contracts and highlighting non-standard terms"
+    ],
+    "who_uses_it": [
+      "Litigators",
+      "Corporate Lawyers",
+      "Paralegals",
+      "Legal Researchers"
+    ],
+    "how_to_use": "Sign in at Casetext/CoCounsel, select a legal skill (e.g., 'Search Database', 'Review Documents'), input case details or upload files, and review cited research outputs.",
+    "key_features": [
+      "Grounded in Casetext/Thomson Reuters verified primary law database",
+      "Legal skills framework (Legal Research, Contract Review, Deposition Prep)",
+      "Strict data privacy protection (bank-grade encryption, zero model training)",
+      "Inline links to official judicial case law PDFs and court records"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Free demo available for verified legal professionals.",
+      "paid_plans": [
+        {
+          "name": "CoCounsel Professional",
+          "price": "~$250-$400/user/month",
+          "notes": "Custom quotes per firm size and Westlaw/Casetext database access package."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://casetext.com/cocounsel/",
+    "logo_source_note": "Official Casetext / Thomson Reuters asset",
+    "related_tools": [
+      "harvey_ai"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "bloomberg_gpt",
+    "name": "Bloomberg Terminal AI",
+    "maker": "Bloomberg L.P.",
+    "tagline": "Financial intelligence and analytics AI integrated into the Bloomberg Terminal.",
+    "category": "legal_finance",
+    "subcategory": "financial-ai",
+    "definition": "Bloomberg Terminal AI is the domain-specific financial intelligence suite integrated into the Bloomberg Terminal, analyzing SEC filings, earnings call transcripts, and market news.",
+    "why_it_matters": "Bloomberg provides the world's most trusted financial data ecosystem, combining financial market databases with fine-tuned LLMs.",
+    "workplace_use_cases": [
+      "Analyzing SEC 10-K and 10-Q filing notes for financial risk factors",
+      "Summarizing corporate earnings call transcripts in real time",
+      "Extracting financial market sentiment trends across global news wires"
+    ],
+    "who_uses_it": [
+      "Financial Analysts",
+      "Portfolio Managers",
+      "Investment Bankers",
+      "Traders"
+    ],
+    "how_to_use": "Access via Bloomberg Terminal software commands (e.g. `{TOP AI <GO>}`).",
+    "key_features": [
+      "Domain-specific financial model trained on decades of Bloomberg data",
+      "Real-time market news and earnings call transcription analysis",
+      "Direct integration with Bloomberg market pricing feeds"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Requires active Bloomberg Terminal subscription.",
+      "paid_plans": [
+        {
+          "name": "Bloomberg Terminal",
+          "price": "~$27,000/user/year",
+          "notes": "Standard annual Bloomberg Terminal subscription fee."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.bloomberg.com/professional/",
+    "logo_source_note": "Official Bloomberg asset",
+    "related_tools": [
+      "harvey_ai"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Desktop Terminal"
+    ]
+  },
+  {
+    "id": "spellbook_legal",
+    "name": "Spellbook",
+    "maker": "Rally Legal",
+    "tagline": "AI contract drafting and review assistant embedded directly in Microsoft Word.",
+    "category": "legal_finance",
+    "subcategory": "contract-review",
+    "definition": "Spellbook is an AI legal assistant that operates directly inside Microsoft Word. Powered by GPT-4, it reviews contracts, suggests missing clauses, and drafts negotiation redlines in real time.",
+    "why_it_matters": "Spellbook operates directly inside Microsoft Word where lawyers actually work, accelerating contract turnaround times.",
+    "workplace_use_cases": [
+      "Reviewing commercial contracts and identifying missing protective clauses",
+      "Suggesting redline edits during contract negotiations directly in Word",
+      "Drafting custom agreement clauses based on deal terms"
+    ],
+    "who_uses_it": [
+      "Corporate Attorneys",
+      "In-House Legal Counsels",
+      "Paralegals"
+    ],
+    "how_to_use": "Install the Spellbook add-in in Microsoft Word, open a contract document, and click 'Review Contract'.",
+    "key_features": [
+      "Microsoft Word native add-in interface",
+      "Automated contract clause review and redline suggestions",
+      "Trained on legal contract doctrine and commercial precedent"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "7-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$125/user/month ($89/mo annually)",
+          "notes": "Includes full Word add-in, contract review, and clause drafting."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.spellbook.legal",
+    "logo_source_note": "Official Spellbook asset",
+    "related_tools": [
+      "harvey_ai",
+      "cocounsel"
+    ],
+    "launched": "2022",
+    "platform": [
+      "MS Word Extension"
+    ]
+  },
+  {
+    "id": "kavout",
+    "name": "Kavout",
+    "maker": "Kavout Corp.",
+    "tagline": "AI investment intelligence platform providing quantitative stock ranking and equity portfolio analysis.",
+    "category": "legal_finance",
+    "subcategory": "equity-research",
+    "definition": "Kavout is an AI financial technology platform that uses machine learning (K Score) to analyze market data, financial statements, and price momentum to rank stocks and assist portfolio managers.",
+    "why_it_matters": "Kavout brings quantitative machine learning equity ranking models to financial advisors and individual investors.",
+    "workplace_use_cases": [
+      "Screening US stock equities based on AI K Score factor ratings",
+      "Analyzing corporate financial health indicators and earnings quality",
+      "Constructing quantitative equity model portfolios"
+    ],
+    "who_uses_it": [
+      "Portfolio Managers",
+      "Financial Advisors",
+      "Quantitative Analysts"
+    ],
+    "how_to_use": "Sign in at kavout.com, enter stock tickers to view K Score predictive ratings, or run stock screeners.",
+    "key_features": [
+      "K Score equity rating model (1-9 predictive rating)",
+      "Automated stock screener and fundamental data analysis",
+      "Portfolio risk management analytics"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes basic stock search and K Scores.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$49/month",
+          "notes": "Advanced stock screener, real-time AI market signals."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.kavout.com",
+    "logo_source_note": "Official Kavout asset",
+    "related_tools": [
+      "bloomberg_gpt"
+    ],
+    "launched": "2015",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "robin_ai",
+    "name": "Robin AI",
+    "maker": "Robin AI",
+    "tagline": "Legal AI platform for contract copilot editing and legal repository management.",
+    "category": "legal_finance",
+    "subcategory": "contract-management",
+    "definition": "Robin AI is a legal AI platform that combines LLMs with human legal expert review to accelerate contract drafting, negotiation, and repository management.",
+    "why_it_matters": "Robin AI pairs generative AI contract review with an optional human-in-the-loop legal team for total accuracy.",
+    "workplace_use_cases": [
+      "Accelerating commercial contract review against company playbook rules",
+      "Searching across corporate contract repositories for expiration dates",
+      "Redlining non-disclosure agreements (NDAs) automatically"
+    ],
+    "who_uses_it": [
+      "In-House Legal Teams",
+      "Procurement Leads",
+      "General Counsels"
+    ],
+    "how_to_use": "Upload contracts to robinai.com or open the MS Word add-in to review against your legal playbook.",
+    "key_features": [
+      "Contract Copilot for inline Word redlining",
+      "Legal playbook enforcement engine",
+      "Optional human legal expert review add-on"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Custom quotes based on contract review volume.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Legal",
+          "price": "Custom annual contract",
+          "notes": "Priced per user seat and contract processing volume."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.robinai.com",
+    "logo_source_note": "Official Robin AI asset",
+    "related_tools": [
+      "harvey_ai",
+      "spellbook_legal"
+    ],
+    "launched": "2019",
+    "platform": [
+      "Web",
+      "MS Word Extension"
+    ]
+  },
+  {
+    "id": "doximity_gpt",
+    "name": "Doximity GPT",
+    "maker": "Doximity",
+    "tagline": "HIPAA-compliant AI medical writing assistant for physicians and healthcare professionals.",
+    "category": "legal_finance",
+    "subcategory": "medical-ai",
+    "definition": "Doximity GPT is a HIPAA-compliant AI medical writing assistant integrated into Doximity's physician network. It assists doctors with drafting patient insurance appeal letters, clinical summaries, and medical documentation.",
+    "why_it_matters": "Doximity provided verified US doctors with a secure, HIPAA-compliant AI writing environment tailored to clinical workflows.",
+    "workplace_use_cases": [
+      "Drafting insurance prior authorization appeal letters for patient treatments",
+      "Writing clinical patient visit summary letters in plain language",
+      "Translating medical instructions for patients"
+    ],
+    "who_uses_it": [
+      "Physicians",
+      "Nurse Practitioners",
+      "Clinical Operations Leads"
+    ],
+    "how_to_use": "Access Doximity GPT via verified Doximity physician account, select a clinical template, and input patient details.",
+    "key_features": [
+      "HIPAA-compliant secure medical writing environment",
+      "Pre-built templates for prior authorization letters and appeal notes",
+      "Integration with Doximity physician network platform"
+    ],
+    "pricing": {
+      "model": "free",
+      "has_free_tier": true,
+      "free_tier_details": "Free for verified US medical professionals on Doximity network.",
+      "paid_plans": [],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.doximity.com",
+    "logo_source_note": "Official Doximity asset",
+    "related_tools": [
+      "harvey_ai"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": "finquery_ai",
+    "name": "Finquery AI",
+    "maker": "Finquery",
+    "tagline": "Financial accounting AI platform for lease, contract, and balance sheet compliance.",
+    "category": "legal_finance",
+    "subcategory": "accounting-ai",
+    "definition": "Finquery AI is a financial accounting compliance platform that uses AI to parse corporate lease agreements, contracts, and financial documents to ensure ASC 842 and IFRS 16 compliance.",
+    "why_it_matters": "Finquery automates complex corporate accounting compliance and balance sheet audit tracking.",
+    "workplace_use_cases": [
+      "Extracting lease payment schedules and audit terms from corporate contracts",
+      "Ensuring balance sheet compliance with ASC 842 accounting standards",
+      "Auditing vendor contract financial commitments"
+    ],
+    "who_uses_it": [
+      "Corporate Controllers",
+      "CFOs",
+      "Accounting Managers"
+    ],
+    "how_to_use": "Upload corporate lease documents to Finquery, and the AI extracts financial schedule parameters.",
+    "key_features": [
+      "Automated contract schedule extraction for lease accounting",
+      "ASC 842 and IFRS 16 compliance reporting",
+      "Audit trail documentation tracking"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Custom corporate quotes based on contract volume.",
+      "paid_plans": [
+        {
+          "name": "Enterprise Accounting",
+          "price": "Custom annual contract",
+          "notes": "Calculated based on lease contract volume and accounting scope."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://finquery.com",
+    "logo_source_note": "Official Finquery asset",
+    "related_tools": [
+      "bloomberg_gpt"
+    ],
+    "launched": "2011",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "casetext_research",
+    "name": "Casetext",
+    "maker": "Thomson Reuters / Casetext",
+    "tagline": "AI legal research database providing CARA AI document analysis and case law search.",
+    "category": "legal_finance",
+    "subcategory": "legal-research",
+    "definition": "Casetext is an AI-powered legal research platform that analyzes litigation briefs and retrieves relevant judicial case law precedents using CARA AI.",
+    "why_it_matters": "Casetext pioneered AI litigation research, matching uploaded legal briefs directly to supporting judicial precedents.",
+    "workplace_use_cases": [
+      "Uploading opposing counsel litigation briefs to automatically find counter-precedents",
+      "Searching judicial statutes and case law across federal and state jurisdictions",
+      "Validating case law citation accuracy"
+    ],
+    "who_uses_it": [
+      "Litigators",
+      "Law Firm Associates",
+      "Legal Researchers"
+    ],
+    "how_to_use": "Sign in at casetext.com, upload a brief to CARA AI, and review suggested case law citations.",
+    "key_features": [
+      "CARA AI document-based legal research engine",
+      "Comprehensive US federal and state primary law database",
+      "Judicial citation analysis and case law summaries"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "14-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Basic Research",
+          "price": "$110/user/month",
+          "notes": "Includes primary law search and appellate briefs."
+        },
+        {
+          "name": "Advanced Research",
+          "price": "$220/user/month",
+          "notes": "Includes CARA AI brief analyzer and expert witness data."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://casetext.com",
+    "logo_source_note": "Official Casetext asset",
+    "related_tools": [
+      "cocounsel",
+      "harvey_ai"
+    ],
+    "launched": "2013",
+    "platform": [
+      "Web"
+    ]
+  }
+]

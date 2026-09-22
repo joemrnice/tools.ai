@@ -1,0 +1,476 @@
+[
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "maker": "Perplexity AI, Inc.",
+    "tagline": "Citation-backed conversational search engine delivering direct, verified answers.",
+    "category": "research_search",
+    "subcategory": "ai-search",
+    "definition": "Perplexity AI is an AI-powered conversational answer engine. Unlike traditional search engines that return lists of links, Perplexity searches the web in real time, synthesizes detailed answers, and provides inline citations for every factual statement.",
+    "why_it_matters": "Perplexity redefined web search by combining conversational LLM reasoning with real-time web crawling and strict academic-style inline citation backings, offering professionals a faster alternative to Google Search.",
+    "workplace_use_cases": [
+      "Conducting rapid market research and competitor benchmarking with source links",
+      "Debugging technical errors and finding verified documentation references",
+      "Synthesizing news events and industry market reports into structured bullet summaries",
+      "Using Pro Search to execute multi-step research workflows with code execution"
+    ],
+    "who_uses_it": [
+      "Researchers",
+      "Software Engineers",
+      "Executives",
+      "Product Managers",
+      "Journalists"
+    ],
+    "how_to_use": "Go to perplexity.ai, type a research query, select search focus mode (Web, Academic, Writing, YouTube, or Reddit), and review the synthesized answer with hyperlinked source citations.",
+    "key_features": [
+      "Pro Search mode with multi-step reasoning and Python code execution",
+      "Inline citations for every fact back to original web sources",
+      "Focus Mode filters (Academic papers, YouTube, Reddit, Writing)",
+      "Collection spaces for organizing research threads into shareable wikis"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free unlimited standard search queries and 5 Pro Search queries per day.",
+      "paid_plans": [
+        {
+          "name": "Perplexity Pro",
+          "price": "$20/month ($200/year)",
+          "notes": "600+ Pro searches/day, model selection (Claude 3.5, GPT-4o), API credits."
+        },
+        {
+          "name": "Enterprise Pro",
+          "price": "$40/user/month",
+          "notes": "Organization-wide SOC2 security, zero data retention, centralized user administration."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.perplexity.ai",
+    "logo_source_note": "Official Perplexity brand mark",
+    "related_tools": [
+      "consensus",
+      "elicit",
+      "chatgpt"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web",
+      "iOS",
+      "Android",
+      "Chrome Extension"
+    ]
+  },
+  {
+    "id": "consensus",
+    "name": "Consensus",
+    "maker": "Consensus",
+    "tagline": "AI search engine indexing 200M+ academic research papers to provide evidence-based answers.",
+    "category": "research_search",
+    "subcategory": "academic-search",
+    "definition": "Consensus is an AI academic search engine that extracts and synthesizes findings directly from peer-reviewed scientific research papers. It indexes over 200 million papers from Semantic Scholar, providing an aggregated 'Consensus Meter' indicating scientific agreement.",
+    "why_it_matters": "Consensus eliminates bias in research by pulling verified answers strictly from peer-reviewed journal papers rather than unverified blog posts or marketing copy.",
+    "workplace_use_cases": [
+      "Verifying medical or health claims against published clinical trials",
+      "Extracting scientific evidence for policy papers and executive strategy briefs",
+      "Analyzing consensus levels across conflicting academic literature studies",
+      "Drafting literature review summaries with inline DOI citations"
+    ],
+    "who_uses_it": [
+      "Academic Researchers",
+      "Medical Professionals",
+      "Policy Analysts",
+      "Students",
+      "Science Writers"
+    ],
+    "how_to_use": "Visit consensus.app, enter a research question (e.g., 'Does microdosing caffeine improve cognitive retention?'), and view the Consensus Meter synthesis and paper summaries.",
+    "key_features": [
+      "Indexes 200 million+ peer-reviewed academic papers via Semantic Scholar",
+      "Consensus Meter indicating percentage agreement among scientific studies",
+      "Copilot agent for writing synthesized literature reviews",
+      "Quality filters (Journal rank, Study design, Sample size, Human vs. Animal trials)"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes unlimited basic searches and 20 AI Copilot credits.",
+      "paid_plans": [
+        {
+          "name": "Premium",
+          "price": "$11.99/month ($8.99/mo annually)",
+          "notes": "Unlimited AI Copilot credits, unlimited Consensus Meter analysis, export to CSV."
+        },
+        {
+          "name": "Teams",
+          "price": "$19.99/user/month",
+          "notes": "Shared search repositories and administrative user license management."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://consensus.app",
+    "logo_source_note": "Official Consensus asset",
+    "related_tools": [
+      "elicit",
+      "perplexity"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "elicit",
+    "name": "Elicit",
+    "maker": "Elicit",
+    "tagline": "AI research assistant automating literature reviews and data extraction across scientific papers.",
+    "category": "research_search",
+    "subcategory": "literature-review",
+    "definition": "Elicit is an AI research workflow tool that automates literature review processes. It searches scientific paper databases, summarizes key paper findings, and automatically builds structured comparison tables detailing methodology, sample size, and results.",
+    "why_it_matters": "Elicit automates the laborious manual work of reading through dozens of academic PDFs, allowing researchers to extract specific methodology metrics into comparison tables in minutes.",
+    "workplace_use_cases": [
+      "Automating structured literature reviews for systematic research papers",
+      "Extracting study parameters (sample size, methodology, outcome metrics) across 50+ PDFs",
+      "Finding related scientific papers based on semantic research concepts",
+      "Synthesizing key conclusions across conflicting clinical trials"
+    ],
+    "who_uses_it": [
+      "PhD Researchers",
+      "Biotech Scientists",
+      "Medical Officers",
+      "Policy Researchers"
+    ],
+    "how_to_use": "Log in at elicit.com, enter a research topic or upload a batch of PDF papers, configure table extraction columns, and export data tables.",
+    "key_features": [
+      "Extracts structured data columns directly from uploaded research PDFs",
+      "Semantic search across 125 million+ academic research papers",
+      "One-sentence summaries of paper findings",
+      "Export extraction tables to CSV, BibTeX, and RIS formats"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "5,000 one-time free credits upon signup.",
+      "paid_plans": [
+        {
+          "name": "Plus",
+          "price": "$12/month ($10/mo annually)",
+          "notes": "12,000 credits/year, export tables, high accuracy extraction."
+        },
+        {
+          "name": "Pro",
+          "price": "$29/month ($24/mo annually)",
+          "notes": "Custom credit allocation, team sharing, priority support."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://elicit.com",
+    "logo_source_note": "Official Elicit asset",
+    "related_tools": [
+      "consensus",
+      "perplexity"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "scite_ai",
+    "name": "Scite.ai",
+    "maker": "Scite Inc.",
+    "tagline": "Smart citation research platform that analyzes whether academic papers support or contrast findings.",
+    "category": "research_search",
+    "subcategory": "academic-citations",
+    "definition": "Scite.ai is an academic research tool that uses AI to analyze research paper citations, showing contextual excerpts and categorizing whether citations support or contrast a study's claims.",
+    "why_it_matters": "Scite introduced 'Smart Citations', allowing researchers to evaluate paper reliability by seeing how subsequent studies cited the research.",
+    "workplace_use_cases": [
+      "Verifying whether a scientific claim is supported or contested in peer-reviewed literature",
+      "Evaluating the citation reliability of academic authors and journals",
+      "Writing literature review summaries backed by Smart Citations"
+    ],
+    "who_uses_it": [
+      "Academic Researchers",
+      "Medical Officers",
+      "PhDs",
+      "Science Writers"
+    ],
+    "how_to_use": "Search a topic or DOI at scite.ai, view Smart Citation breakdowns, and evaluate paper support.",
+    "key_features": [
+      "Smart Citations showing citation context and supporting/contrasting classification",
+      "Assistant for asking research questions grounded in scientific literature",
+      "Indexes over 1.2 billion citation statements"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "7-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Individual",
+          "price": "$20/month ($12/mo annually)",
+          "notes": "Unlimited Smart Citation searches, AI Assistant access."
+        },
+        {
+          "name": "Team",
+          "price": "$24/user/month",
+          "notes": "Shared research reference libraries and admin controls."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://scite.ai",
+    "logo_source_note": "Official Scite asset",
+    "related_tools": [
+      "consensus",
+      "elicit",
+      "perplexity"
+    ],
+    "launched": "2018",
+    "platform": [
+      "Web",
+      "Extension"
+    ]
+  },
+  {
+    "id": "semantic_scholar",
+    "name": "Semantic Scholar",
+    "maker": "Allen Institute for AI",
+    "tagline": "Free AI-powered academic search engine indexing over 200M+ research papers.",
+    "category": "research_search",
+    "subcategory": "academic-search",
+    "definition": "Semantic Scholar is a free, non-profit AI research tool developed by the Allen Institute for AI that indexes over 200 million academic papers, extracting key citations, topics, and one-sentence TLDR summaries.",
+    "why_it_matters": "Semantic Scholar serves as the foundational open database powering many commercial academic AI tools.",
+    "workplace_use_cases": [
+      "Searching across millions of computer science, biomedical, and physics research papers",
+      "Reading one-sentence AI TLDR summaries of complex academic studies",
+      "Exploring citation graphs to trace research lineage"
+    ],
+    "who_uses_it": [
+      "Researchers",
+      "Students",
+      "Data Scientists",
+      "Academics"
+    ],
+    "how_to_use": "Visit semanticscholar.org, enter your research query or paper title, and read AI TLDR summaries.",
+    "key_features": [
+      "Free access to 200M+ indexed research papers",
+      "AI-generated TLDR paper summaries",
+      "Citation velocity and influential citation tracking"
+    ],
+    "pricing": {
+      "model": "free",
+      "has_free_tier": true,
+      "free_tier_details": "Free non-profit service funded by the Allen Institute for AI.",
+      "paid_plans": [],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.semanticscholar.org",
+    "logo_source_note": "Official Allen AI asset",
+    "related_tools": [
+      "consensus",
+      "elicit"
+    ],
+    "launched": "2015",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "maker": "Google",
+    "tagline": "Personal AI research notebook grounded strictly in your uploaded documents and notes.",
+    "category": "research_search",
+    "subcategory": "research-notebook",
+    "definition": "NotebookLM is an AI research notebook developed by Google Labs. Grounded strictly in your uploaded documents (PDFs, Google Docs, slides, web links), it synthesizes notes, generates study guides, and creates realistic Audio Overviews (AI podcasts).",
+    "why_it_matters": "NotebookLM gained viral acclaim for its 'Audio Overview' feature, which converts boring PDF research documents into engaging, conversational two-host podcast audio discussions.",
+    "workplace_use_cases": [
+      "Generating an interactive AI audio podcast from complex technical whitepapers",
+      "Synthesizing research notes across dozens of project PDFs without hallucination",
+      "Drafting study guides, FAQs, and executive summaries from uploaded source files"
+    ],
+    "who_uses_it": [
+      "Researchers",
+      "Students",
+      "Executives",
+      "Journalists",
+      "Product Managers"
+    ],
+    "how_to_use": "Go to notebooklm.google.com, create a notebook, upload source documents, and click 'Generate Audio Overview'.",
+    "key_features": [
+      "Grounded strictly in user-uploaded sources (zero web hallucination)",
+      "Audio Overview generates photorealistic two-host podcast audio conversations",
+      "Inline source citation links referencing exact PDF page paragraphs"
+    ],
+    "pricing": {
+      "model": "free",
+      "has_free_tier": true,
+      "free_tier_details": "Free experimental tool provided by Google Labs.",
+      "paid_plans": [],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://notebooklm.google.com",
+    "logo_source_note": "Official Google Labs asset",
+    "related_tools": [
+      "perplexity",
+      "consensus"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "genei",
+    "name": "Genei",
+    "maker": "Genei Ltd",
+    "tagline": "AI research tool that automatically summarizes background reading and extracts key data from PDFs.",
+    "category": "research_search",
+    "subcategory": "pdf-summarizer",
+    "definition": "Genei is an AI research and document summarization tool designed to accelerate background reading by extracting key claims, figures, and definitions from PDFs and web pages.",
+    "why_it_matters": "Genei streamlines academic and market research by automatically organizing key document claims into structured notes.",
+    "workplace_use_cases": [
+      "Summarizing long PDF reports for market research",
+      "Extracting key figures and statistical data from academic papers",
+      "Organizing research documents into categorized projects"
+    ],
+    "who_uses_it": [
+      "Researchers",
+      "Students",
+      "Market Analysts",
+      "Content Writers"
+    ],
+    "how_to_use": "Upload PDFs or enter web links at genei.io, and view automated summary notes.",
+    "key_features": [
+      "Automated PDF summarization and key data extraction",
+      "In-document AI question answering",
+      "Note-taking editor with citation references"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "14-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Basic",
+          "price": "\u00a39.99/month (~$12.50/mo)",
+          "notes": "Standard AI summaries, PDF document management."
+        },
+        {
+          "name": "Pro",
+          "price": "\u00a329.99/month (~$37.50/mo)",
+          "notes": "GPT-4 summaries, multi-document research analysis."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.genei.io",
+    "logo_source_note": "Official Genei asset",
+    "related_tools": [
+      "elicit",
+      "consensus"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "typeset_io",
+    "name": "SciSpace (Typeset.io)",
+    "maker": "SciSpace",
+    "tagline": "All-in-one AI platform for searching, reading, and understanding scientific research papers.",
+    "category": "research_search",
+    "subcategory": "academic-reader",
+    "definition": "SciSpace (formerly Typeset.io) is an AI academic research workspace that helps users discover, read, and comprehend scientific papers with an interactive AI research assistant (Copilot).",
+    "why_it_matters": "SciSpace simplifies dense scientific jargon by letting users highlight complex mathematical equations or text to receive instant plain-language explanations.",
+    "workplace_use_cases": [
+      "Explaining complex math formulas and scientific jargon inside research PDFs",
+      "Translating academic papers into 75+ global languages",
+      "Extracting key paper methodologies into comparison tables"
+    ],
+    "who_uses_it": [
+      "Students",
+      "PhD Researchers",
+      "Medical Professionals",
+      "Translators"
+    ],
+    "how_to_use": "Visit typeset.io, search a research topic, open a paper PDF, and use Copilot to ask questions or highlight text.",
+    "key_features": [
+      "SciSpace Copilot for explaining highlighted PDF math/text in plain language",
+      "Database of 270M+ research papers",
+      "Instant translation into 75+ languages"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free access to basic search and Copilot query limits.",
+      "paid_plans": [
+        {
+          "name": "Premium",
+          "price": "$20/month ($12/mo annually)",
+          "notes": "Unlimited Copilot queries, literature review matrix export, plagiarism check."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://typeset.io",
+    "logo_source_note": "Official SciSpace asset",
+    "related_tools": [
+      "consensus",
+      "elicit"
+    ],
+    "launched": "2016",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "bing_search_ai",
+    "name": "Microsoft Copilot Search",
+    "maker": "Microsoft",
+    "tagline": "AI-powered web search engine grounded in Bing search index and GPT-4o.",
+    "category": "research_search",
+    "subcategory": "ai-search-engine",
+    "definition": "Microsoft Copilot Search (formerly Bing Chat) is an AI search engine that combines real-time Bing web index data with GPT-4o reasoning to deliver cited answers.",
+    "why_it_matters": "Copilot Search brought conversational AI search directly into the mainstream Microsoft Bing search engine.",
+    "workplace_use_cases": [
+      "Searching live news events and market pricing with web source links",
+      "Comparing product features with side-by-side table summaries",
+      "Generating images via DALL-E 3 directly inside search"
+    ],
+    "who_uses_it": [
+      "Researchers",
+      "Executives",
+      "Students",
+      "General Users"
+    ],
+    "how_to_use": "Go to copilot.microsoft.com or bing.com, select Search/Chat, and enter your query.",
+    "key_features": [
+      "Grounded in Bing web search index for real-time accuracy",
+      "Inline source citation links",
+      "Integrated DALL-E 3 image generator"
+    ],
+    "pricing": {
+      "model": "free",
+      "has_free_tier": true,
+      "free_tier_details": "Free for all web users at copilot.microsoft.com.",
+      "paid_plans": [],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://copilot.microsoft.com",
+    "logo_source_note": "Official Microsoft asset",
+    "related_tools": [
+      "perplexity",
+      "chatgpt"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "Windows",
+      "Edge Browser"
+    ]
+  }
+]

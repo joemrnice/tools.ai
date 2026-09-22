@@ -1,0 +1,537 @@
+[
+  {
+    "id": "runway_gen3",
+    "name": "Runway Gen-3 Alpha",
+    "maker": "Runway",
+    "tagline": "State-of-the-art text-to-video and image-to-video generative synthesis platform.",
+    "category": "video_generation",
+    "subcategory": "generative-video",
+    "definition": "Runway Gen-3 Alpha is a high-fidelity video generation model developed by Runway. It generates photorealistic cinematic video clips from text prompts, static images, or driving video clips, complete with complex camera movements and precise motion control.",
+    "why_it_matters": "Runway is a pioneer in AI-driven filmmaking and visual effects. Gen-3 set the benchmark for spatio-temporal video realism, camera angle manipulation, and motion pacing in Hollywood-grade production pipelines.",
+    "workplace_use_cases": [
+      "Generating cinematic b-roll video clips for commercial video ads and film trailers",
+      "Animating static product concept renders into dynamic promotional video teasers",
+      "Prototyping VFX motion graphics and camera pans during pre-production",
+      "Creating surreal background visuals for live music stages and digital displays"
+    ],
+    "who_uses_it": [
+      "Filmmakers",
+      "VFX Artists",
+      "Ad Agencies",
+      "Video Editors",
+      "Content Creators"
+    ],
+    "how_to_use": "Sign up at runwayml.com, enter the Gen-3 tool studio, upload a driving image or enter a detailed scene prompt, set camera movement direction vectors, and click Generate.",
+    "key_features": [
+      "Motion Brush & Camera Control for directing pan, tilt, zoom, and subject motion",
+      "Image-to-Video and Text-to-Video high resolution synthesis",
+      "Director Mode for fine-grained keyframe animation control",
+      "Lip Sync and Custom Voice integration"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "125 one-time free credits upon signup.",
+      "paid_plans": [
+        {
+          "name": "Standard",
+          "price": "$12/user/month",
+          "notes": "625 credits/month, 4K upscale export, watermark removal."
+        },
+        {
+          "name": "Pro",
+          "price": "$28/user/month",
+          "notes": "2,250 credits/month, higher generation speeds, lip sync tools."
+        },
+        {
+          "name": "Unlimited",
+          "price": "$76/user/month",
+          "notes": "Unlimited generation in relaxed queue mode."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://runwayml.com",
+    "logo_source_note": "Official Runway brand mark",
+    "related_tools": [
+      "luma_dream_machine",
+      "pika",
+      "kling_ai",
+      "sora"
+    ],
+    "launched": "2024",
+    "platform": [
+      "Web",
+      "iOS"
+    ]
+  },
+  {
+    "id": "luma_dream_machine",
+    "name": "Luma Dream Machine",
+    "maker": "Luma AI",
+    "tagline": "Next-generation high-speed video generator producing fluid, physically accurate motion clips.",
+    "category": "video_generation",
+    "subcategory": "generative-video",
+    "definition": "Luma Dream Machine is a video generation model built by Luma AI. Trained directly on multi-modal video capabilities, it produces 5-second video scenes with realistic lighting physics, camera maneuvers, and consistent character motion.",
+    "why_it_matters": "Dream Machine accelerated video generation throughput, enabling rapid iterative video creation with consistent keyframe physics at lower cost and higher frame consistency than prior models.",
+    "workplace_use_cases": [
+      "Generating dynamic action footage and complex camera fly-through scenes",
+      "Converting static e-commerce model photos into lifestyle video ads",
+      "Producing motion graphic clips for social media marketing campaigns",
+      "Prototyping storyboard scenes for commercial film directors"
+    ],
+    "who_uses_it": [
+      "Ad Agencies",
+      "Filmmakers",
+      "Social Media Managers",
+      "3D Animators"
+    ],
+    "how_to_use": "Visit lumalabs.ai/dream-machine, enter a text description or upload a starting frame image, select camera trajectory presets, and generate.",
+    "key_features": [
+      "High temporal camera stability and physical motion simulation",
+      "Image-to-video motion interpolation from start and end keyframes",
+      "Fast generation speed (~120 seconds per 5-second clip)",
+      "Native 120fps smooth video rendering engine"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "30 free generations per month.",
+      "paid_plans": [
+        {
+          "name": "Standard",
+          "price": "$29.99/month",
+          "notes": "120 high-priority generations/month, commercial license."
+        },
+        {
+          "name": "Pro",
+          "price": "$99.99/month",
+          "notes": "400 high-priority generations/month."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://lumalabs.ai/dream-machine",
+    "logo_source_note": "Official Luma AI asset",
+    "related_tools": [
+      "runway_gen3",
+      "pika",
+      "kling_ai"
+    ],
+    "launched": "2024",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "heygen",
+    "name": "HeyGen",
+    "maker": "HeyGen",
+    "tagline": "AI avatar platform for generating localized, photorealistic corporate training and marketing videos.",
+    "category": "video_generation",
+    "subcategory": "ai-avatars",
+    "definition": "HeyGen is an enterprise AI video generation platform that translates text scripts into studio-quality presenter videos starring digital human avatars. It includes automatic voice cloning and multi-language lip-sync translation.",
+    "why_it_matters": "HeyGen eliminated the high production costs of traditional corporate video shoots, allowing enterprise teams to produce global training content, sales outreach videos, and multi-lingual marketing campaigns in minutes.",
+    "workplace_use_cases": [
+      "Scaling personalized outbound video sales outreach with prospect names",
+      "Localizing corporate compliance and training videos into 40+ languages",
+      "Generating automated product demo walkthroughs starring brand avatars",
+      "Translating internal executive announcements with voice-cloned lip sync"
+    ],
+    "who_uses_it": [
+      "Sales Leads",
+      "Corporate Trainers",
+      "HR Directors",
+      "Global Marketers"
+    ],
+    "how_to_use": "Upload a brief video recording to train your custom digital twin avatar, paste a script in any language, select background slides, and click Export.",
+    "key_features": [
+      "Photorealistic video avatar generation and custom avatar voice cloning",
+      "Video Translation tool with automatic lip-sync alignment across 40+ languages",
+      "Integration with Canva, Zapier, and HubSpot workflows",
+      "Enterprise security compliance and permission management"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "1 free credit to generate a 1-minute video.",
+      "paid_plans": [
+        {
+          "name": "Creator",
+          "price": "$29/month",
+          "notes": "180 credits/year (~15 mins/month), fast processing, no watermark."
+        },
+        {
+          "name": "Team",
+          "price": "$89/month",
+          "notes": "3 seats, 360 credits/year, 4K video resolution, custom avatar support."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "Unlimited seats, dedicated custom avatars, API access."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.heygen.com",
+    "logo_source_note": "Official HeyGen logo mark",
+    "related_tools": [
+      "synthesia",
+      "elevenlabs"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web",
+      "API"
+    ]
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "maker": "Synthesia Ltd",
+    "tagline": "Enterprise AI video communications platform turning docs into presenter-led videos.",
+    "category": "video_generation",
+    "subcategory": "ai-avatars",
+    "definition": "Synthesia is an AI video generation studio designed for enterprise learning and development. It converts raw text, PDFs, or PowerPoint slides into professional presenter videos featuring stock or custom digital avatars in over 140 languages.",
+    "why_it_matters": "Synthesia was an early pioneer in commercial synthetic video avatars for Fortune 500 companies, enabling enterprise L&D departments to continuously update video documentation without re-hiring actors or camera crews.",
+    "workplace_use_cases": [
+      "Converting static PDF manuals into interactive video onboarding modules",
+      "Updating international customer support knowledge base videos in real-time",
+      "Creating localized corporate safety compliance training across global offices",
+      "Generating internal CEO video updates from written text newsletters"
+    ],
+    "who_uses_it": [
+      "L&D Managers",
+      "Enterprise Ops",
+      "Customer Success Leads",
+      "Corporate Trainers"
+    ],
+    "how_to_use": "Select a stock avatar, paste your script or upload a slide deck, choose your output language, adjust avatar positioning on screen, and export.",
+    "key_features": [
+      "230+ diverse stock AI avatars and custom micro-expression avatars",
+      "Voice generation in 140+ languages with regional accents",
+      "Turn text/PDF/PowerPoint directly into edited video scenes",
+      "SOC 2 Type II certified enterprise security"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": true,
+      "free_tier_details": "Free demo video generation available on website.",
+      "paid_plans": [
+        {
+          "name": "Starter",
+          "price": "$22/month",
+          "notes": "1 Editor seat, 120 minutes of video per year."
+        },
+        {
+          "name": "Creator",
+          "price": "$67/month",
+          "notes": "1 Editor seat, 360 minutes of video per year, custom avatar support."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "Custom video limits, branded avatar creation, and dedicated success manager."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.synthesia.io",
+    "logo_source_note": "Official Synthesia brand asset",
+    "related_tools": [
+      "heygen",
+      "descript"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "pika",
+    "name": "Pika",
+    "maker": "Pika Labs",
+    "tagline": "Idea-to-video platform with intuitive regional editing, sound effect synthesis, and style control.",
+    "category": "video_generation",
+    "subcategory": "generative-video",
+    "definition": "Pika is an AI video creation platform that turns text prompts, static images, and existing videos into animated clips. It features unique controls like Pikaffects (clothing inflation, melting, crumbling) and automatic sound effect generation aligned to video motion.",
+    "why_it_matters": "Pika democratized fun, intuitive video editing features (Modify Region, Expand Canvas, Lip Sync) that allow creators to alter specific elements in video clips without traditional masking tools.",
+    "workplace_use_cases": [
+      "Adding custom motion and sound effects to social media ad campaigns",
+      "Modifying clothing or background elements in existing promotional footage",
+      "Creating viral social media teasers with lip-synced audio",
+      "Expanding vertical video clips into 16:9 landscape aspect ratios"
+    ],
+    "who_uses_it": [
+      "Social Media Creators",
+      "Ad Content Teams",
+      "Digital Marketers",
+      "Animators"
+    ],
+    "how_to_use": "Visit pika.art, upload an image or video, highlight an area to modify with the Modify Region tool, type your desired change, and generate.",
+    "key_features": [
+      "Modify Region tool for selective object editing in video frames",
+      "Pikaffects for creative physics transformations (Melt, Squish, Inflate)",
+      "Automatic audio sound effect generation aligned with video motion",
+      "Aspect Ratio Expansion (outpainting video borders)"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "150 free credits per month (watermarked outputs).",
+      "paid_plans": [
+        {
+          "name": "Standard",
+          "price": "$10/month",
+          "notes": "700 video credits/month, high resolution, no watermark."
+        },
+        {
+          "name": "Pro",
+          "price": "$35/month",
+          "notes": "2,000 video credits/month, faster processing queue."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://pika.art",
+    "logo_source_note": "Official Pika Labs asset",
+    "related_tools": [
+      "runway_gen3",
+      "luma_dream_machine",
+      "kling_ai"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "Discord"
+    ]
+  },
+  {
+    "id": "kling_ai",
+    "name": "Kling AI",
+    "maker": "Kuaishou Technology",
+    "tagline": "Advanced video synthesis engine producing multi-minute high-motion HD videos.",
+    "category": "video_generation",
+    "subcategory": "generative-video",
+    "definition": "Kling AI is a generative video model created by Kuaishou. It is capable of generating long, high-definition video clips (up to 2 minutes at 1080p 30fps) with physical motion simulation and complex multi-object interactions.",
+    "why_it_matters": "Kling AI expanded the maximum duration and temporal coherence boundaries of consumer AI video tools, allowing creators to produce continuous scenes that simulate real-world motion physics over extended durations.",
+    "workplace_use_cases": [
+      "Generating long continuous b-roll sequences for documentary production",
+      "Creating high-motion athletic and cinematic sequence renders",
+      "Animating complex multi-character interactions for visual stories",
+      "Generating realistic 1080p video clips with zero camera jitter"
+    ],
+    "who_uses_it": [
+      "Filmmakers",
+      "Content Creators",
+      "VFX Studios",
+      "Ad Directors"
+    ],
+    "how_to_use": "Access klingai.com, select Text-to-Video or Image-to-Video, adjust length settings (5s or 10s base clip), enter keyframe descriptions, and generate.",
+    "key_features": [
+      "Extended video duration generation (up to 2-minute scene extension)",
+      "High-resolution 1080p output rendering at 30 frames per second",
+      "Advanced physical motion simulation engine for fluids and physics",
+      "Camera movement vector directional controls"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "66 daily free credits upon login.",
+      "paid_plans": [
+        {
+          "name": "Standard",
+          "price": "$10/month",
+          "notes": "660 monthly credits, high quality generation mode, no watermark."
+        },
+        {
+          "name": "Pro",
+          "price": "$37/month",
+          "notes": "3,000 monthly credits, priority processing."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://klingai.com",
+    "logo_source_note": "Official Kling AI asset",
+    "related_tools": [
+      "runway_gen3",
+      "luma_dream_machine",
+      "pika"
+    ],
+    "launched": "2024",
+    "platform": [
+      "Web",
+      "Mobile"
+    ]
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "maker": "OpenAI",
+    "tagline": "Generative text-to-video model producing up to 1-minute realistic 1080p video clips.",
+    "category": "video_generation",
+    "subcategory": "generative-video",
+    "definition": "Sora is OpenAI's breakthrough text-to-video model capable of generating complex scenes with multiple characters, specific types of motion, and accurate subject/background details.",
+    "why_it_matters": "Sora represented a quantum leap in generative video physical modeling, rendering 60-second video clips with persistent 3D spatial consistency.",
+    "workplace_use_cases": [
+      "Creating cinematic advertising scenes and high-fidelity product b-roll",
+      "Visualizing complex motion sequences for film pre-visualization",
+      "Generating background visuals for video production"
+    ],
+    "who_uses_it": [
+      "Filmmakers",
+      "VFX Directors",
+      "Ad Content Teams",
+      "Animators"
+    ],
+    "how_to_use": "Access Sora via ChatGPT Plus/Pro or OpenAI API platform.",
+    "key_features": [
+      "1080p high definition video synthesis up to 60 seconds",
+      "Simulates real-world physical camera trajectories and lighting",
+      "Image-to-video and video-to-video editing"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "Available through ChatGPT Plus/Pro subscriptions and OpenAI API access.",
+      "paid_plans": [
+        {
+          "name": "ChatGPT Plus",
+          "price": "$20/month",
+          "notes": "Includes standard Sora video generation credits."
+        },
+        {
+          "name": "ChatGPT Pro",
+          "price": "$200/month",
+          "notes": "High priority, un-watermarked 1080p video generation."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://openai.com/sora",
+    "logo_source_note": "Official OpenAI asset",
+    "related_tools": [
+      "runway_gen3",
+      "luma_dream_machine"
+    ],
+    "launched": "2024",
+    "platform": [
+      "Web",
+      "API"
+    ]
+  },
+  {
+    "id": "invideo_ai",
+    "name": "InVideo AI",
+    "maker": "InVideo",
+    "tagline": "Text-to-video scriptwriter, narrator, and editor that turns prompts into complete videos.",
+    "category": "video_generation",
+    "subcategory": "automated-video-creation",
+    "definition": "InVideo AI is a video creation platform that converts natural language ideas into complete videos with stock footage, scripts, voiceovers, and subtitles.",
+    "why_it_matters": "InVideo AI streamlined YouTube and social media video creation by executing scriptwriting, media sourcing, voiceover, and editing from a single prompt.",
+    "workplace_use_cases": [
+      "Generating faceless YouTube explainer videos and educational shorts",
+      "Creating marketing campaign videos for social media channels",
+      "Converting blog articles into video summaries"
+    ],
+    "who_uses_it": [
+      "Content Creators",
+      "Social Media Marketers",
+      "Educators",
+      "Small Business Owners"
+    ],
+    "how_to_use": "Sign in at invideo.io, enter a prompt (e.g. 'Create a 3-minute video on AI tools'), select target audience, and export.",
+    "key_features": [
+      "Automated script, voiceover, stock footage, and subtitle generation",
+      "Natural language text commands to edit video scenes",
+      "Multi-language voice synthesis support"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes 10 minutes/week of AI generation with watermarks.",
+      "paid_plans": [
+        {
+          "name": "Plus",
+          "price": "$25/month ($20/mo annually)",
+          "notes": "50 mins/month AI generation, no watermark, 80+ stock media."
+        },
+        {
+          "name": "Max",
+          "price": "$60/month ($48/mo annually)",
+          "notes": "200 mins/month AI generation, priority processing."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://invideo.io",
+    "logo_source_note": "Official InVideo asset",
+    "related_tools": [
+      "synthesia",
+      "heygen"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": "opus_clip",
+    "name": "Opus Clip",
+    "maker": "OpusPro",
+    "tagline": "Generative AI video repurposing tool that turns long videos into viral shorts.",
+    "category": "video_generation",
+    "subcategory": "video-repurposing",
+    "definition": "Opus Clip is an AI video repurposing platform that analyzes long-form videos (podcasts, webinars, speeches) and extracts high-engagement short clips with captions.",
+    "why_it_matters": "Opus Clip transformed video content operations by automating clip selection, facial framing, and animated captions for TikTok, Reels, and Shorts.",
+    "workplace_use_cases": [
+      "Repurposing hour-long podcast episodes into 10 viral short video clips",
+      "Automatically reframing landscape video into 9:16 vertical shorts",
+      "Generating dynamic animated captions and hooks"
+    ],
+    "who_uses_it": [
+      "Podcasters",
+      "Social Media Managers",
+      "YouTubers",
+      "Corporate Content Teams"
+    ],
+    "how_to_use": "Drop a YouTube link or video file into opus.pro, wait for AI analysis, and download scored short clips.",
+    "key_features": [
+      "Virality Score algorithm evaluating video engagement hook potential",
+      "Active speaker detection and auto-framing (9:16 vertical ratio)",
+      "Animated emoji captions and keyword highlighting"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "60 free processing minutes upon signup.",
+      "paid_plans": [
+        {
+          "name": "Starter",
+          "price": "$19/month ($9.50/mo annually)",
+          "notes": "150 processing minutes/month, auto-posting to social platforms."
+        },
+        {
+          "name": "Pro",
+          "price": "$29/month",
+          "notes": "300 processing minutes/month, brand templates, team seats."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.opus.pro",
+    "logo_source_note": "Official Opus Clip asset",
+    "related_tools": [
+      "descript",
+      "invideo_ai"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  }
+]

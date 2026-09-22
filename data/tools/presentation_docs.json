@@ -1,0 +1,501 @@
+[
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "maker": "Gamma App",
+    "tagline": "AI slide deck, document, and webpage generator built for fast interactive presentations.",
+    "category": "presentation_docs",
+    "subcategory": "ai-presentations",
+    "definition": "Gamma is an AI presentation and document creation platform that generates visually polished, interactive slide decks, web pages, and documents from simple text prompts, outlines, or uploaded briefs.",
+    "why_it_matters": "Gamma reimagined presentation design by replacing rigid PowerPoint templates with a fluid, web-native card format that formats typography, visual layouts, and charts automatically.",
+    "workplace_use_cases": [
+      "Generating complete pitch decks for startup fundraising from raw text outlines",
+      "Creating interactive onboarding documentation and company slide decks",
+      "Converting Word documents or meeting notes into visual presentation cards",
+      "Designing client proposal decks with embedded web links and video embeds"
+    ],
+    "who_uses_it": [
+      "Founders",
+      "Product Managers",
+      "Marketers",
+      "Sales Representatives",
+      "Consultants"
+    ],
+    "how_to_use": "Sign in at gamma.app, choose 'Generate', paste an outline or enter a topic prompt, select a visual color theme, and let Gamma build the complete deck.",
+    "key_features": [
+      "Generates interactive slide decks, web pages, and documents in seconds",
+      "Automated layout formatting with fluid card canvas",
+      "One-click theme restyling and image generation controls",
+      "Analytics tracking for view duration and slide engagement"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "400 free AI credits upon signup (~10 deck generations).",
+      "paid_plans": [
+        {
+          "name": "Plus",
+          "price": "$10/user/month ($8/mo annually)",
+          "notes": "400 AI credits renewed monthly, badge removal, export to PDF/PPTX."
+        },
+        {
+          "name": "Pro",
+          "price": "$20/user/month ($15/mo annually)",
+          "notes": "Unlimited AI credits, advanced AI image models, custom fonts."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://gamma.app",
+    "logo_source_note": "Official Gamma asset",
+    "related_tools": [
+      "tome",
+      "beautiful_ai"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "tome",
+    "name": "Tome",
+    "maker": "Tome",
+    "tagline": "AI narrative tool for building dynamic visual presentations and sales collateral.",
+    "category": "presentation_docs",
+    "subcategory": "ai-presentations",
+    "definition": "Tome is an AI research and presentation platform that transforms text briefs, whitepapers, and product specs into visual presentation narratives. It pairs generative text outlines with custom AI images and dynamic web embeds.",
+    "why_it_matters": "Tome pioneered prompt-to-presentation workflows, focusing on storytelling structure and generative visual accompaniment for executive presentations.",
+    "workplace_use_cases": [
+      "Drafting executive strategy presentations from long PDF whitepapers",
+      "Creating visual product design specs with embedded Figma prototypes",
+      "Generating sales proposal decks tailored to specific client verticals",
+      "Building interactive educational courses and visual training modules"
+    ],
+    "who_uses_it": [
+      "Executives",
+      "Product Managers",
+      "Sales Leads",
+      "Design Strategists"
+    ],
+    "how_to_use": "Visit tome.app, enter a prompt (e.g. 'Build a 10-slide strategy deck for expanding into enterprise SaaS'), select layout preferences, and edit generated slides.",
+    "key_features": [
+      "Prompt-to-deck narrative structure generation",
+      "Native live web embeds (Figma, Framer, YouTube, Looker)",
+      "Automated slide layout re-formatting and typography controls",
+      "Mobile-responsive slide viewing layout"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier with limited AI credits and public presentation links.",
+      "paid_plans": [
+        {
+          "name": "Professional",
+          "price": "$20/user/month ($16/mo annually)",
+          "notes": "Unlimited AI creation, custom branding, export to PDF, analytics."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "notes": "Custom templates, security reviews, dedicated account manager."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://tome.app",
+    "logo_source_note": "Official Tome asset",
+    "related_tools": [
+      "gamma",
+      "beautiful_ai"
+    ],
+    "launched": "2022",
+    "platform": [
+      "Web",
+      "iOS"
+    ]
+  },
+  {
+    "id": "beautiful_ai",
+    "name": "Beautiful.ai",
+    "maker": "Beautiful.ai",
+    "tagline": "Smart presentation software with design guardrails that automatically adjust slide layouts.",
+    "category": "presentation_docs",
+    "subcategory": "presentation-design",
+    "definition": "Beautiful.ai is an intelligent presentation design workspace. Its 'Smart Slides' technology applies automatic typography, alignment, and color rules as you add content, ensuring every slide complies with professional design standards.",
+    "why_it_matters": "Beautiful.ai solves the 'ugly slide' problem in corporate settings by preventing users from misaligning text boxes or breaking slide visual grid hierarchies.",
+    "workplace_use_cases": [
+      "Standardizing corporate presentation templates across large sales teams",
+      "Generating clean financial charts and comparison slides in seconds",
+      "Collaborating on quarterly business review (QBR) slide decks",
+      "Maintaining total brand design compliance across corporate decks"
+    ],
+    "who_uses_it": [
+      "Corporate Sales Teams",
+      "Marketing Managers",
+      "Executives",
+      "Consultants"
+    ],
+    "how_to_use": "Log in at beautiful.ai, select a Smart Slide layout, type your bullet points or upload data, and watch the slides format automatically.",
+    "key_features": [
+      "Smart Slide engine for real-time automatic layout realignment",
+      "Designer AI for converting text prompts into branded slides",
+      "Enterprise brand library controls (fonts, logos, color palettes)",
+      "Seamless PowerPoint (PPTX) import and export"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "14-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$12/month (billed annually at $144)",
+          "notes": "Unlimited slides, AI text/image generation, export to PowerPoint."
+        },
+        {
+          "name": "Team",
+          "price": "$50/user/month ($40/mo annually)",
+          "notes": "Shared company slide library, corporate brand control, central billing."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.beautiful.ai",
+    "logo_source_note": "Official Beautiful.ai asset",
+    "related_tools": [
+      "gamma",
+      "tome"
+    ],
+    "launched": "2018",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "pitch_ai",
+    "name": "Pitch AI",
+    "maker": "Pitch Software GmbH",
+    "tagline": "Collaborative presentation platform with integrated AI slide generation and deck editing.",
+    "category": "presentation_docs",
+    "subcategory": "presentation-software",
+    "definition": "Pitch AI is a collaborative presentation workspace that generates slide decks from prompts or text documents while offering professional design team collaboration tools.",
+    "why_it_matters": "Pitch combines generative AI slide building with real-time multi-user editing and presentation engagement analytics.",
+    "workplace_use_cases": [
+      "Drafting startup pitch decks and client proposals in branded design systems",
+      "Collaborating live with team members on presentation slide decks",
+      "Tracking presentation view analytics and slide drop-off rates"
+    ],
+    "who_uses_it": [
+      "Founders",
+      "Sales Reps",
+      "Designers",
+      "Consultants"
+    ],
+    "how_to_use": "Sign in at pitch.com, click 'Draft with AI', enter a prompt or brief, and customize the generated slides.",
+    "key_features": [
+      "AI deck generator adhering to custom brand templates",
+      "Real-time team co-editing and presentation recordings",
+      "Slide view engagement analytics dashboard"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes unlimited presentation creation and basic AI credits.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$20/user/month ($17/mo annually)",
+          "notes": "Unlimited AI usage, custom fonts, video uploads, analytics."
+        },
+        {
+          "name": "Business",
+          "price": "$80/month",
+          "notes": "Includes 5 seats, advanced brand controls."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://pitch.com",
+    "logo_source_note": "Official Pitch asset",
+    "related_tools": [
+      "gamma",
+      "tome",
+      "beautiful_ai"
+    ],
+    "launched": "2020",
+    "platform": [
+      "Web",
+      "macOS",
+      "Windows",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": "slidebean",
+    "name": "Slidebean",
+    "maker": "Slidebean Inc.",
+    "tagline": "AI pitch deck builder tailored for startup founders seeking investor funding.",
+    "category": "presentation_docs",
+    "subcategory": "startup-pitch-decks",
+    "definition": "Slidebean is an AI presentation tool specifically designed for startup founders, combining automated slide design with investor pitch deck templates and financial modeling.",
+    "why_it_matters": "Slidebean focuses on the startup fundraising ecosystem, pairing AI slide arrangement with proven investor deck structures.",
+    "workplace_use_cases": [
+      "Building investor pitch decks matching successful Y Combinator startup formats",
+      "Formatting pitch deck typography and alignment automatically",
+      "Tracking investor engagement and time spent per slide"
+    ],
+    "who_uses_it": [
+      "Startup Founders",
+      "Entrepreneurs",
+      "Fundraising Consultants"
+    ],
+    "how_to_use": "Go to slidebean.com, choose an investor deck template, type your content, and let AI format the layout.",
+    "key_features": [
+      "Automated AI slide layout and alignment engine",
+      "Proven startup pitch deck template library",
+      "Investor viewer analytics tracking"
+    ],
+    "pricing": {
+      "model": "paid",
+      "has_free_tier": false,
+      "free_tier_details": "14-day free trial available.",
+      "paid_plans": [
+        {
+          "name": "All Access",
+          "price": "$199/year (~$16.50/month)",
+          "notes": "Unlimited deck creation, investor tracking analytics, financial models."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://slidebean.com",
+    "logo_source_note": "Official Slidebean asset",
+    "related_tools": [
+      "gamma",
+      "pitch_ai"
+    ],
+    "launched": "2014",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "canva_magic_design",
+    "name": "Canva Magic Design",
+    "maker": "Canva",
+    "tagline": "AI design tool inside Canva for generating presentations, social media assets, and documents.",
+    "category": "presentation_docs",
+    "subcategory": "visual-design-docs",
+    "definition": "Canva Magic Design is the generative AI suite embedded inside Canva, allowing users to create slide decks, social graphics, and visual documents from text prompts.",
+    "why_it_matters": "Canva brought generative AI presentations to over 150 million users, offering seamless access to Canva's vast stock media library.",
+    "workplace_use_cases": [
+      "Generating presentation decks from raw text outlines inside Canva",
+      "Creating branded social media graphic sets instantly",
+      "Converting presentation slides into visual documents"
+    ],
+    "who_uses_it": [
+      "Marketers",
+      "Designers",
+      "Educators",
+      "Small Business Owners"
+    ],
+    "how_to_use": "Open Canva, click Magic Design, type your presentation topic, choose a brand style, and generate.",
+    "key_features": [
+      "Generates custom presentations with matching typography and stock images",
+      "Magic Write inline copy generator",
+      "Brand Hub integration for automated brand style matching"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free access with daily Magic Design generation limits.",
+      "paid_plans": [
+        {
+          "name": "Canva Pro",
+          "price": "$15/month ($120/year)",
+          "notes": "Unlimited Magic Design features, full brand hub, 100M+ stock assets."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.canva.com/magic-design/",
+    "logo_source_note": "Official Canva asset",
+    "related_tools": [
+      "gamma",
+      "beautiful_ai"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "iOS",
+      "Android",
+      "Desktop"
+    ]
+  },
+  {
+    "id": "decktopus",
+    "name": "Decktopus",
+    "maker": "Decktopus",
+    "tagline": "AI presentation generator built for fast corporate deck creation with voiceover narration.",
+    "category": "presentation_docs",
+    "subcategory": "ai-presentations",
+    "definition": "Decktopus is an AI presentation deck builder that automatically structures slides, adds speaker notes, suggests interactive forms, and embeds voiceover narration.",
+    "why_it_matters": "Decktopus focuses on fast corporate presentations with built-in audience lead generation forms inside slides.",
+    "workplace_use_cases": [
+      "Creating interactive sales proposal decks with embedded lead capture forms",
+      "Generating training slide decks complete with automated speaker notes",
+      "Adding AI voiceover narration to online presentation links"
+    ],
+    "who_uses_it": [
+      "Sales Reps",
+      "Corporate Trainers",
+      "Consultants",
+      "Educators"
+    ],
+    "how_to_use": "Visit decktopus.com, enter your presentation topic and target audience, and select a theme.",
+    "key_features": [
+      "Automated slide layout with speaker notes generation",
+      "Embedded lead capture forms and live polling inside slides",
+      "AI voiceover narration generator"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free plan includes basic deck creation and credits.",
+      "paid_plans": [
+        {
+          "name": "Pro AI",
+          "price": "$14.99/month ($9.99/mo annually)",
+          "notes": "750 AI credits/month, custom domain, PDF export."
+        },
+        {
+          "name": "Business AI",
+          "price": "$48/month ($36/mo annually)",
+          "notes": "1,000 AI credits/month, team management, lead generation analytics."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://www.decktopus.com",
+    "logo_source_note": "Official Decktopus asset",
+    "related_tools": [
+      "gamma",
+      "tome"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web"
+    ]
+  },
+  {
+    "id": "prezi_ai",
+    "name": "Prezi AI",
+    "maker": "Prezi",
+    "tagline": "AI-powered zooming presentation tool that transforms structured text into dynamic mind-map decks.",
+    "category": "presentation_docs",
+    "subcategory": "zooming-presentations",
+    "definition": "Prezi AI is the generative extension of Prezi's famous non-linear zooming presentation canvas, turning prompts into interactive, mind-map style presentations.",
+    "why_it_matters": "Prezi AI brings non-linear spatial storytelling to AI presentation tools, creating engaging visual narrative maps.",
+    "workplace_use_cases": [
+      "Creating spatial, interactive presentation decks for keynote speeches",
+      "Mapping complex business strategies into visual zooming presentation trees",
+      "Delivering engaging virtual presentations via Prezi Video"
+    ],
+    "who_uses_it": [
+      "Keynote Speakers",
+      "Educators",
+      "Executives",
+      "Consultants"
+    ],
+    "how_to_use": "Sign in at prezi.com, prompt Prezi AI with your presentation topic, and customize the visual canvas.",
+    "key_features": [
+      "Generates non-linear zooming presentation spatial structures",
+      "Prezi Video integration for presenting alongside video screens",
+      "AI text and layout styling tools"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes up to 3 public presentations.",
+      "paid_plans": [
+        {
+          "name": "Plus",
+          "price": "$15/month ($12/mo annually)",
+          "notes": "Unlimited presentations, PDF export, offline desktop app."
+        },
+        {
+          "name": "Premium",
+          "price": "$25/month ($19/mo annually)",
+          "notes": "Advanced analytics, Prezi Video powerful features."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://prezi.com",
+    "logo_source_note": "Official Prezi asset",
+    "related_tools": [
+      "gamma",
+      "tome"
+    ],
+    "launched": "2023",
+    "platform": [
+      "Web",
+      "Desktop",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": "simplified_ai",
+    "name": "Simplified",
+    "maker": "Simplified",
+    "tagline": "All-in-one AI platform for graphic design, video editing, copywriting, and presentation generation.",
+    "category": "presentation_docs",
+    "subcategory": "content-suite",
+    "definition": "Simplified is an all-in-one content creation workspace offering AI presentation generation, graphic design tools, video editing, and copywriting.",
+    "why_it_matters": "Simplified combines presentation design with social media post scheduling in a single workspace.",
+    "workplace_use_cases": [
+      "Generating presentation decks from text briefs",
+      "Creating matching social media graphics for presentations",
+      "Scheduling multi-channel social media posts"
+    ],
+    "who_uses_it": [
+      "Marketers",
+      "Small Business Owners",
+      "Content Creators"
+    ],
+    "how_to_use": "Go to simplified.com, select AI Presentation, type your prompt, and customize.",
+    "key_features": [
+      "AI presentation, graphic design, and video editor tools",
+      "Social media post scheduling dashboard",
+      "Multi-brand asset kits"
+    ],
+    "pricing": {
+      "model": "freemium",
+      "has_free_tier": true,
+      "free_tier_details": "Free tier includes basic design tools and AI credits.",
+      "paid_plans": [
+        {
+          "name": "Pro",
+          "price": "$18/month ($12/mo annually)",
+          "notes": "1 user, 100k AI words, advanced presentation tools."
+        }
+      ],
+      "pricing_last_verified": "2026-03-01"
+    },
+    "official_url": "https://simplified.com",
+    "logo_source_note": "Official Simplified asset",
+    "related_tools": [
+      "gamma",
+      "canva_magic_design"
+    ],
+    "launched": "2021",
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ]
+  }
+]
